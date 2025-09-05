@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  5 SEP 2025 01:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  5 SEP 2025 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Usuario/Desktop/Tesis VS/Tesis.tex"
-(c:/Users/Usuario/Desktop/Tesis VS/Tesis.tex
+**c:/Users/Usuario/Desktop/Angel/Tesis-Sistema-de-Recomendaci-n-Musical-basado-en-la-B-squeda-de-Vecinos-Aproximadamente-M-s-Cercanos/Tesis.tex
+(c:/Users/Usuario/Desktop/Angel/Tesis-Sistema-de-Recomendaci-n-Musical-basado-en-la-B-squeda-de-Vecinos-Aproximadamente-M-s-Cercanos/Tesis.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -1362,12 +1362,12 @@ Package logreq Info: Writing requests to 'Tesis.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  29663 strings out of 468133
- 573112 string characters out of 5429745
- 1497136 words of memory out of 5000000
+ 575258 string characters out of 5429745
+ 1497137 words of memory out of 5000000
  57736 multiletter control sequences out of 15000+600000
  683498 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,15n,91p,1022b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,15n,91p,1118b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on Tesis.pdf (23 pages, 326479 bytes).
 PDF statistics:
