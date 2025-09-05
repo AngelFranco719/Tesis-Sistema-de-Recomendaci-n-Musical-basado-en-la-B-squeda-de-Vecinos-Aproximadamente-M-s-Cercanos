@@ -1,0 +1,269 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{tikz} 
+\usepackage{geometry}
+\usepackage{lmodern} 
+\usepackage{mathptmx}
+\usepackage{helvet}  
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{palatino}    
+\usepackage{tgbonum}   
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{referencias.bib}
+
+
+\pagestyle{fancy}
+
+
+\graphicspath{{figures/}}
+\renewcommand{\chaptername}{Capítulo}
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[L]{
+    \includegraphics[height=2cm]{uaeh.png}
+  }
+  \fancyfoot[C]{\thepage}
+  \fancyhead[C]{
+  \vspace{0.5cm}
+  \hspace{1cm}
+  \parbox[t]{12cm}{\centering\fontsize{9}{14}\selectfont DESARROLLO DE UN SISTEMA DE RECOMENDACIÓN MUSICAL BASADO EN MÉTODOS DE BÚSQUEDA APROXIMADA DE VECINOS CERCANOS.}}
+  \setlength{\headheight}{15pt} 
+    \setlength{\headsep}{1.5cm} 
+
+}
+
+
+\geometry{top=2.5cm,bottom=2.5cm,left=3cm,right=3cm}
+
+
+\title{Sistema de Recomendación Musical basado en la Búsqueda de Vecinos Aproximadamente Más Cercanos.}
+\author{ANGEL DAVID FRANCO HERNANDEZ}
+\date{August 2025}
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}
+  {\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}
+  {0pt}
+  {2ex plus 1ex minus .2ex} 
+  {3ex plus .5ex} 
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\listfigurename}{ÍNDICE DE FIGURAS}
+\renewcommand{\figureautorefname}{Figura}
+
+
+\begin{document}
+\thispagestyle{empty} 
+\begin{titlepage}
+      \begin{tikzpicture}[remember picture, overlay]
+        \node[anchor = north west, xshift = 1cm, yshift = -1cm] 
+            at (current page.north west) 
+            {\includegraphics[width = 3.5cm]{uaeh.png}};
+    \end{tikzpicture}
+
+    \begin{tikzpicture}
+        [remember picture, overlay]
+        \node[anchor=north west, xshift=2cm, yshift=-6cm] 
+            at (current page.north west) {
+                \parbox{2cm}{
+                    \rule{0.1cm}{19cm}%
+                    \hspace*{0.2cm}\raisebox{0.5cm}{\rule{0.08cm}{18cm}}
+                }
+            };
+    \end{tikzpicture}
+
+    \hspace*{1.2cm}
+    \parbox{15cm}{
+        \centering
+        \vspace{-1cm}
+        \baselineskip=1.5\baselineskip
+        {\Large \textsf{\textbf{UNIVERSIDAD AUTÓNOMA DEL ESTADO DE HIDALGO}}}\\[0cm]
+        \rule{13.5cm}{2.5pt}\\[-10pt]
+        \rule{11cm}{2pt}\\[1.5cm]
+    }
+
+    \vspace{-1cm}
+    
+    \begin{tikzpicture}[remember picture, overlay]
+        \node[anchor=north west, xshift=7cm, yshift=-5.5cm] at (current page.north west) {
+            {\fontsize{15pt}{18pt}\selectfont
+                \textsf{Instituto de Ciencias Básicas e Ingeniería.}
+            }
+        };
+        \node[anchor=north west, xshift=6.3cm, yshift=-6cm] at (current page.north west){
+            {\fontsize{15pt}{18pt}\selectfont
+                    \textsf{Área Académica de Computación y Electrónica.}}
+        };
+        \node[anchor=north west, xshift=6.8cm, yshift=-6.7cm] at (current page.north west){
+            {\fontsize{15pt}{18pt}\selectfont
+                   \textsf{Licenciatura en Ciencias Computacionales.}}
+        };
+        \node[
+            anchor=north west,
+            xshift=3.5cm,
+            yshift=-9cm,
+            text width=16cm,
+            align=center
+        ] at (current page.north west) {
+            \begin{minipage}{\linewidth}
+                \centering
+                \fontsize{17pt}{25pt}\selectfont
+                \textsf{
+                    \textbf{"DESARROLLO DE UN SISTEMA DE RECOMENDACIÓN MUSICAL BASADO EN MÉTODOS DE BÚSQUEDA APROXIMADA DE VECINOS CERCANOS".}
+                }
+            \end{minipage}
+        };
+
+        \node[
+            anchor=north west,
+            xshift=3.5cm,
+            yshift=-13cm,
+            text width=16cm,
+            align=center
+        ] at (current page.north west) {
+            \begin{minipage}{\linewidth}
+                \centering
+                \fontsize{13pt}{25pt}\selectfont
+                    \textsf{\textbf{TESIS}}\\
+                    \textsf{\textbf{QUE PARA OBTENER EL GRADO DE }}\\
+                \fontsize{16pt}{25pt}\textsf{\textbf{LICENCIADO EN CIENCIAS COMPUTACIONALES }}\\
+                \fontsize{13pt}{25pt}\textsf{\textbf{PRESENTA: }}\\
+            \end{minipage}
+        };
+
+        \node[
+            anchor=north west,
+            xshift=3.5cm,
+            yshift=-17cm,
+            text width=16cm,
+            align=center
+        ] at (current page.north west) {
+            \begin{minipage}{\linewidth}
+                \centering
+                \fontsize{16pt}{25pt}\selectfont
+                    \textsf{ÁNGEL DAVID FRANCO HERNÁNDEZ}
+            \end{minipage}
+        };
+
+        \node[
+            anchor=north west,
+            xshift=3.5cm,
+            yshift=-19cm,
+            text width=16cm,
+            align=center
+        ] at (current page.north west) {
+            \begin{minipage}{\linewidth}
+                \centering
+                \fontsize{16pt}{25pt}\selectfont
+                    %\textsf{\textbf{ASESORES:}} \\
+                    %\textsf{DRA. ANILU FRANCO ARCEGA} \\
+            \end{minipage}
+        };
+
+         \node[
+            anchor=north west,
+            xshift=2cm,
+            yshift=-26cm,
+            text width=16cm,
+            align=center
+        ] at (current page.north west) {
+            \begin{minipage}{\linewidth}
+                \fontsize{16pt}{25pt}\selectfont
+                    \textsf{Mineral de la Reforma, Hidalgo}
+            \end{minipage}
+        };
+
+        \node[
+            anchor=north west,
+            xshift=18cm,
+            yshift=-26cm,
+            text width=16cm,
+            align=center
+        ] at (current page.north west) {
+            \begin{minipage}{\linewidth}
+                \fontsize{16pt}{25pt}\selectfont
+                    \textsf{2025}
+            \end{minipage}
+        };
+         
+\end{tikzpicture}
+
+\end{titlepage}
+\renewcommand{\contentsname}{CONTENIDO }
+\renewcommand{\thechapter}{\Roman{chapter}}
+
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsubsecfont}{\normalfont}
+
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}}
+
+
+\tableofcontents
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{ÍNDICE DE FIGURAS}
+\listoffigures  
+
+\newpage
+
+\chapter*{RESUMEN}
+\addcontentsline{toc}{chapter}{RESUMEN}
+En los últimos años se ha presentado un avance considerable en las tecnologías y algoritmos de recomendación de contenido digital, principalmente, en uno de los elementos culturales más populares como lo es la música.
+Estos algoritmos representan una razón de peso para que un usuario decida permanecer en una plataforma u otra, es por eso que inclusive una mejora minúscula puede significar en un incremento significativo en la satisfacción del usuario.
+\\\\
+En el presente proyecto se busca potenciar el algoritmo \textit{Voyager} desarrollado por la empresa \textit{Spotify} con el propósito de mejorar los sistemas de recomendación de la plataforma mediante métodos de Búsqueda de Vecinos más Cercanos. Se investigará de manera profunda los fundamentos del algoritmo, sus unidades de medida y la complejidad computacional que genera para ser usado posteriormente en el sistema. 
+\\\\
+Utilizando esta herramienta como base se desarrollará un sistema web que permita a los usuarios crear una nueva experiencia de escucha denominada como \textit{Viajes Musicales} a través de las herramientas de desarrollo que Spotify hace públicas, usando como fuente de información la \textit{Spotify Web API}, aprovechando sus alcances y evaluando sus limitaciones para obtener la mayor cantidad de información por segundo a través de un algoritmo de búsqueda exhaustiva de canciones.
+\\\\
+Este algoritmo de búsqueda exhaustiva será planteado por el autor como una capa previa de filtración de música a través de características enteramente \textit{cualitativas}, dando así una muestra signficativa de la cual se pueden obtener recomendaciones más fieles a lo que el usuario le gustaría escuchar.
+\\\\
+Las aportaciones más importantes de este proyecto se centran en la explicación profunda de los algoritmos de Búsqueda por Vecinos Aproximadamente más Cercanos y por qué son tan eficientes en tareas de recomendación, además de poner en practica el conocimiento en un sistema vinculado a una funcionalidad innovadora, creativa y que mejora la experiencia de escucha musical de los usuarios.
+
+\newpage
+
+\chapter*{ABSTRACT}
+\addcontentsline{toc}{chapter}{ABSTRACT}
+
+Nowadays, there has been a considerable improvement in digital recommendation technologies and algorithms, particularly in one of the most popular cultural elements: music. These algorithms represent a compelling reason for a user to choose one platform over another; therefore, even a tiny improvement can result in a significant increase in user satisfaction.
+\\\\
+This project seeks to enhance the \textit{Voyager} algorithm created by \textit{Spotify}, which is dedicated to improving the platform's recommendation technology using Nearest Neighbor Search methods.
+This is done by first thoroughly investigating the algorithm's fundamentals, its units of measurement, and the computational complexity it generates for use in the system.
+\\\\
+Using this tool as a base, it's been sought to develop a web system that allows users to create a new listening experience named as \textit{Musical Journeys} through the developer tools that Spotify opens to developers using \textit{Spotify Web API} as a source of information, taking advantage of its scope and evaluating its limitations to obtain the greatest amount of information per second through an exhaustive song search algorithm.
+\\\\
+This exhaustive search algorithm will be proposed by the author as a previous layer of music filtering thorugh entirely qualitative characteristics, thus giving a significant sample from which recommendations more faithful to what the user would like to listen to can be obtained.
+\\\\
+The most important contributions of this project focus on the in-depth explanation of Approximate Nearest Neighbor Search algorithms and why they are so efficient in recommendation tasks, as well as putting this knowledge into practice in a system linked to innovative and creative functionality that improves users music listening experience
+
+\newpage
+
+\include{Capitulos/MarcoIntroductorio}
+
+\newpage
+
+\include{Capitulos/MarcoTeorico}
+
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{BIBLIOGRAFÍA}
+\printbibliography 
+
+
+\end{document}
+
