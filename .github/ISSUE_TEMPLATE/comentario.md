@@ -1,16 +1,16 @@
 ---
 name: ✏️ Comentario o Sugerencia
 about: Dejar una observación sobre algún capítulo o sección de la tesis
-title: "[Comentario] "
+title: "Aquí agrega el título del comentario "
 labels: comentario
 assignees: ''
 ---
 
 ## 📖 Capítulo / Sección
-Ejemplo: Introducción - Sección 1.2 Justificación
+Aquí escribe el capítulo o sección de la sugerencia. Por ejemplo: Capítulo 2: Marco Teórico, Sección: Fundamentos de los Sistemas de Recomendación.
 
 ## 📄 Página
-Ejemplo: Página 3
+Ingresa aquí la página, por ejemplo: Página 3
 
 ## 📝 Observación
 Describe aquí tu comentario, corrección o sugerencia.  
