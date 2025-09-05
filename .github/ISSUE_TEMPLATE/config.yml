@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Ver PDF actualizado
+    url: https://github.com/TU_USUARIO/TU_REPO/blob/main/Tesis.pdf
+    about: Antes de comentar, puedes revisar el documento en PDF actualizado aquí.
