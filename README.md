@@ -2,6 +2,24 @@
 
 Este repositorio contiene el desarrollo de mi tesis. Aquí se encuentran los capítulos en proceso, así como los avances estructurados en formato **LaTeX**.
 
+<div style = "display: flex; gap: 10pt; justify-content: center">
+
+<p align="center">
+  <a href="/Tesis.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/📄%20VER%20PDF-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Ver PDF"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="/Tesis.pdf" download>
+    <img src="https://img.shields.io/badge/📥%20DESCARGAR%20PDF-1A2DA3?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Descargar PDF"/>
+  </a>
+</p>
+
+
+</div>
+
+
 ## 📁 Estructura del Repositorio:
  - ` 📚 Documento con Avances Actualizados: ` En la raíz del repositorio se puede encontrar el archivo [Tesis.pdf](/Tesis.pdf) que contiene la última actualización del archivo raíz. 
  Para visualizarlo basta con abrir el archivo con un visualizador de PDF, no hace falta compilar código.
