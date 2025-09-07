@@ -1,0 +1,28 @@
+name: Subir PDF a Drive
+
+on: 
+  push: 
+    paths: 
+      - "tesis.pdf"
+  workflow_dispatch:
+
+jobs: 
+  upload: 
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Instalar rclone
+        run: |
+          curl https://rclone.org/install.sh | sudo bash
+
+      - name: Configurar rclone
+        run: |
+          mkdir -p ~/.config/rclone
+          echo "${{ secrets.RCLONE_CONF }}" > ~/.config/rclone/rclone.conf
+
+      - name: Subir PDF a Google Drive
+        run: |
+          rclone copy tesis.pdf gdrive:/ScriptTesis/ --update --progress
