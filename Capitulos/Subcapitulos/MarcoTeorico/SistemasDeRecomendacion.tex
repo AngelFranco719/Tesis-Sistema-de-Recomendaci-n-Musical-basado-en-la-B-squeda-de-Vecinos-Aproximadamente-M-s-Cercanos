@@ -25,8 +25,8 @@ Según \parencite{Aggarwal2016} más allá de los objetivos mercadológicos que 
     \item \textbf{Relevancia: }Un sistema de recomendación siempre debe brindar sugerencias relevantes para el usuario.
     \item \textbf{Novedad: }  Las recomendaciones suelen ser más útiles cuando sugieren elementos que el usuario no ha visto antes. Además, recomendar los objetos más populares puede conducir a reducir la diversidad del consumo.
     \item \textbf{Sorpresa: } No basta con que los objetos de recomendación sean nuevos para el usuario, sino que también deben sorprenderlo, dándole la sensación de un \textit{descubrimiento inesperado.}
-    \item \textbf{Diversidad de Recomendaciones: } Usar únicamente un top-k de sugerencias incrementa significativamente el riesgo de que ninguno de esos elementos sea del gusto del usuario, sin embargo, si el conjunto de recomendaciones contiene diferentes tipos de elementos, es más probable que alguno de ellos le guste al usuario.
-
+    
+    \item \textbf{Diversidad de Recomendaciones: } La lista de sugerencias obtenidas deben ser suficientemente diferentes entre sí para no aburrir al usuario, sin embargo, la diversidad de \textit{items} no debe alejarse demasiado de sus preferencias.
    \enquote{\textit{La diversidad tiene el beneficio de asegurar que el usuario no se aburre de constantes recomendaciones de items similares. }} [\cite{Aggarwal2016}]
 \end{itemize}
 
@@ -45,7 +45,7 @@ Existen dos versiones diferentes que definen los resultados esperados de un Sist
 \subsection{PRINCIPALES ENFOQUES DE RECOMENDACIÓN: }
 Para que un sistema de recomendación logre cumplir los objetivos básicos esperados se necesita establecer de forma clara cuál será el filtro para sugerir items al usuario eligiendo diferentes enfoques que se adapten a los resultados que se buscan obtener.
 
-Basándose en \parencite{ISINKAYE2015261} existen diferentes filtros de recomendación principales, sin embargo, en el presente documento se muestran los siguientes: 
+Basándose en \parencite{ISINKAYE2015261} existen diferentes filtros de recomendación principales, sin embargo, se muestran los más relevantes para el presente proyecto:
 
 \subsubsection{ENFOQUE BASADO EN CONTENIDO: }
 Es una técnica de sistema de recomendación que se centra en el análisis de atributos de cada item para generar predicciones sobre las preferencias del usuario. Se apoya de valoraciones previamente vinculadas a un perfil que permiten identificar características clave de los objetos que el usuario ha calificado, principalmente de aquellos que cuentan con una valoración positiva.  Por esta razón, la eficacia de este enfoque se basa en la cantidad de información disponible de los items.
@@ -82,7 +82,7 @@ Los algoritmos que implementan esta técnica suelen basarse en modelos de análi
 
 A diferencia del enfoque basado en contenido, que se centra en los atributos de los items, el enfoque colaborativo se centra en las similitudes entre lo usuarios para generar recomendaciones.
 
-Este enfoque funciona construyendo una base de datos descrita por una matríz \textit{usuarios - items} que representa la preferencia de un conjunto de usuarios por un item particular. Este enfoque vincula a diferentes perfiles con preferencias e intereses similares para guiar las recomendaciones, formando así un grupo  de perfiles que comparten intereses llamado \textit{Vecindario}. 
+Este enfoque funciona construyendo una base de datos descrita por una matríz \textit{usuarios - items} que representa la preferencia de un conjunto de usuarios por un item particular. Este enfoque vincula a diferentes perfiles con preferencias e intereses similares para guiar las recomendaciones, formando así un grupo  de perfiles que comparten intereses denominado \textit{Vecindario}. 
 
 
 Por lo tanto, un usuario recibe recomendaciones de contenido que no ha evaluado pero que otros usuarios dentro de su \textit{Vecindario} han calificado de forma positiva. Los resultados que se pueden obtener a través de este enfoque son los siguientes:
@@ -104,7 +104,7 @@ Por lo tanto, un usuario recibe recomendaciones de contenido que no ha evaluado 
 \vspace*{0.2cm}
 
 
-En la figura \ref{fig:FiltroColaborativo} se muestra un ejemplo de funcionamiento del enfoque colaborativo. Se puede observar que la matríz está compuesta por filas que representan a los usuarios de un mismo \textit{Vecindario}, y por columnas que representan a los \textit{items} (elementos). Las intersecciones mostradas de color morado representan la calificación que el usuario ha dado a elementos previos, y la intersección diferenciada de color negro expresa una predicción basada en las calificaciones que los vecinos han asignado a ese item.
+En la figura \ref{fig:FiltroColaborativo} se muestra un ejemplo de funcionamiento del enfoque colaborativo. Se puede observar que la matríz está compuesta por filas que representan a los usuarios de un mismo \textit{Vecindario}, y por columnas que representan a los \textit{items}. Las intersecciones mostradas de color morado representan la calificación que el usuario ha dado a elementos previos, y la intersección diferenciada de color negro expresa una predicción basada en las calificaciones que los vecinos han asignado a ese item.
 El diagrama remarca la distinción entre \textit{Predicción} y la \textit{Recomendación} dado que, en el caso de la predicción,  la intersección representada en color negro representa el valor $R_{i,j}$, y en el caso de la recomendación representa un \textit{item} dentro de los Top - $N$ items del usuario actual.
 
 \textbf{VENTAJAS:}
@@ -122,7 +122,7 @@ Este enfoque tiene ventajas fuertemente diferenciadas respecto al enfoque basado
 \begin{itemize}
     \item \textbf{Problema de \textit{Inicio Frío}}: Se refiere a la situación en donde el Sistema de Recomendación no tiene información adecuada acerca del usuario o acerca del item para hacer predicciones relevantes \parencite{Burke2007}. Este problema es crucial ya que este enfoque se vuelve dependiente de conocer con el tiempo las preferencias del usuario que, inicialmente, son desconocidas.
 
-    \item \textbf{Problema del \textit{Esparcimiento de Datos}}: Otro de los puntos de los que depende el enfoque colaborativo es en las calificaciones hechas por los usuarios, causando la necesidad de que existan previas valoraciones para los elementos, de lo contrario, se generan recomendaciones poco relevantes.
+    \item \textbf{Problema del \textit{Esparcimiento de Datos}}: Otro de los puntos de los que depende el enfoque colaborativo es en las calificaciones hechas por los usuarios, causando la necesidad de que existan previas valoraciones para los items, de lo contrario, se generan recomendaciones poco relevantes.
 \end{itemize}
 
 \newpage
