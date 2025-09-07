@@ -26,4 +26,4 @@ jobs:
 
       - name: Subir PDF a Google Drive
         run: |
-          rclone copy tesis.pdf gdrive:/ScriptTesis/ --update --progress
+          rclone copy ./tesis.pdf gdrive:/ScriptTesis/ --update --progress
