@@ -134,6 +134,84 @@
       \verb https://doi.org/10.1007/978-3-540-72079-9_12
       \endverb
     \endentry
+    \entry{chapman-2019}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=f4b50ea44a6d8df1a206c70c98a7a36d}{%
+           family={Chapman},
+           familyi={C\bibinitperiod},
+           given={Adriane},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4621d81ed922e0ed3b21620163a3e4a6}{%
+           family={Simperl},
+           familyi={S\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac7d2bf41ef95b58f6bb175f57de248c}{%
+           family={Koesten},
+           familyi={K\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf902f82ffd2e3e04925d309f210e0f4}{%
+           family={Konstantinidis},
+           familyi={K\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d68cf36c7f86f954594bf894e02e96cc}{%
+           family={Ibáñez},
+           familyi={I\bibinitperiod},
+           given={Luis-Daniel},
+           giveni={L\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=943233e3b4bfabe3d32c9fdd5db83a7d}{%
+           family={Kacprzak},
+           familyi={K\bibinitperiod},
+           given={Emilia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2d7e1f159093aa2ea8379d9b6bc6911}{%
+           family={Groth},
+           familyi={G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{46cfd76ea426b67b95b74e3beaf68218}
+      \strng{fullhash}{53d8f6571fe3ea97de0f06699f7fd732}
+      \strng{fullhashraw}{53d8f6571fe3ea97de0f06699f7fd732}
+      \strng{bibnamehash}{53d8f6571fe3ea97de0f06699f7fd732}
+      \strng{authorbibnamehash}{53d8f6571fe3ea97de0f06699f7fd732}
+      \strng{authornamehash}{46cfd76ea426b67b95b74e3beaf68218}
+      \strng{authorfullhash}{53d8f6571fe3ea97de0f06699f7fd732}
+      \strng{authorfullhashraw}{53d8f6571fe3ea97de0f06699f7fd732}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The VLDB Journal}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{{Dataset search: a survey}}
+      \field{volume}{29}
+      \field{year}{2019}
+      \field{pages}{251\bibrangedash 272}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s00778-019-00564-x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00778-019-00564-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00778-019-00564-x
+      \endverb
+    \endentry
     \entry{Greenberg09092005}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0fdc8b2df4e90668d55d0e069d4005a5}{%
@@ -289,39 +367,6 @@
       \verb{url}
       \verb https://doi.org/10.1007/s00607-018-0687-5
       \endverb
-    \endentry
-    \entry{negnevitsky2005artificial}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bed22facc957e5c54406e7f68e675e3a}{%
-           family={Negnevitsky},
-           familyi={N\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{fullhash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{fullhashraw}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{bibnamehash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{authorbibnamehash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{authornamehash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{authorfullhash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{authorfullhashraw}{bed22facc957e5c54406e7f68e675e3a}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Artificial intelligence: a guide to intelligent systems}
-      \field{year}{2005}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
@@ -440,6 +485,84 @@
       \verb https://doi.org/10.1007/978-3-540-72079-9_12
       \endverb
     \endentry
+    \entry{chapman-2019}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=f4b50ea44a6d8df1a206c70c98a7a36d}{%
+           family={Chapman},
+           familyi={C\bibinitperiod},
+           given={Adriane},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4621d81ed922e0ed3b21620163a3e4a6}{%
+           family={Simperl},
+           familyi={S\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac7d2bf41ef95b58f6bb175f57de248c}{%
+           family={Koesten},
+           familyi={K\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf902f82ffd2e3e04925d309f210e0f4}{%
+           family={Konstantinidis},
+           familyi={K\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d68cf36c7f86f954594bf894e02e96cc}{%
+           family={Ibáñez},
+           familyi={I\bibinitperiod},
+           given={Luis-Daniel},
+           giveni={L\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=943233e3b4bfabe3d32c9fdd5db83a7d}{%
+           family={Kacprzak},
+           familyi={K\bibinitperiod},
+           given={Emilia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2d7e1f159093aa2ea8379d9b6bc6911}{%
+           family={Groth},
+           familyi={G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{46cfd76ea426b67b95b74e3beaf68218}
+      \strng{fullhash}{53d8f6571fe3ea97de0f06699f7fd732}
+      \strng{fullhashraw}{53d8f6571fe3ea97de0f06699f7fd732}
+      \strng{bibnamehash}{53d8f6571fe3ea97de0f06699f7fd732}
+      \strng{authorbibnamehash}{53d8f6571fe3ea97de0f06699f7fd732}
+      \strng{authornamehash}{46cfd76ea426b67b95b74e3beaf68218}
+      \strng{authorfullhash}{53d8f6571fe3ea97de0f06699f7fd732}
+      \strng{authorfullhashraw}{53d8f6571fe3ea97de0f06699f7fd732}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The VLDB Journal}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{{Dataset search: a survey}}
+      \field{volume}{29}
+      \field{year}{2019}
+      \field{pages}{251\bibrangedash 272}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s00778-019-00564-x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00778-019-00564-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00778-019-00564-x
+      \endverb
+    \endentry
     \entry{Greenberg09092005}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0fdc8b2df4e90668d55d0e069d4005a5}{%
@@ -595,39 +718,6 @@
       \verb{url}
       \verb https://doi.org/10.1007/s00607-018-0687-5
       \endverb
-    \endentry
-    \entry{negnevitsky2005artificial}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bed22facc957e5c54406e7f68e675e3a}{%
-           family={Negnevitsky},
-           familyi={N\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{fullhash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{fullhashraw}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{bibnamehash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{authorbibnamehash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{authornamehash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{authorfullhash}{bed22facc957e5c54406e7f68e675e3a}
-      \strng{authorfullhashraw}{bed22facc957e5c54406e7f68e675e3a}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Artificial intelligence: a guide to intelligent systems}
-      \field{year}{2005}
     \endentry
   \enddatalist
 \endrefsection

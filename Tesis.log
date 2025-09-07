@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  7 SEP 2025 02:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  7 SEP 2025 02:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -516,73 +516,144 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip99
 \cfttabindent=\skip100
 \cfttabnumwidth=\skip101
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip102
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks36
+\ex@=\dimen274
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen275
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count328
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count329
+\leftroot@=\count330
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count331
+\DOTSCASE@=\count332
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box65
+\strutbox@=\box66
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen276
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count333
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count334
+\dotsspace@=\muskip18
+\c@parentequation=\count335
+\dspbrk@lvl=\count336
+\tag@help=\toks37
+\row@=\count337
+\column@=\count338
+\maxfields@=\count339
+\andhelp@=\toks38
+\eqnshift@=\dimen277
+\alignsep@=\dimen278
+\tagshift@=\dimen279
+\tagwidth@=\dimen280
+\totwidth@=\dimen281
+\lineht@=\dimen282
+\@envbody=\toks39
+\multlinegap=\skip103
+\multlinetaggap=\skip104
+\mathdisplay@stack=\toks40
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count340
+\float@exts=\toks41
+\float@box=\box67
+\@float@everytoks=\toks42
+\@floatcapt=\box68
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count328
+\lrq@indent=\count341
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count329
-\c@listtotal=\count330
-\c@listcount=\count331
-\c@liststart=\count332
-\c@liststop=\count333
-\c@citecount=\count334
-\c@citetotal=\count335
-\c@multicitecount=\count336
-\c@multicitetotal=\count337
-\c@instcount=\count338
-\c@maxnames=\count339
-\c@minnames=\count340
-\c@maxitems=\count341
-\c@minitems=\count342
-\c@citecounter=\count343
-\c@maxcitecounter=\count344
-\c@savedcitecounter=\count345
-\c@uniquelist=\count346
-\c@uniquename=\count347
-\c@refsection=\count348
-\c@refsegment=\count349
-\c@maxextratitle=\count350
-\c@maxextratitleyear=\count351
-\c@maxextraname=\count352
-\c@maxextradate=\count353
-\c@maxextraalpha=\count354
-\c@abbrvpenalty=\count355
-\c@highnamepenalty=\count356
-\c@lownamepenalty=\count357
-\c@maxparens=\count358
-\c@parenlevel=\count359
-\blx@tempcnta=\count360
-\blx@tempcntb=\count361
-\blx@tempcntc=\count362
-\c@blx@maxsection=\count363
-\blx@maxsegment@0=\count364
-\blx@notetype=\count365
-\blx@parenlevel@text=\count366
-\blx@parenlevel@foot=\count367
-\blx@sectionciteorder@0=\count368
-\blx@sectionciteorderinternal@0=\count369
-\blx@entrysetcounter=\count370
-\blx@biblioinstance=\count371
-\labelnumberwidth=\skip102
-\labelalphawidth=\skip103
-\biblabelsep=\skip104
-\bibitemsep=\skip105
-\bibnamesep=\skip106
-\bibinitsep=\skip107
-\bibparsep=\skip108
-\bibhang=\skip109
+\c@tabx@nest=\count342
+\c@listtotal=\count343
+\c@listcount=\count344
+\c@liststart=\count345
+\c@liststop=\count346
+\c@citecount=\count347
+\c@citetotal=\count348
+\c@multicitecount=\count349
+\c@multicitetotal=\count350
+\c@instcount=\count351
+\c@maxnames=\count352
+\c@minnames=\count353
+\c@maxitems=\count354
+\c@minitems=\count355
+\c@citecounter=\count356
+\c@maxcitecounter=\count357
+\c@savedcitecounter=\count358
+\c@uniquelist=\count359
+\c@uniquename=\count360
+\c@refsection=\count361
+\c@refsegment=\count362
+\c@maxextratitle=\count363
+\c@maxextratitleyear=\count364
+\c@maxextraname=\count365
+\c@maxextradate=\count366
+\c@maxextraalpha=\count367
+\c@abbrvpenalty=\count368
+\c@highnamepenalty=\count369
+\c@lownamepenalty=\count370
+\c@maxparens=\count371
+\c@parenlevel=\count372
+\blx@tempcnta=\count373
+\blx@tempcntb=\count374
+\blx@tempcntc=\count375
+\c@blx@maxsection=\count376
+\blx@maxsegment@0=\count377
+\blx@notetype=\count378
+\blx@parenlevel@text=\count379
+\blx@parenlevel@foot=\count380
+\blx@sectionciteorder@0=\count381
+\blx@sectionciteorderinternal@0=\count382
+\blx@entrysetcounter=\count383
+\blx@biblioinstance=\count384
+\labelnumberwidth=\skip105
+\labelalphawidth=\skip106
+\biblabelsep=\skip107
+\bibitemsep=\skip108
+\bibnamesep=\skip109
+\bibinitsep=\skip110
+\bibparsep=\skip111
+\bibhang=\skip112
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language79
-\c@mincomprange=\count372
-\c@maxcomprange=\count373
-\c@mincompwidth=\count374
+\c@mincomprange=\count385
+\c@maxcomprange=\count386
+\c@mincompwidth=\count387
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -595,98 +666,98 @@ File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count375
-\c@savedafterword=\count376
-\c@annotator=\count377
-\c@savedannotator=\count378
-\c@author=\count379
-\c@savedauthor=\count380
-\c@bookauthor=\count381
-\c@savedbookauthor=\count382
-\c@commentator=\count383
-\c@savedcommentator=\count384
-\c@editor=\count385
-\c@savededitor=\count386
-\c@editora=\count387
-\c@savededitora=\count388
-\c@editorb=\count389
-\c@savededitorb=\count390
-\c@editorc=\count391
-\c@savededitorc=\count392
-\c@foreword=\count393
-\c@savedforeword=\count394
-\c@holder=\count395
-\c@savedholder=\count396
-\c@introduction=\count397
-\c@savedintroduction=\count398
-\c@namea=\count399
-\c@savednamea=\count400
-\c@nameb=\count401
-\c@savednameb=\count402
-\c@namec=\count403
-\c@savednamec=\count404
-\c@translator=\count405
-\c@savedtranslator=\count406
-\c@shortauthor=\count407
-\c@savedshortauthor=\count408
-\c@shorteditor=\count409
-\c@savedshorteditor=\count410
-\c@narrator=\count411
-\c@savednarrator=\count412
-\c@execproducer=\count413
-\c@savedexecproducer=\count414
-\c@execdirector=\count415
-\c@savedexecdirector=\count416
-\c@with=\count417
-\c@savedwith=\count418
-\c@labelname=\count419
-\c@savedlabelname=\count420
-\c@institution=\count421
-\c@savedinstitution=\count422
-\c@lista=\count423
-\c@savedlista=\count424
-\c@listb=\count425
-\c@savedlistb=\count426
-\c@listc=\count427
-\c@savedlistc=\count428
-\c@listd=\count429
-\c@savedlistd=\count430
-\c@liste=\count431
-\c@savedliste=\count432
-\c@listf=\count433
-\c@savedlistf=\count434
-\c@location=\count435
-\c@savedlocation=\count436
-\c@organization=\count437
-\c@savedorganization=\count438
-\c@origlocation=\count439
-\c@savedoriglocation=\count440
-\c@origpublisher=\count441
-\c@savedorigpublisher=\count442
-\c@publisher=\count443
-\c@savedpublisher=\count444
-\c@language=\count445
-\c@savedlanguage=\count446
-\c@origlanguage=\count447
-\c@savedoriglanguage=\count448
-\c@citation=\count449
-\c@savedcitation=\count450
-\c@pageref=\count451
-\c@savedpageref=\count452
-\shorthandwidth=\skip110
-\shortjournalwidth=\skip111
-\shortserieswidth=\skip112
-\shorttitlewidth=\skip113
-\shortauthorwidth=\skip114
-\shorteditorwidth=\skip115
-\locallabelnumberwidth=\skip116
-\locallabelalphawidth=\skip117
-\localshorthandwidth=\skip118
-\localshortjournalwidth=\skip119
-\localshortserieswidth=\skip120
-\localshorttitlewidth=\skip121
-\localshortauthorwidth=\skip122
-\localshorteditorwidth=\skip123
+\c@afterword=\count388
+\c@savedafterword=\count389
+\c@annotator=\count390
+\c@savedannotator=\count391
+\c@author=\count392
+\c@savedauthor=\count393
+\c@bookauthor=\count394
+\c@savedbookauthor=\count395
+\c@commentator=\count396
+\c@savedcommentator=\count397
+\c@editor=\count398
+\c@savededitor=\count399
+\c@editora=\count400
+\c@savededitora=\count401
+\c@editorb=\count402
+\c@savededitorb=\count403
+\c@editorc=\count404
+\c@savededitorc=\count405
+\c@foreword=\count406
+\c@savedforeword=\count407
+\c@holder=\count408
+\c@savedholder=\count409
+\c@introduction=\count410
+\c@savedintroduction=\count411
+\c@namea=\count412
+\c@savednamea=\count413
+\c@nameb=\count414
+\c@savednameb=\count415
+\c@namec=\count416
+\c@savednamec=\count417
+\c@translator=\count418
+\c@savedtranslator=\count419
+\c@shortauthor=\count420
+\c@savedshortauthor=\count421
+\c@shorteditor=\count422
+\c@savedshorteditor=\count423
+\c@narrator=\count424
+\c@savednarrator=\count425
+\c@execproducer=\count426
+\c@savedexecproducer=\count427
+\c@execdirector=\count428
+\c@savedexecdirector=\count429
+\c@with=\count430
+\c@savedwith=\count431
+\c@labelname=\count432
+\c@savedlabelname=\count433
+\c@institution=\count434
+\c@savedinstitution=\count435
+\c@lista=\count436
+\c@savedlista=\count437
+\c@listb=\count438
+\c@savedlistb=\count439
+\c@listc=\count440
+\c@savedlistc=\count441
+\c@listd=\count442
+\c@savedlistd=\count443
+\c@liste=\count444
+\c@savedliste=\count445
+\c@listf=\count446
+\c@savedlistf=\count447
+\c@location=\count448
+\c@savedlocation=\count449
+\c@organization=\count450
+\c@savedorganization=\count451
+\c@origlocation=\count452
+\c@savedoriglocation=\count453
+\c@origpublisher=\count454
+\c@savedorigpublisher=\count455
+\c@publisher=\count456
+\c@savedpublisher=\count457
+\c@language=\count458
+\c@savedlanguage=\count459
+\c@origlanguage=\count460
+\c@savedoriglanguage=\count461
+\c@citation=\count462
+\c@savedcitation=\count463
+\c@pageref=\count464
+\c@savedpageref=\count465
+\shorthandwidth=\skip113
+\shortjournalwidth=\skip114
+\shortserieswidth=\skip115
+\shorttitlewidth=\skip116
+\shortauthorwidth=\skip117
+\shorteditorwidth=\skip118
+\locallabelnumberwidth=\skip119
+\locallabelalphawidth=\skip120
+\localshorthandwidth=\skip121
+\localshortjournalwidth=\skip122
+\localshortserieswidth=\skip123
+\localshorttitlewidth=\skip124
+\localshortauthorwidth=\skip125
+\localshorteditorwidth=\skip126
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -696,19 +767,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count453
-\c@textcitetotal=\count454
-\c@textcitemaxnames=\count455
-\c@biburlbigbreakpenalty=\count456
-\c@biburlbreakpenalty=\count457
-\c@biburlnumpenalty=\count458
-\c@biburlucpenalty=\count459
-\c@biburllcpenalty=\count460
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count461
+\c@textcitecount=\count466
+\c@textcitetotal=\count467
+\c@textcitemaxnames=\count468
+\c@biburlbigbreakpenalty=\count469
+\c@biburlbreakpenalty=\count470
+\c@biburlnumpenalty=\count471
+\c@biburlucpenalty=\count472
+\c@biburllcpenalty=\count473
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count474
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -718,8 +789,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count462
-\c@bbx:relatedtotal=\count463
+\c@bbx:relatedcount=\count475
+\c@bbx:relatedtotal=\count476
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
@@ -759,7 +830,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2025-08-13 L3 programming layer (loader) 
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count464
+\l__color_backend_stack_int=\count477
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2025-08-13 L3 programming layer (loader) 
@@ -770,45 +841,54 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 ))
+\@float@every@Equation=\toks43
+\c@Equation=\count478
+\c@myequations=\count479
+\cftbeforemyequationsskip=\skip127
+\cftmyequationsindent=\skip128
+\cftmyequationsnumwidth=\skip129
+\c@equdepth=\count480
+\cftbeforeequtitleskip=\skip130
+\cftafterequtitleskip=\skip131
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 67.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 81.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (Tesis.aux (Capitulos/MarcoIntroductorio.aux) (Capitulos/MarcoTeorico.aux))
 \openout1 = `Tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count465
-\scratchdimen=\dimen274
-\scratchbox=\box65
-\nofMPsegments=\count466
-\nofMParguments=\count467
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count468
-\MPscratchDim=\dimen275
-\MPnumerator=\count469
-\makeMPintoPDFobject=\count470
-\everyMPtoPDFconversion=\toks37
+\scratchcounter=\count481
+\scratchdimen=\dimen283
+\scratchbox=\box69
+\nofMPsegments=\count482
+\nofMParguments=\count483
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count484
+\MPscratchDim=\dimen284
+\MPnumerator=\count485
+\makeMPintoPDFobject=\count486
+\everyMPtoPDFconversion=\toks45
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -849,8 +929,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\big@size=\dimen276
-Package hyperref Info: Link coloring OFF on input line 67.
+Package hyperref Info: Link coloring OFF on input line 81.
 (Tesis.out) (Tesis.out)
 \@outlinefile=\write5
 \openout5 = `Tesis.out'.
@@ -885,41 +964,41 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Tesis.bbl' found.
  (Tesis.bbl)
-Package biblatex Info: Reference section=0 on input line 67.
-Package biblatex Info: Reference segment=0 on input line 67.
-<figures/uaeh.png, id=82, 127.9179pt x 156.3441pt>
+Package biblatex Info: Reference section=0 on input line 81.
+Package biblatex Info: Reference segment=0 on input line 81.
+<figures/uaeh.png, id=86, 127.9179pt x 156.3441pt>
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 73.
+Package pdftex.def Info: figures/uaeh.png  used on input line 87.
 (pdftex.def)             Requested size: 99.58464pt x 121.71649pt.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 83.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 97.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 83.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 97.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 83.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 97.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 83.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 97.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 83.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 97.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
 
-Overfull \hbox (37.52489pt too wide) in paragraph at lines 87--96
+Overfull \hbox (37.52489pt too wide) in paragraph at lines 101--110
 []|  $[]$ 
  []
 
@@ -935,7 +1014,7 @@ Overfull \hbox (37.52489pt too wide) in paragraph at lines 87--96
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 217.
+Package pdftex.def Info: figures/uaeh.png  used on input line 231.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -948,7 +1027,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.217 \newpage
+l.231 \newpage
                [1] (Tesis.lof)
 \tf@lof=\write7
 \openout7 = `Tesis.lof'.
@@ -957,7 +1036,7 @@ l.217 \newpage
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 222.
+Package pdftex.def Info: figures/uaeh.png  used on input line 236.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -966,34 +1045,15 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[2]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 229.
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--236
-
- []
+[2] (Tesis.equ)
+\tf@equ=\write8
+\openout8 = `Tesis.equ'.
 
 
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 237.
+Package pdftex.def Info: figures/uaeh.png  used on input line 242.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1005,22 +1065,25 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 242--252
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 249.
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--252
+Underfull \hbox (badness 10000) in paragraph at lines 246--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--252
+Underfull \hbox (badness 10000) in paragraph at lines 246--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--252
+Underfull \hbox (badness 10000) in paragraph at lines 246--256
 
  []
 
@@ -1028,7 +1091,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--252
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 253.
+Package pdftex.def Info: figures/uaeh.png  used on input line 257.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1038,6 +1101,41 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
 [4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 262--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--272
+
+ []
+
+
+
+File: figures/uaeh.png Graphic file (type png)
+<use figures/uaeh.png>
+Package pdftex.def Info: figures/uaeh.png  used on input line 273.
+(pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 61.25554pt, for example:
+(fancyhdr)                \setlength{\headheight}{61.25554pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
+
+[5
 
 ]
 \openout2 = `Capitulos/MarcoIntroductorio.aux'.
@@ -1057,7 +1155,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[5
+[6
 
 
 ]
@@ -1084,7 +1182,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[6]
+[7]
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
@@ -1097,7 +1195,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[7]
+[8]
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
@@ -1110,11 +1208,11 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[8])
+[9])
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 255.
+Package pdftex.def Info: figures/uaeh.png  used on input line 275.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1123,7 +1221,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[9]
+[10]
 \openout2 = `Capitulos/MarcoTeorico.aux'.
 
  (Capitulos/MarcoTeorico.tex
@@ -1149,7 +1247,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[10
+[11
 
 
 
@@ -1172,7 +1270,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[11]
+[12]
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
@@ -1185,7 +1283,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[12]
+[13]
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <12> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line 72.
 
@@ -1201,8 +1299,8 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[13]
-<figures/FiltroBasadoenContenido.png, id=196, 797.98125pt x 426.84468pt>
+[14]
+<figures/FiltroBasadoenContenido.png, id=207, 797.98125pt x 426.84468pt>
 File: figures/FiltroBasadoenContenido.png Graphic file (type png)
 <use figures/FiltroBasadoenContenido.png>
 Package pdftex.def Info: figures/FiltroBasadoenContenido.png  used on input line 97.
@@ -1220,7 +1318,12 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[14 <./figures/FiltroBasadoenContenido.png>]
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.102 \newpage
+               <./figures/FiltroBasadoenContenido.png>]
 Overfull \hbox (4.1121pt too wide) in paragraph at lines 116--117
 \OT1/phv/m/n/12 tiva en do-min-ios en los cuales no ex-iste di-ver-si-dad de in-for-maci[]on (o metadatos)
  []
@@ -1240,7 +1343,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[15]
+[16]
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line 132.
 
@@ -1256,7 +1359,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[16])
+[17])
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
@@ -1269,7 +1372,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[17] (Capitulos/Subcapitulos/MarcoTeorico/ObjetivosGeneralesSistemasRecomendacion.tex
+[18] (Capitulos/Subcapitulos/MarcoTeorico/ObjetivosGeneralesSistemasRecomendacion.tex
 Overfull \hbox (16.66518pt too wide) in paragraph at lines 1--1
 |[]\OT1/phv/b/n/17.28 PARADIGMAS Y M[]ETRICAS DE EVAL-U-ACI[]ON PARA
  []
@@ -1287,7 +1390,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[18]
+[19]
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
@@ -1300,7 +1403,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[19]
+[20]
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
@@ -1313,11 +1416,16 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[20]))
+[21]
+Package hyperref Info: bookmark level for unknown Equation defaults to 0 on input line 66.
+LaTeX Font Info:    Trying to load font information for OT1+qbk on input line 66.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ot1qbk.fd
+File: ot1qbk.fd 2009/09/25 v1.2 font definition file for OT1/qbk
+)))
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 259.
+Package pdftex.def Info: figures/uaeh.png  used on input line 279.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1326,8 +1434,8 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[21]
-Overfull \hbox (10.76627pt too wide) in paragraph at lines 266--266
+[22{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rm.enc}]
+Overfull \hbox (10.76627pt too wide) in paragraph at lines 286--286
 \OT1/phv/m/sl/12 & Clas-si-fi-ca-tion Quar-terly\OT1/phv/m/n/12 , \OT1/phv/m/sl/12 40\OT1/phv/m/n/12 (3-4), 17{36. []$https : / / doi . org / 10 . 1300 / J104v40n03 \OMS/ztmcm/m/n/12 n
  []
 
@@ -1335,7 +1443,7 @@ Overfull \hbox (10.76627pt too wide) in paragraph at lines 266--266
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 268.
+Package pdftex.def Info: figures/uaeh.png  used on input line 288.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1344,7 +1452,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[22
+[23
 
 
 
@@ -1355,23 +1463,23 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 393C6A79A21FD71AF93646DAC5C42B5A;3684.
+(rerunfilecheck)             Checksum: 743F955DCF8B2161D76A0E0680C4A06D;3838.
 Package logreq Info: Writing requests to 'Tesis.run.xml'.
 \openout1 = `Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29663 strings out of 468133
- 575258 string characters out of 5429745
- 1497136 words of memory out of 5000000
- 57736 multiletter control sequences out of 15000+600000
- 683498 words of font info for 130 fonts, out of 8000000 for 9000
+ 30522 strings out of 468133
+ 587270 string characters out of 5429745
+ 1511860 words of memory out of 5000000
+ 58561 multiletter control sequences out of 15000+600000
+ 688936 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,91p,1090b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tesis.pdf (23 pages, 326486 bytes).
+<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Tesis.pdf (24 pages, 357320 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 348 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

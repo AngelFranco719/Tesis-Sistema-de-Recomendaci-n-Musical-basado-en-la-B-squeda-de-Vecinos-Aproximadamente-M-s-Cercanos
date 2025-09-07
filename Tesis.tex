@@ -13,6 +13,8 @@
 \usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{tocloft}
+\usepackage{amsmath}     
+\usepackage{float}
 \usepackage[style=apa, backend=biber]{biblatex}
 \addbibresource{referencias.bib}
 
@@ -25,6 +27,9 @@
 \renewcommand{\thesection}{\thechapter.\arabic{section}}
 \renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
 \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+
+\newfloat{Equation}{htbp}{loe}[chapter]
+\floatname{Equation}{Ecuación}        
 
 \fancypagestyle{plain}{
   \fancyhf{}
@@ -62,6 +67,15 @@
 \renewcommand{\thefigure}{\arabic{figure}}
 \renewcommand{\listfigurename}{ÍNDICE DE FIGURAS}
 \renewcommand{\figureautorefname}{Figura}
+
+
+\newcommand{\listequationsname}{ÍNDICE DE ECUACIONES}
+\newlistof{myequations}{equ}{\listequationsname}
+
+\newcommand{\addequation}[1]{%
+  \addcontentsline{equ}{myequations}{#1}%
+}
+\renewcommand{\theequation}{Capítulo \thechapter: \arabic{equation}}
 
 
 \begin{document}
@@ -218,6 +232,12 @@
 \phantomsection
 \addcontentsline{toc}{chapter}{ÍNDICE DE FIGURAS}
 \listoffigures  
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{ÍNDICE DE ECUACIONES}
+\listofmyequations
+
 
 \newpage
 
