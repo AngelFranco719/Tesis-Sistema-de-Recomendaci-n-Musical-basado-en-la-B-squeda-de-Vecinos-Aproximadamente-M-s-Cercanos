@@ -3,7 +3,7 @@
 Este repositorio contiene el desarrollo de mi tesis. Aquí se encuentran los capítulos en proceso, así como los avances estructurados en formato **LaTeX**.
 
 <p align="center">
-  <a href="/Tesis.pdf" target="_blank">
+  <a href="https://drive.google.com/file/d/1lMv7Gr_Loj-tfnYkGbsFYNPpw9VXsQ-V/view?usp=sharing" target="_blank">
     <img src="https://img.shields.io/badge/📄%20VER%20PDF-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Ver PDF"/>
   </a>
    <a href="https://github.com/AngelFranco719/Tesis-Sistema-de-Recomendaci-n-Musical-basado-en-la-B-squeda-de-Vecinos-Aproximadamente-M-s-Cercanos/raw/refs/heads/main/Tesis.pdf">
