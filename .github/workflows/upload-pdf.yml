@@ -21,7 +21,8 @@ jobs:
       - name: Configurar rclone
         run: |
           mkdir -p ~/.config/rclone
-          echo "${{ secrets.RCLONE_CONF }}" > ~/.config/rclone/rclone.conf
+          printf "%s" "${{ secrets.RCLONE_CONF }}" > ~/.config/rclone/rclone.conf
+
 
       - name: Subir PDF a Google Drive
         run: |
