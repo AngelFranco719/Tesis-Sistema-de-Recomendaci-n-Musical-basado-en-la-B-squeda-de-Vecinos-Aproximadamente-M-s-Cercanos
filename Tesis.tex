@@ -15,7 +15,9 @@
 \usepackage{tocloft}
 \usepackage{amsmath}     
 \usepackage{float}
+\usepackage{enumitem}
 \usepackage[style=apa, backend=biber]{biblatex}
+\usepackage[font=small,labelfont=bf]{caption}
 \addbibresource{referencias.bib}
 
 
@@ -29,7 +31,7 @@
 \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
 
 \newfloat{Equation}{htbp}{loe}[chapter]
-\floatname{Equation}{Ecuación}        
+\floatname{Equation}{}      
 
 \fancypagestyle{plain}{
   \fancyhf{}
@@ -75,7 +77,7 @@
 \newcommand{\addequation}[1]{%
   \addcontentsline{equ}{myequations}{#1}%
 }
-\renewcommand{\theequation}{Capítulo \thechapter: \arabic{equation}}
+\renewcommand{\theEquation}{Cap. \thechapter, Ec. \arabic{Equation}}
 
 
 \begin{document}

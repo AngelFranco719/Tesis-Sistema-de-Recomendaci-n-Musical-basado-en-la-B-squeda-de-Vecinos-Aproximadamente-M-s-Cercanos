@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  7 SEP 2025 02:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  7 SEP 2025 03:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -587,73 +587,81 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box67
 \@float@everytoks=\toks42
 \@floatcapt=\box68
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip105
+\enit@outerparindent=\dimen283
+\enit@toks=\toks43
+\enit@inbox=\box69
+\enit@count@id=\count341
+\enitdp@description=\count342
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count341
+\lrq@indent=\count343
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count342
-\c@listtotal=\count343
-\c@listcount=\count344
-\c@liststart=\count345
-\c@liststop=\count346
-\c@citecount=\count347
-\c@citetotal=\count348
-\c@multicitecount=\count349
-\c@multicitetotal=\count350
-\c@instcount=\count351
-\c@maxnames=\count352
-\c@minnames=\count353
-\c@maxitems=\count354
-\c@minitems=\count355
-\c@citecounter=\count356
-\c@maxcitecounter=\count357
-\c@savedcitecounter=\count358
-\c@uniquelist=\count359
-\c@uniquename=\count360
-\c@refsection=\count361
-\c@refsegment=\count362
-\c@maxextratitle=\count363
-\c@maxextratitleyear=\count364
-\c@maxextraname=\count365
-\c@maxextradate=\count366
-\c@maxextraalpha=\count367
-\c@abbrvpenalty=\count368
-\c@highnamepenalty=\count369
-\c@lownamepenalty=\count370
-\c@maxparens=\count371
-\c@parenlevel=\count372
-\blx@tempcnta=\count373
-\blx@tempcntb=\count374
-\blx@tempcntc=\count375
-\c@blx@maxsection=\count376
-\blx@maxsegment@0=\count377
-\blx@notetype=\count378
-\blx@parenlevel@text=\count379
-\blx@parenlevel@foot=\count380
-\blx@sectionciteorder@0=\count381
-\blx@sectionciteorderinternal@0=\count382
-\blx@entrysetcounter=\count383
-\blx@biblioinstance=\count384
-\labelnumberwidth=\skip105
-\labelalphawidth=\skip106
-\biblabelsep=\skip107
-\bibitemsep=\skip108
-\bibnamesep=\skip109
-\bibinitsep=\skip110
-\bibparsep=\skip111
-\bibhang=\skip112
+\c@tabx@nest=\count344
+\c@listtotal=\count345
+\c@listcount=\count346
+\c@liststart=\count347
+\c@liststop=\count348
+\c@citecount=\count349
+\c@citetotal=\count350
+\c@multicitecount=\count351
+\c@multicitetotal=\count352
+\c@instcount=\count353
+\c@maxnames=\count354
+\c@minnames=\count355
+\c@maxitems=\count356
+\c@minitems=\count357
+\c@citecounter=\count358
+\c@maxcitecounter=\count359
+\c@savedcitecounter=\count360
+\c@uniquelist=\count361
+\c@uniquename=\count362
+\c@refsection=\count363
+\c@refsegment=\count364
+\c@maxextratitle=\count365
+\c@maxextratitleyear=\count366
+\c@maxextraname=\count367
+\c@maxextradate=\count368
+\c@maxextraalpha=\count369
+\c@abbrvpenalty=\count370
+\c@highnamepenalty=\count371
+\c@lownamepenalty=\count372
+\c@maxparens=\count373
+\c@parenlevel=\count374
+\blx@tempcnta=\count375
+\blx@tempcntb=\count376
+\blx@tempcntc=\count377
+\c@blx@maxsection=\count378
+\blx@maxsegment@0=\count379
+\blx@notetype=\count380
+\blx@parenlevel@text=\count381
+\blx@parenlevel@foot=\count382
+\blx@sectionciteorder@0=\count383
+\blx@sectionciteorderinternal@0=\count384
+\blx@entrysetcounter=\count385
+\blx@biblioinstance=\count386
+\labelnumberwidth=\skip106
+\labelalphawidth=\skip107
+\biblabelsep=\skip108
+\bibitemsep=\skip109
+\bibnamesep=\skip110
+\bibinitsep=\skip111
+\bibparsep=\skip112
+\bibhang=\skip113
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language79
-\c@mincomprange=\count385
-\c@maxcomprange=\count386
-\c@mincompwidth=\count387
+\c@mincomprange=\count387
+\c@maxcomprange=\count388
+\c@mincompwidth=\count389
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -666,98 +674,98 @@ File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count388
-\c@savedafterword=\count389
-\c@annotator=\count390
-\c@savedannotator=\count391
-\c@author=\count392
-\c@savedauthor=\count393
-\c@bookauthor=\count394
-\c@savedbookauthor=\count395
-\c@commentator=\count396
-\c@savedcommentator=\count397
-\c@editor=\count398
-\c@savededitor=\count399
-\c@editora=\count400
-\c@savededitora=\count401
-\c@editorb=\count402
-\c@savededitorb=\count403
-\c@editorc=\count404
-\c@savededitorc=\count405
-\c@foreword=\count406
-\c@savedforeword=\count407
-\c@holder=\count408
-\c@savedholder=\count409
-\c@introduction=\count410
-\c@savedintroduction=\count411
-\c@namea=\count412
-\c@savednamea=\count413
-\c@nameb=\count414
-\c@savednameb=\count415
-\c@namec=\count416
-\c@savednamec=\count417
-\c@translator=\count418
-\c@savedtranslator=\count419
-\c@shortauthor=\count420
-\c@savedshortauthor=\count421
-\c@shorteditor=\count422
-\c@savedshorteditor=\count423
-\c@narrator=\count424
-\c@savednarrator=\count425
-\c@execproducer=\count426
-\c@savedexecproducer=\count427
-\c@execdirector=\count428
-\c@savedexecdirector=\count429
-\c@with=\count430
-\c@savedwith=\count431
-\c@labelname=\count432
-\c@savedlabelname=\count433
-\c@institution=\count434
-\c@savedinstitution=\count435
-\c@lista=\count436
-\c@savedlista=\count437
-\c@listb=\count438
-\c@savedlistb=\count439
-\c@listc=\count440
-\c@savedlistc=\count441
-\c@listd=\count442
-\c@savedlistd=\count443
-\c@liste=\count444
-\c@savedliste=\count445
-\c@listf=\count446
-\c@savedlistf=\count447
-\c@location=\count448
-\c@savedlocation=\count449
-\c@organization=\count450
-\c@savedorganization=\count451
-\c@origlocation=\count452
-\c@savedoriglocation=\count453
-\c@origpublisher=\count454
-\c@savedorigpublisher=\count455
-\c@publisher=\count456
-\c@savedpublisher=\count457
-\c@language=\count458
-\c@savedlanguage=\count459
-\c@origlanguage=\count460
-\c@savedoriglanguage=\count461
-\c@citation=\count462
-\c@savedcitation=\count463
-\c@pageref=\count464
-\c@savedpageref=\count465
-\shorthandwidth=\skip113
-\shortjournalwidth=\skip114
-\shortserieswidth=\skip115
-\shorttitlewidth=\skip116
-\shortauthorwidth=\skip117
-\shorteditorwidth=\skip118
-\locallabelnumberwidth=\skip119
-\locallabelalphawidth=\skip120
-\localshorthandwidth=\skip121
-\localshortjournalwidth=\skip122
-\localshortserieswidth=\skip123
-\localshorttitlewidth=\skip124
-\localshortauthorwidth=\skip125
-\localshorteditorwidth=\skip126
+\c@afterword=\count390
+\c@savedafterword=\count391
+\c@annotator=\count392
+\c@savedannotator=\count393
+\c@author=\count394
+\c@savedauthor=\count395
+\c@bookauthor=\count396
+\c@savedbookauthor=\count397
+\c@commentator=\count398
+\c@savedcommentator=\count399
+\c@editor=\count400
+\c@savededitor=\count401
+\c@editora=\count402
+\c@savededitora=\count403
+\c@editorb=\count404
+\c@savededitorb=\count405
+\c@editorc=\count406
+\c@savededitorc=\count407
+\c@foreword=\count408
+\c@savedforeword=\count409
+\c@holder=\count410
+\c@savedholder=\count411
+\c@introduction=\count412
+\c@savedintroduction=\count413
+\c@namea=\count414
+\c@savednamea=\count415
+\c@nameb=\count416
+\c@savednameb=\count417
+\c@namec=\count418
+\c@savednamec=\count419
+\c@translator=\count420
+\c@savedtranslator=\count421
+\c@shortauthor=\count422
+\c@savedshortauthor=\count423
+\c@shorteditor=\count424
+\c@savedshorteditor=\count425
+\c@narrator=\count426
+\c@savednarrator=\count427
+\c@execproducer=\count428
+\c@savedexecproducer=\count429
+\c@execdirector=\count430
+\c@savedexecdirector=\count431
+\c@with=\count432
+\c@savedwith=\count433
+\c@labelname=\count434
+\c@savedlabelname=\count435
+\c@institution=\count436
+\c@savedinstitution=\count437
+\c@lista=\count438
+\c@savedlista=\count439
+\c@listb=\count440
+\c@savedlistb=\count441
+\c@listc=\count442
+\c@savedlistc=\count443
+\c@listd=\count444
+\c@savedlistd=\count445
+\c@liste=\count446
+\c@savedliste=\count447
+\c@listf=\count448
+\c@savedlistf=\count449
+\c@location=\count450
+\c@savedlocation=\count451
+\c@organization=\count452
+\c@savedorganization=\count453
+\c@origlocation=\count454
+\c@savedoriglocation=\count455
+\c@origpublisher=\count456
+\c@savedorigpublisher=\count457
+\c@publisher=\count458
+\c@savedpublisher=\count459
+\c@language=\count460
+\c@savedlanguage=\count461
+\c@origlanguage=\count462
+\c@savedoriglanguage=\count463
+\c@citation=\count464
+\c@savedcitation=\count465
+\c@pageref=\count466
+\c@savedpageref=\count467
+\shorthandwidth=\skip114
+\shortjournalwidth=\skip115
+\shortserieswidth=\skip116
+\shorttitlewidth=\skip117
+\shortauthorwidth=\skip118
+\shorteditorwidth=\skip119
+\locallabelnumberwidth=\skip120
+\locallabelalphawidth=\skip121
+\localshorthandwidth=\skip122
+\localshortjournalwidth=\skip123
+\localshortserieswidth=\skip124
+\localshorttitlewidth=\skip125
+\localshortauthorwidth=\skip126
+\localshorteditorwidth=\skip127
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -767,19 +775,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count466
-\c@textcitetotal=\count467
-\c@textcitemaxnames=\count468
-\c@biburlbigbreakpenalty=\count469
-\c@biburlbreakpenalty=\count470
-\c@biburlnumpenalty=\count471
-\c@biburlucpenalty=\count472
-\c@biburllcpenalty=\count473
+\c@textcitecount=\count468
+\c@textcitetotal=\count469
+\c@textcitemaxnames=\count470
+\c@biburlbigbreakpenalty=\count471
+\c@biburlbreakpenalty=\count472
+\c@biburlnumpenalty=\count473
+\c@biburlucpenalty=\count474
+\c@biburllcpenalty=\count475
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count474
+\c@smartand=\count476
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -789,8 +797,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count475
-\c@bbx:relatedtotal=\count476
+\c@bbx:relatedcount=\count477
+\c@bbx:relatedtotal=\count478
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
@@ -830,7 +838,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2025-08-13 L3 programming layer (loader) 
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count477
+\l__color_backend_stack_int=\count479
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2025-08-13 L3 programming layer (loader) 
@@ -840,55 +848,73 @@ Package biblatex Info: ... and expl3
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-))
-\@float@every@Equation=\toks43
-\c@Equation=\count478
-\c@myequations=\count479
-\cftbeforemyequationsskip=\skip127
-\cftmyequationsindent=\skip128
-\cftmyequationsnumwidth=\skip129
-\c@equdepth=\count480
-\cftbeforeequtitleskip=\skip130
-\cftafterequtitleskip=\skip131
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen284
+\captionmargin=\dimen285
+\caption@leftmargin=\dimen286
+\caption@rightmargin=\dimen287
+\caption@width=\dimen288
+\caption@indent=\dimen289
+\caption@parindent=\dimen290
+\caption@hangindent=\dimen291
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count480
+\c@continuedfloat=\count481
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+\@float@every@Equation=\toks44
+\c@Equation=\count482
+\c@myequations=\count483
+\cftbeforemyequationsskip=\skip128
+\cftmyequationsindent=\skip129
+\cftmyequationsnumwidth=\skip130
+\c@equdepth=\count484
+\cftbeforeequtitleskip=\skip131
+\cftafterequtitleskip=\skip132
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 81.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 83.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (Tesis.aux (Capitulos/MarcoIntroductorio.aux) (Capitulos/MarcoTeorico.aux))
 \openout1 = `Tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count481
-\scratchdimen=\dimen283
-\scratchbox=\box69
-\nofMPsegments=\count482
-\nofMParguments=\count483
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count484
-\MPscratchDim=\dimen284
-\MPnumerator=\count485
-\makeMPintoPDFobject=\count486
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count485
+\scratchdimen=\dimen292
+\scratchbox=\box70
+\nofMPsegments=\count486
+\nofMParguments=\count487
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count488
+\MPscratchDim=\dimen293
+\MPnumerator=\count489
+\makeMPintoPDFobject=\count490
+\everyMPtoPDFconversion=\toks46
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -929,7 +955,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 81.
+Package hyperref Info: Link coloring OFF on input line 83.
 (Tesis.out) (Tesis.out)
 \@outlinefile=\write5
 \openout5 = `Tesis.out'.
@@ -964,41 +990,43 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Tesis.bbl' found.
  (Tesis.bbl)
-Package biblatex Info: Reference section=0 on input line 81.
-Package biblatex Info: Reference segment=0 on input line 81.
+Package biblatex Info: Reference section=0 on input line 83.
+Package biblatex Info: Reference segment=0 on input line 83.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 <figures/uaeh.png, id=86, 127.9179pt x 156.3441pt>
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 87.
+Package pdftex.def Info: figures/uaeh.png  used on input line 89.
 (pdftex.def)             Requested size: 99.58464pt x 121.71649pt.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 97.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 99.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 97.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 99.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 97.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 99.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 97.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 99.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 97.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 99.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
 
-Overfull \hbox (37.52489pt too wide) in paragraph at lines 101--110
+Overfull \hbox (37.52489pt too wide) in paragraph at lines 103--112
 []|  $[]$ 
  []
 
@@ -1014,7 +1042,7 @@ Overfull \hbox (37.52489pt too wide) in paragraph at lines 101--110
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 231.
+Package pdftex.def Info: figures/uaeh.png  used on input line 233.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1027,7 +1055,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.231 \newpage
+l.233 \newpage
                [1] (Tesis.lof)
 \tf@lof=\write7
 \openout7 = `Tesis.lof'.
@@ -1036,7 +1064,7 @@ l.231 \newpage
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 236.
+Package pdftex.def Info: figures/uaeh.png  used on input line 238.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1053,7 +1081,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 242.
+Package pdftex.def Info: figures/uaeh.png  used on input line 244.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1066,24 +1094,24 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 249.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 251.
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--256
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--256
+Underfull \hbox (badness 10000) in paragraph at lines 248--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--256
+Underfull \hbox (badness 10000) in paragraph at lines 248--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--256
+Underfull \hbox (badness 10000) in paragraph at lines 248--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--258
 
  []
 
@@ -1091,7 +1119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--256
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 257.
+Package pdftex.def Info: figures/uaeh.png  used on input line 259.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1103,22 +1131,22 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 262--272
+Underfull \hbox (badness 10000) in paragraph at lines 264--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--272
+Underfull \hbox (badness 10000) in paragraph at lines 264--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--272
+Underfull \hbox (badness 10000) in paragraph at lines 264--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--272
+Underfull \hbox (badness 10000) in paragraph at lines 264--274
 
  []
 
@@ -1126,7 +1154,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 262--272
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 273.
+Package pdftex.def Info: figures/uaeh.png  used on input line 275.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1212,7 +1240,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 275.
+Package pdftex.def Info: figures/uaeh.png  used on input line 277.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1318,12 +1346,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[15
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.102 \newpage
-               <./figures/FiltroBasadoenContenido.png>]
+[15 <./figures/FiltroBasadoenContenido.png>]
 Overfull \hbox (4.1121pt too wide) in paragraph at lines 116--117
 \OT1/phv/m/n/12 tiva en do-min-ios en los cuales no ex-iste di-ver-si-dad de in-for-maci[]on (o metadatos)
  []
@@ -1417,15 +1440,12 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
 [21]
-Package hyperref Info: bookmark level for unknown Equation defaults to 0 on input line 66.
-LaTeX Font Info:    Trying to load font information for OT1+qbk on input line 66.
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ot1qbk.fd
-File: ot1qbk.fd 2009/09/25 v1.2 font definition file for OT1/qbk
-)))
+Package hyperref Info: bookmark level for unknown Equation defaults to 0 on input line 69.
+))
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 279.
+Package pdftex.def Info: figures/uaeh.png  used on input line 281.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1434,8 +1454,8 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[22{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rm.enc}]
-Overfull \hbox (10.76627pt too wide) in paragraph at lines 286--286
+[22]
+Overfull \hbox (10.76627pt too wide) in paragraph at lines 288--288
 \OT1/phv/m/sl/12 & Clas-si-fi-ca-tion Quar-terly\OT1/phv/m/n/12 , \OT1/phv/m/sl/12 40\OT1/phv/m/n/12 (3-4), 17{36. []$https : / / doi . org / 10 . 1300 / J104v40n03 \OMS/ztmcm/m/n/12 n
  []
 
@@ -1443,7 +1463,7 @@ Overfull \hbox (10.76627pt too wide) in paragraph at lines 286--286
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
-Package pdftex.def Info: figures/uaeh.png  used on input line 288.
+Package pdftex.def Info: figures/uaeh.png  used on input line 290.
 (pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1463,23 +1483,23 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 743F955DCF8B2161D76A0E0680C4A06D;3838.
+(rerunfilecheck)             Checksum: 5A9CBDD8DF2CA061B164B98A7ACC3398;3838.
 Package logreq Info: Writing requests to 'Tesis.run.xml'.
 \openout1 = `Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30522 strings out of 468133
- 587270 string characters out of 5429745
- 1511860 words of memory out of 5000000
- 58561 multiletter control sequences out of 15000+600000
- 688936 words of font info for 135 fonts, out of 8000000 for 9000
+ 32115 strings out of 468133
+ 617932 string characters out of 5429745
+ 1541771 words of memory out of 5000000
+ 60149 multiletter control sequences out of 15000+600000
+ 687497 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,91p,1090b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tesis.pdf (24 pages, 357320 bytes).
+<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Tesis.pdf (24 pages, 336785 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
  183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

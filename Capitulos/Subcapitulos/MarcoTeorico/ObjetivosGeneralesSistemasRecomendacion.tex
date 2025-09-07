@@ -56,17 +56,40 @@ Además de los paradigmas de evaluación que definen metodologías específicas 
     La medición por exactitud tiene diversos componentes que aseguran su efectividad:
 
     \begin{itemize}
-        \item 
+        \item \textbf{\textit{Métricas de Efectividad: }} Las Métricas de Efectividad son usadas para evaluar tanto la efectividad de predicción para estimar la calificación de un usuario específico respecto a un item o la efectividad del top - $k$ sugerido por el sistema de recomendación \parencite{Aggarwal2016}.
+        
+        Existen dos métodos diferentes para medir la efectividad de las predicciones y de los top - $k$:
+
+        \begin{itemize}[label=$\diamond$]
+            \item \textbf{\emph{Efectividad de Predicción: }} Se centra en medir el \textit{Error Específico de Entrada} \footnote{\textbf{Error Específico de Entrada: } Diferencia entre la calificación que el sistema de recomendación predice y la calificación real que el usuario dio.} que se define mediante la siguiente fórmula:
+            \begin{Equation}
+            \[
+                e_{uj} \ = \ \hat{r}_{uj} \ - \ r_{uj}
+            \]
+            \caption{Error Específico de Entrada}
+            \label{eq:Error específico de entrada}
+            \addequation{Error Específico de Entrada}
+            \end{Equation}
+
+            \begin{description}
+                \item[\textbf{Donde: }] 
+                \item[$u$] representa al usuario.
+                \item[$j$] representa al item.
+                \item[$\hat{r}_{uj}$] representa la predicción de calificación.
+                \item[$r_{uj}$] representa la calificación real del usuario. 
+            \end{description}
+
+        \end{itemize}
     \end{itemize}
 
-    \begin{Equation}
-    \[
-    a^2 + b^2 = c^2
-    \]
-    \caption{Teorema de Pitágoras}
-    \label{eq:pitagoras}
-    \addequation{Teorema de Pitágoras}
-    \end{Equation}
+    %\begin{Equation}
+    %\[
+    %a^2 + b^2 = c^2
+    %\]
+    %\caption{Teorema de Pitágoras}
+    %\label{eq:pitagoras}
+    %\addequation{Teorema de Pitágoras}
+    %\end{Equation}
 
 \end{enumerate}
 
