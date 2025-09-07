@@ -3,7 +3,7 @@ name: Subir PDF a Drive
 on: 
   push: 
     paths: 
-      - "tesis.pdf"
+      - "Tesis.pdf"
   workflow_dispatch:
 
 jobs: 
@@ -26,4 +26,4 @@ jobs:
 
       - name: Subir PDF a Google Drive
         run: |
-          rclone copy ./tesis.pdf gdrive:/ScriptTesis/ --update --progress
+          rclone copy ./Tesis.pdf gdrive:/ScriptTesis/ --update --progress
