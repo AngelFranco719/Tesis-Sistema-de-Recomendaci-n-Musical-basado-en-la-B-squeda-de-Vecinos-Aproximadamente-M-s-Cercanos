@@ -14,8 +14,9 @@
 \contentsline {subsection}{\numberline {2.1.1}CONCEPTOS BÁSICOS DE LOS SISTEMAS DE RECOMENDACIÓN: }{11}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}OBJETIVOS DE UN SISTEMA DE RECOMENDACIÓN: }{12}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}PRINCIPALES ENFOQUES DE RECOMENDACIÓN: }{13}{subsection.2.1.3}%
-\contentsline {subsubsection}{ENFOQUE BASADO EN CONTENIDO: }{13}{subsection.2.1.3}%
+\contentsline {subsubsection}{ENFOQUE BASADO EN CONTENIDO: }{13}{section*.5}%
 \contentsline {section}{\numberline {2.2}PARADIGMAS Y MÉTRICAS DE EVALUACIÓN PARA UN SISTEMA DE RECOMENDACIÓN: }{19}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}PARADIGMAS DE EVALUACIÓN: }{19}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}MÉTRICAS GENERALES DE EVALUACIÓN: }{22}{subsection.2.2.2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{23}{section*.6}%
+\contentsline {subsubsection}{EXACTITUD DE PREDICCIÓN}{22}{section*.7}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{24}{section*.8}%

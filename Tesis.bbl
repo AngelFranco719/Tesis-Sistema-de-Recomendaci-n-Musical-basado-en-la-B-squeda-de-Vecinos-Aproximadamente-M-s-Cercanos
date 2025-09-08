@@ -259,6 +259,47 @@
       \verb https://doi.org/10.1300/J104v40n03_02
       \endverb
     \endentry
+    \entry{gmd-15-5481-2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f8d590caca75ce393f82245495f4035}{%
+           family={Hodson},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi O.},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{fullhash}{6f8d590caca75ce393f82245495f4035}
+      \strng{fullhashraw}{6f8d590caca75ce393f82245495f4035}
+      \strng{bibnamehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authorbibnamehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authornamehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authorfullhash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authorfullhashraw}{6f8d590caca75ce393f82245495f4035}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{number}{14}
+      \field{title}{Root-mean-square error (RMSE) or mean absolute error (MAE): when to use them or not}
+      \field{volume}{15}
+      \field{year}{2022}
+      \field{pages}{5481\bibrangedash 5487}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.5194/gmd-15-5481-2022
+      \endverb
+      \verb{urlraw}
+      \verb https://gmd.copernicus.org/articles/15/5481/2022/
+      \endverb
+      \verb{url}
+      \verb https://gmd.copernicus.org/articles/15/5481/2022/
+      \endverb
+    \endentry
     \entry{ISINKAYE2015261}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f5b1c1bd5b70cf9d7dd33bf6da2643d1}{%
@@ -608,6 +649,47 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1300/J104v40n03_02
+      \endverb
+    \endentry
+    \entry{gmd-15-5481-2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f8d590caca75ce393f82245495f4035}{%
+           family={Hodson},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi O.},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{fullhash}{6f8d590caca75ce393f82245495f4035}
+      \strng{fullhashraw}{6f8d590caca75ce393f82245495f4035}
+      \strng{bibnamehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authorbibnamehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authornamehash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authorfullhash}{6f8d590caca75ce393f82245495f4035}
+      \strng{authorfullhashraw}{6f8d590caca75ce393f82245495f4035}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{number}{14}
+      \field{title}{Root-mean-square error (RMSE) or mean absolute error (MAE): when to use them or not}
+      \field{volume}{15}
+      \field{year}{2022}
+      \field{pages}{5481\bibrangedash 5487}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.5194/gmd-15-5481-2022
+      \endverb
+      \verb{urlraw}
+      \verb https://gmd.copernicus.org/articles/15/5481/2022/
+      \endverb
+      \verb{url}
+      \verb https://gmd.copernicus.org/articles/15/5481/2022/
       \endverb
     \endentry
     \entry{ISINKAYE2015261}{article}{}{}

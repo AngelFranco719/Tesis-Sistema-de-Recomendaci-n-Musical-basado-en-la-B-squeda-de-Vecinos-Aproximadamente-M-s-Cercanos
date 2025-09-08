@@ -50,8 +50,9 @@ Existen tres paradigmas de evaluación principales dirigidos a los sistemas de r
 
 Además de los paradigmas de evaluación que definen metodologías específicas para realizar pruebas a los usuarios, existen métricas cuantificables que añaden una capa extra de complejidad y robustez a los sistemas de recomendación. Estas metricas cumplen la función de asegurar resultados satisfactorios para el usuario mediante características cuantificables y subjetivas, entendiendo que el gusto y las preferencias pueden ser complejas de representar mediante mediciones numéricas.
 
-\begin{enumerate}
-    \item \textbf{Exactitud: } La exactitud es una de las métricas fundamentales con las que se evalúan los sistemas de recomendación. Se basan en \textit{ratings} que se definen como \textit{"cantidades numéricas que deben ser estimadas" } \parencite{Aggarwal2016}. Sin embargo, como ha sido mencionado anteriormente, algunos enfoques de recomendación no se centran en predecir \textit{rankings} sino que reunen el top-$k$ de los \textit{items} más favorables. 
+    \subsubsection{EXACTITUD DE PREDICCIÓN}
+
+    La exactitud es una de las métricas fundamentales con las que se evalúan los sistemas de recomendación. Se basan en \textit{ratings} que se definen como \textit{"cantidades numéricas que deben ser estimadas" } \parencite{Aggarwal2016}. Sin embargo, como ha sido mencionado anteriormente, algunos enfoques de recomendación no se centran en predecir \textit{rankings} sino que reunen el top-$k$ de los \textit{items} más favorables. 
 
     La medición por exactitud tiene diversos componentes que aseguran su efectividad:
 
@@ -62,14 +63,10 @@ Además de los paradigmas de evaluación que definen metodologías específicas 
 
         \begin{itemize}[label=$\diamond$]
             \item \textbf{\emph{Efectividad de Predicción: }} Se centra en medir el \textit{Error Específico de Entrada} \footnote{\textbf{Error Específico de Entrada: } Diferencia entre la calificación que el sistema de recomendación predice y la calificación real que el usuario dio.} que se define mediante la siguiente fórmula:
-            \begin{Equation}
-            \[
-                e_{uj} \ = \ \hat{r}_{uj} \ - \ r_{uj}
-            \]
-            \caption{Error Específico de Entrada}
-            \label{eq:Error específico de entrada}
-            \addequation{Error Específico de Entrada}
-            \end{Equation}
+            \begin{equation}
+                \Large e_{uj} \ = \ \hat{r}_{uj} \ - \ r_{uj}
+            \addequation{Definición de Error Específico de Entrada}
+            \end{equation}
 
             \begin{description}
                 \item[\textbf{Donde: }] 
@@ -79,19 +76,49 @@ Además de los paradigmas de evaluación que definen metodologías específicas 
                 \item[$r_{uj}$] representa la calificación real del usuario. 
             \end{description}
 
+            \newpage
+            \thispagestyle{plain}
+            \vspace*{0.2cm}
+
+            Este cálculo de $e_{uj}$ puede ser aprovechado de diferentes maneras para hacer un calculo sobre el conjunto de errores de predicción $E$ y los rankings vinculados a cada $e \in E$.
+
+            Para sintetizar, se dice que el conjunto $E$ es definido por: 
+
+            \begin{equation}
+                E \ =  \{ \  e_{uj} \ |  \ (u,j) \in D \ \}
+                \addequation{Definición del Conjunto de Entradas $E$}
+            \end{equation}
+            
+            Recordando que $e_{uj}$ representa el \textit{Error específico de Entrada} del usuario $u$ para el item $j$. La fórmula indica que a cada par $( u, \ j )$ perteneciente a todos los posibles pares en el conjunto $D$ (o, en otras palabras, el conjunto de items evaluados por el usuario) tiene asignado un valor $e_{uj}$. 
+
+            Este valor de \textit{Error específico de entrada} puede indicar la calidad de un sistema de recomendación si se usa en conjunto con métricas de efectividad.
+
+            \textit{\textbf{Mean Squared Error (MSE): }} 
+            
+            El Error Cuadrático Medio es una métrica utiliada para evaluar la diferencia entre las calificaciones predichas por un modelo y las calificaciones reales del usuario. Funciona calculando el promedio de los errores elevados al cuadrado. Un valor MSE más bajo indica que el modelo tiene un mejor rendimiento, ya que sus predicciones están más cerca de los valores reales.
+            
+            La forma del MSE es: 
+
+            \begin{equation}
+                MSE = \frac{\sum_{(u, j) \ \in \ E \ }{e^2_{uj}}}{| \ E \ |}
+                \addequation{Definición de Mean Squared Error}
+            \end{equation}
+
+            Que se puede resumir en la sumatoria de todos los $e_{uj}^2 \in E$ divididos entre la cantidad de elementos en $E$ para obtener un promedio, haciendo así que un valor alto de $e_{uj}$, al ser elevado al cuadrado, penalice de forma drástica los errores del sistema.
+
+            \textbf{\textit{Root Mean Squared Error (RMSE): }} Como su nombre lo índica, esta métrica se basa en el MSE con la ligera diferencia de aplicar raíz cuadrada de la siguiente manera: 
+
+            \begin{equation}
+                RMSE = \sqrt{\frac{\sum_{(u,j) \ \in \ E}{\ e^2_{uj}}}{ \ |E| \ }}
+                \addequation{Definición de Root Mean Squared Error}
+            \end{equation}
+            
+            En ésta definición se puede observar que es similar a MSE, la única diferencia radica en la escala de los resultados. RMSE mantiene las mismas unidades que la variable original y suele representar el formato estándar de error \parencite{gmd-15-5481-2022}.
+        
+
+            \end{itemize}
+                
         \end{itemize}
-    \end{itemize}
-
-    %\begin{Equation}
-    %\[
-    %a^2 + b^2 = c^2
-    %\]
-    %\caption{Teorema de Pitágoras}
-    %\label{eq:pitagoras}
-    %\addequation{Teorema de Pitágoras}
-    %\end{Equation}
-
-\end{enumerate}
 
 
 

@@ -3088,6 +3088,7 @@
     <bcf:citekey order="16" intorder="1">chapman-2019</bcf:citekey>
     <bcf:citekey order="17" intorder="1">Aggarwal2016</bcf:citekey>
     <bcf:citekey order="18" intorder="1">Aggarwal2016</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">gmd-15-5481-2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
