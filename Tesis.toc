@@ -18,5 +18,5 @@
 \contentsline {section}{\numberline {2.2}PARADIGMAS Y MÉTRICAS DE EVALUACIÓN PARA UN SISTEMA DE RECOMENDACIÓN: }{19}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}PARADIGMAS DE EVALUACIÓN: }{19}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}MÉTRICAS GENERALES DE EVALUACIÓN: }{22}{subsection.2.2.2}%
-\contentsline {subsubsection}{EXACTITUD DE PREDICCIÓN}{22}{section*.7}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{24}{section*.8}%
+\contentsline {subsubsection}{EXACTITUD}{22}{section*.7}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{26}{section*.8}%

@@ -82,14 +82,14 @@ Los algoritmos que implementan esta técnica suelen basarse en modelos de análi
 
 A diferencia del enfoque basado en contenido, que se centra en los atributos de los items, el enfoque colaborativo se centra en las similitudes entre lo usuarios para generar recomendaciones.
 
-Este enfoque funciona construyendo una base de datos descrita por una matríz \textit{usuarios - items} que representa la preferencia de un conjunto de usuarios por un item particular. Este enfoque vincula a diferentes perfiles con preferencias e intereses similares para guiar las recomendaciones, formando así un grupo  de perfiles que comparten intereses denominado \textit{Vecindario}. 
+Este enfoque funciona construyendo una base de datos descrita por una matríz \textit{usuarios - items} que representa la preferencia de un conjunto de usuarios por un item particular. Esto significa que vincula a diferentes perfiles con preferencias e intereses similares para guiar las recomendaciones, formando así un grupo  de perfiles que comparten intereses denominado \textit{Vecindario}. 
 
 
 Por lo tanto, un usuario recibe recomendaciones de contenido que no ha evaluado pero que otros usuarios dentro de su \textit{Vecindario} han calificado de forma positiva. Los resultados que se pueden obtener a través de este enfoque son los siguientes:
 
 \begin{itemize}
     \item \textbf{Predicciones: } Es un valor numérico que expresa un puntaje del elemento $j$ para el usuario $i$, esta predicción se representa con la notación $R_{i,j}$.
-    \item \textbf{Recomendaciones: } Es una lista de los Top - $N$ elementos que al usuario le podrían gustar más.
+    \item \textbf{Rankings: } Es una lista de los Top - $N$ elementos que al usuario le podrían gustar más.
 \end{itemize}
 
 \begin{figure}[h!]
@@ -113,8 +113,8 @@ El diagrama remarca la distinción entre \textit{Predicción} y la \textit{Recom
 Este enfoque tiene ventajas fuertemente diferenciadas respecto al enfoque basado en contenido, algunos de sus puntos fuertes son los siguientes:
 
 \begin{itemize}
-    \item \textbf{Independencia al Contenido: } Este enfoque puede funcionar de forma efectiva en dominios en los cuales no existe diversidad de información (o metadatos) para describir los items.
-    \item \textbf{Recomendaciones basadas en Serendipia \footnote{\textbf{Serendipia en Sistemas de Recomendación: } \textit{Items} que son relevantes pero inesperados para el usuario. \textit{Items} que son nuevos e inesperados. \parencite{Kotkov2020Serendipity}} }: Este enfoque tiene la capacidad de recomendar elementos que son aparentemente ajenos a las preferencias del usuario, pero que para sus \textit{vecinos} son relevantes, conectando al usuario con contenido nuevo.
+    \item \textbf{Independencia al Contenido: } Los algoritmos colaborativos pueden funcionar de forma efectiva en dominios en los cuales no existe diversidad de información (o metadatos) para describir los items.
+    \item \textbf{Recomendaciones basadas en Serendipia \footnote{\textbf{Serendipia en Sistemas de Recomendación: } \textit{Items} que son relevantes pero inesperados para el usuario. \textit{Items} que son nuevos e inesperados. \parencite{Kotkov2020Serendipity}} }: Significa que tiene la capacidad de recomendar elementos que son aparentemente ajenos a las preferencias del usuario, pero que para sus \textit{vecinos} son relevantes, conectando al usuario con contenido nuevo.
 \end{itemize}
 
 \textbf{DESVENTAJAS:}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  8 SEP 2025 12:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  9 SEP 2025 12:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1352,10 +1352,6 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
 [15 <./figures/FiltroBasadoenContenido.png>]
-Overfull \hbox (4.1121pt too wide) in paragraph at lines 116--117
-\OT1/phv/m/n/12 tiva en do-min-ios en los cuales no ex-iste di-ver-si-dad de in-for-maci[]on (o metadatos)
- []
-
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 117.
 
@@ -1474,7 +1470,33 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[22]))
+[22]
+
+File: figures/uaeh.png Graphic file (type png)
+<use figures/uaeh.png>
+Package pdftex.def Info: figures/uaeh.png  used on input line 118.
+(pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 61.25554pt, for example:
+(fancyhdr)                \setlength{\headheight}{61.25554pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
+
+[23]
+
+File: figures/uaeh.png Graphic file (type png)
+<use figures/uaeh.png>
+Package pdftex.def Info: figures/uaeh.png  used on input line 152.
+(pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 61.25554pt, for example:
+(fancyhdr)                \setlength{\headheight}{61.25554pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
+
+[24]))
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
@@ -1487,9 +1509,19 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[23]
+[25]
 Overfull \hbox (10.76627pt too wide) in paragraph at lines 294--294
 \OT1/phv/m/sl/12 & Clas-si-fi-ca-tion Quar-terly\OT1/phv/m/n/12 , \OT1/phv/m/sl/12 40\OT1/phv/m/n/12 (3-4), 17{36. []$https : / / doi . org / 10 . 1300 / J104v40n03 \OMS/ztmcm/m/n/12 n
+ []
+
+
+Overfull \hbox (7.54362pt too wide) in paragraph at lines 294--294
+\OT1/phv/m/n/12 mer-ables. l[]ogica proposi-cional y l[]ogica de pred-i-ca-dos, la in-ducci[]on matem[]atica,
+ []
+
+
+Overfull \hbox (7.90604pt too wide) in paragraph at lines 294--294
+[]\OT1/phv/m/n/12 algebra rela-cional, []algebra de boole, teor[]^^Pa de grafos, grafos ori-en-ta-dos; c[]alculo
  []
 
 
@@ -1505,7 +1537,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[24
+[26
 
 
 
@@ -1516,23 +1548,23 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: BD8A297A1E203B90FEBAC21D8FCF3872;4241.
+(rerunfilecheck)             Checksum: FCF04B2F6DDB2BF31D7DDD4071CF31E9;4162.
 Package logreq Info: Writing requests to 'Tesis.run.xml'.
 \openout1 = `Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32167 strings out of 468133
- 618652 string characters out of 5429745
- 1541788 words of memory out of 5000000
- 60178 multiletter control sequences out of 15000+600000
- 706393 words of font info for 176 fonts, out of 8000000 for 9000
+ 32188 strings out of 468133
+ 619062 string characters out of 5429745
+ 1542867 words of memory out of 5000000
+ 60188 multiletter control sequences out of 15000+600000
+ 709471 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,91p,1090b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tesis.pdf (25 pages, 357731 bytes).
+Output written on Tesis.pdf (27 pages, 368545 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 

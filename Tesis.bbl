@@ -409,6 +409,40 @@
       \verb https://doi.org/10.1007/s00607-018-0687-5
       \endverb
     \endentry
+    \entry{Perez_MAT_2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c1ebe10efed631fd633d6b3182ba0b0}{%
+           family={Perez\bibnamedelima García},
+           familyi={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Jose\bibnamedelima Ivan},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{fullhash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{fullhashraw}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{bibnamehash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{authorbibnamehash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{authornamehash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{authorfullhash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{authorfullhashraw}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{El objetivo de este trabajo de investigación es dar a conocer de matemática discreta recopilamos la importancia, su utilidad y aplicación en campo educativo y la necesidad de aprender un mejor desarrollo cognitivo en su proceso de aprendizaje y enseñanza.}
+      \field{title}{MATEMÁTICA DISCRETA Conjuntos discretos. Conjuntos numerables. Lógica proposicional y lógica de predicados, la inducción matemática, Álgebra relacional, Álgebra de Boole, Teoría de grafos, grafos orientados; Cálculo combinatorio: Arreglos, permutaciones y combinaciones, Aplicaciones.}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://repositorio.une.edu.pe/handle/20.500.14039/8990
+      \endverb
+      \verb{url}
+      \verb https://repositorio.une.edu.pe/handle/20.500.14039/8990
+      \endverb
+    \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
     \entry{Aggarwal2016}{inbook}{}{}
@@ -799,6 +833,40 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1007/s00607-018-0687-5
+      \endverb
+    \endentry
+    \entry{Perez_MAT_2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c1ebe10efed631fd633d6b3182ba0b0}{%
+           family={Perez\bibnamedelima García},
+           familyi={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Jose\bibnamedelima Ivan},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{fullhash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{fullhashraw}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{bibnamehash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{authorbibnamehash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{authornamehash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{authorfullhash}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \strng{authorfullhashraw}{0c1ebe10efed631fd633d6b3182ba0b0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{El objetivo de este trabajo de investigación es dar a conocer de matemática discreta recopilamos la importancia, su utilidad y aplicación en campo educativo y la necesidad de aprender un mejor desarrollo cognitivo en su proceso de aprendizaje y enseñanza.}
+      \field{title}{MATEMÁTICA DISCRETA Conjuntos discretos. Conjuntos numerables. Lógica proposicional y lógica de predicados, la inducción matemática, Álgebra relacional, Álgebra de Boole, Teoría de grafos, grafos orientados; Cálculo combinatorio: Arreglos, permutaciones y combinaciones, Aplicaciones.}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://repositorio.une.edu.pe/handle/20.500.14039/8990
+      \endverb
+      \verb{url}
+      \verb https://repositorio.une.edu.pe/handle/20.500.14039/8990
       \endverb
     \endentry
   \enddatalist

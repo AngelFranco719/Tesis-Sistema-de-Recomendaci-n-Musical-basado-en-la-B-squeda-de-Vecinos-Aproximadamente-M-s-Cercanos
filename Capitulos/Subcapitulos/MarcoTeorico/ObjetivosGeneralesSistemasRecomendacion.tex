@@ -50,9 +50,9 @@ Existen tres paradigmas de evaluación principales dirigidos a los sistemas de r
 
 Además de los paradigmas de evaluación que definen metodologías específicas para realizar pruebas a los usuarios, existen métricas cuantificables que añaden una capa extra de complejidad y robustez a los sistemas de recomendación. Estas metricas cumplen la función de asegurar resultados satisfactorios para el usuario mediante características cuantificables y subjetivas, entendiendo que el gusto y las preferencias pueden ser complejas de representar mediante mediciones numéricas.
 
-    \subsubsection{EXACTITUD DE PREDICCIÓN}
+    \subsubsection{EXACTITUD}
 
-    La exactitud es una de las métricas fundamentales con las que se evalúan los sistemas de recomendación. Se basan en \textit{ratings} que se definen como \textit{"cantidades numéricas que deben ser estimadas" } \parencite{Aggarwal2016}. Sin embargo, como ha sido mencionado anteriormente, algunos enfoques de recomendación no se centran en predecir \textit{rankings} sino que reunen el top-$k$ de los \textit{items} más favorables. 
+    La exactitud es una de las métricas fundamentales con las que se evalúan los sistemas de recomendación. Se basan en \textit{ratings} que se definen como \textit{"cantidades numéricas que deben ser estimadas" } \parencite{Aggarwal2016}. Sin embargo, como ha sido mencionado anteriormente, algunos enfoques de recomendación no se centran en predecir calificaciones sino que reunen el top-$k$ de los \textit{items} más favorables. 
 
     La medición por exactitud tiene diversos componentes que aseguran su efectividad:
 
@@ -80,7 +80,7 @@ Además de los paradigmas de evaluación que definen metodologías específicas 
             \thispagestyle{plain}
             \vspace*{0.2cm}
 
-            Este cálculo de $e_{uj}$ puede ser aprovechado de diferentes maneras para hacer un calculo sobre el conjunto de errores de predicción $E$ y los rankings vinculados a cada $e \in E$.
+            Este cálculo de $e_{uj}$ puede ser aprovechado de diferentes maneras para hacer un calculo sobre el conjunto de errores de predicción $E$ y los rankings vinculados a cada $e \in E$ \footnote{\textbf{Pertenencia $\in$}: Éste símbolo indica que un elemento cualquiera $u$ \textit{pertenece} a un conjunto $R$, por lo tanto $u \in R$}.
 
             Para sintetizar, se dice que el conjunto $E$ es definido por: 
 
@@ -95,7 +95,7 @@ Además de los paradigmas de evaluación que definen metodologías específicas 
 
             \textit{\textbf{Mean Squared Error (MSE): }} 
             
-            El Error Cuadrático Medio es una métrica utiliada para evaluar la diferencia entre las calificaciones predichas por un modelo y las calificaciones reales del usuario. Funciona calculando el promedio de los errores elevados al cuadrado. Un valor MSE más bajo indica que el modelo tiene un mejor rendimiento, ya que sus predicciones están más cerca de los valores reales.
+            El Error Cuadrático Medio es una métrica utilizada para evaluar la diferencia entre las calificaciones predichas por un modelo y las calificaciones reales del usuario. Funciona calculando el promedio de los errores elevados al cuadrado. Un valor MSE más bajo indica que el modelo tiene un mejor rendimiento, ya que sus predicciones están más cerca de los valores reales.
             
             La forma del MSE es: 
 
@@ -114,8 +114,46 @@ Además de los paradigmas de evaluación que definen metodologías específicas 
             \end{equation}
             
             En ésta definición se puede observar que es similar a MSE, la única diferencia radica en la escala de los resultados. RMSE mantiene las mismas unidades que la variable original y suele representar el formato estándar de error \parencite{gmd-15-5481-2022}.
-        
 
+            \newpage
+            \thispagestyle{plain}
+            \vspace*{0.2cm}
+
+            \item \textbf{Efectividad de Ranking: } Para los sistemas enfocados en \textit{rankings} se pueden usar mediciones diferentes, algunas de ellas son las siguientes.
+            
+            \textbf{\textit{Evaluando Rankings vía Correlación: }}
+
+            Cuando un sistema de recomendación retorna un top - $k$ de recomendaciones, en general, es deseable que los items más altos en el top sean más deseados por el usuario que los items más bajos.
+            Por lo tanto, la idea central de la \textit{Evaluación de Rankings vía Correlación} se centra en identificar qué tan correcto fue el desempeño del ranking retornado por el sistema de recomendación en relación con el ranking decidido por el usuario de forma manual. 
+            Si se quisiera definir formalmente, se podría decir que ésta evaluación se centra en evaluar la similitud entre:
+
+            \begin{equation}
+                \begin{split}
+                    R_j &= \{ i_{j1}, i_{j2}, i_{j3}, ..., i_{jn} \}\\
+                    R_u &= \{ i_{u1}, i_{u2}, i_{u3}, ..., i_{un} \}
+                \end{split}
+            \end{equation}  
+
+            \begin{description}
+                \item[\textbf{Donde:}]
+                \item[$j$] representa al sistema de recomendación.
+                \item[$u$] representa al usuario.
+                \item[$R_j$] representa el \textit{Ranking} recomendado por el sistema.
+                \item[$R_u$] representa el \textit{Ranking} elegido por el usuario.
+                \item[$i$]  representa un item dentro de un \textit{Ranking}.      
+            \end{description}
+
+            Se debe tomar en cuenta que el análisis de correlación entre rankings no solo toma en cuenta que $i \in R$ tomando en cuenta ambos $R_u$ y $R_j$, sino que también toma en cuenta el \textit{orden} en que se encuentran los items.
+            
+            Un detalle importante a tener encuenta es que las \textit{calificaciones} suelen elegirse en una escala discreta, y podrían existir muchos empates en la verdad del mundo real (\textit{ground truth}) \parencite{Aggarwal2016}.
+            Por lo tanto, tomando en cuenta que un usuario elige una calificación dentro de un conjunto discreto \footnote{\textbf{Conjuntos Discretos: } Un conjunto discreto es un conjunto formado por números en el cual entre cada número y el siguiente no hay ningún otro. \parencite{Perez_MAT_2021}}, por ejemplo, calificaciónes enteras del 1 al 5, o calificaciones basadas en estrellas, es probable que las valoraciones del usuario caigan en empates para diferentes items.
+            Esta característica complica el cálculo de correlación, obligando al sistema a tener cuidado con la naturaleza poco fina de las calificaciones del usuario. 
+
+            \newpage
+            \thispagestyle{plain}
+            \vspace*{0.2cm}
+
+            
             \end{itemize}
                 
         \end{itemize}
