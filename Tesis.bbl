@@ -443,6 +443,62 @@
       \verb https://repositorio.une.edu.pe/handle/20.500.14039/8990
       \endverb
     \endentry
+    \entry{10.5555/1941884}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5abb1d77d80f46918651a5bbc5ee8371}{%
+           family={Ricci},
+           familyi={R\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e583bae19511d6aca7ecc9e44953ed07}{%
+           family={Rokach},
+           familyi={R\bibinitperiod},
+           given={Lior},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4610f4e9c8ec107e9ad7dfe04a1d7c30}{%
+           family={Shapira},
+           familyi={S\bibinitperiod},
+           given={Bracha},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e70d5538b6a5795b5184760f1044b185}{%
+           family={Kantor},
+           familyi={K\bibinitperiod},
+           given={Paul\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{634300cd49419dfc9d76cdc3fd4ecce2}
+      \strng{fullhash}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{fullhashraw}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{bibnamehash}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{authorbibnamehash}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{authornamehash}{634300cd49419dfc9d76cdc3fd4ecce2}
+      \strng{authorfullhash}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{authorfullhashraw}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st}
+      \field{isbn}{0387858199}
+      \field{title}{Recommender Systems Handbook}
+      \field{year}{2010}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-0-387-85820-3
+      \endverb
+    \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
     \entry{Aggarwal2016}{inbook}{}{}
@@ -867,6 +923,62 @@
       \endverb
       \verb{url}
       \verb https://repositorio.une.edu.pe/handle/20.500.14039/8990
+      \endverb
+    \endentry
+    \entry{10.5555/1941884}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5abb1d77d80f46918651a5bbc5ee8371}{%
+           family={Ricci},
+           familyi={R\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e583bae19511d6aca7ecc9e44953ed07}{%
+           family={Rokach},
+           familyi={R\bibinitperiod},
+           given={Lior},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4610f4e9c8ec107e9ad7dfe04a1d7c30}{%
+           family={Shapira},
+           familyi={S\bibinitperiod},
+           given={Bracha},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e70d5538b6a5795b5184760f1044b185}{%
+           family={Kantor},
+           familyi={K\bibinitperiod},
+           given={Paul\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{634300cd49419dfc9d76cdc3fd4ecce2}
+      \strng{fullhash}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{fullhashraw}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{bibnamehash}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{authorbibnamehash}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{authornamehash}{634300cd49419dfc9d76cdc3fd4ecce2}
+      \strng{authorfullhash}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{authorfullhashraw}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st}
+      \field{isbn}{0387858199}
+      \field{title}{Recommender Systems Handbook}
+      \field{year}{2010}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-0-387-85820-3
       \endverb
     \endentry
   \enddatalist

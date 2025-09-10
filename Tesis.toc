@@ -20,4 +20,6 @@
 \contentsline {subsection}{\numberline {2.2.2}MÉTRICAS GENERALES DE EVALUACIÓN: }{22}{subsection.2.2.2}%
 \contentsline {subsubsection}{EXACTITUD}{22}{section*.7}%
 \contentsline {subsubsection}{COBERTURA}{25}{equation.2.5}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{26}{section*.8}%
+\contentsline {subsubsection}{CONFIABILIDAD Y CERTEZA }{25}{equation.2.5}%
+\contentsline {subsubsection}{NOVEDAD}{26}{equation.2.5}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{27}{section*.8}%

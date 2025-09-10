@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  10 SEP 2025 10:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  10 SEP 2025 12:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -994,7 +994,7 @@ Package biblatex Info: Reference section=0 on input line 83.
 Package biblatex Info: Reference segment=0 on input line 83.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<figures/uaeh.png, id=98, 127.9179pt x 156.3441pt>
+<figures/uaeh.png, id=104, 127.9179pt x 156.3441pt>
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
 Package pdftex.def Info: figures/uaeh.png  used on input line 89.
@@ -1333,7 +1333,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
 [14]
-<figures/FiltroBasadoenContenido.png, id=229, 797.98125pt x 426.84468pt>
+<figures/FiltroBasadoenContenido.png, id=237, 797.98125pt x 426.84468pt>
 File: figures/FiltroBasadoenContenido.png Graphic file (type png)
 <use figures/FiltroBasadoenContenido.png>
 Package pdftex.def Info: figures/FiltroBasadoenContenido.png  used on input line 97.
@@ -1496,7 +1496,20 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[24]))
+[24]
+
+File: figures/uaeh.png Graphic file (type png)
+<use figures/uaeh.png>
+Package pdftex.def Info: figures/uaeh.png  used on input line 182.
+(pdftex.def)             Requested size: 46.55983pt x 56.9055pt.
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 61.25554pt, for example:
+(fancyhdr)                \setlength{\headheight}{61.25554pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
+
+[25]))
 
 File: figures/uaeh.png Graphic file (type png)
 <use figures/uaeh.png>
@@ -1509,7 +1522,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[25]
+[26]
 Overfull \hbox (10.76627pt too wide) in paragraph at lines 295--295
 \OT1/phv/m/sl/12 & Clas-si-fi-ca-tion Quar-terly\OT1/phv/m/n/12 , \OT1/phv/m/sl/12 40\OT1/phv/m/n/12 (3-4), 17{36. []$https : / / doi . org / 10 . 1300 / J104v40n03 \OMS/ztmcm/m/n/12 n
  []
@@ -1537,7 +1550,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-46.25554pt}.
 
-[26
+[27
 
 
 
@@ -1548,23 +1561,23 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 09224901331752976478BE8EC235407B;4270.
+(rerunfilecheck)             Checksum: 4D26421CAEA6A66E0BD7ED55E4BB7490;4560.
 Package logreq Info: Writing requests to 'Tesis.run.xml'.
 \openout1 = `Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32190 strings out of 468133
- 619087 string characters out of 5429745
- 1542872 words of memory out of 5000000
- 60190 multiletter control sequences out of 15000+600000
+ 32201 strings out of 468133
+ 619388 string characters out of 5429745
+ 1543958 words of memory out of 5000000
+ 60199 multiletter control sequences out of 15000+600000
  709471 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,91p,1090b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tesis.pdf (27 pages, 371228 bytes).
+Output written on Tesis.pdf (28 pages, 377161 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 423 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 

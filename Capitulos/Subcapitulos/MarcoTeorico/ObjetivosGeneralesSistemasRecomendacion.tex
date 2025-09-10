@@ -160,16 +160,44 @@ Además de los paradigmas de evaluación que definen metodologías específicas 
             \thispagestyle{plain}
             \vspace*{0.2cm}
             
-        \subsubsection{COBERTURA}
+    \subsubsection{COBERTURA}
 
-        Como se ha mencionado anteriormente, los sistemas de recomendación podrían tener dificultades en encontrar resultados relevantes cuando no se tiene la suficiente información de los \textit{items} y de los \textit{usuarios}, por ejemplo, cuando un usuario nuevo interactúa con la plataforma, aunque el sistema de recomendación tenga un excelente rendimiento en exactitud, es probable que no brinde resultados relevantes debido a la falta de información. 
+    Como se ha mencionado anteriormente, los sistemas de recomendación podrían tener dificultades en encontrar resultados relevantes cuando no se tiene la suficiente información de los \textit{items} y de los \textit{usuarios}, por ejemplo, cuando un usuario nuevo interactúa con la plataforma, aunque el sistema de recomendación tenga un excelente rendimiento en exactitud, es probable que no brinde resultados relevantes debido a la falta de información. 
 
-        \textit{"Esta limitación de los sistemas de recomendación es consecuencia del hecho de que las matrices de calificación suelen ser escasas."} \parencite{Aggarwal2016}
-        
-        Para medir qué tan propenso es el sistema a caer en esta dificultad se usa el concepto de \textit{Cobertura}, que mide la proporción de items que el sistema puede recomendar a un usuario.
-        Sin embargo, generalmente durante la evaluación de sistemas de recomendación, es común que favorecer la \textit{exactitud} tenga como consecuencia reducir la \textit{cobertura} debido a que la \textit{exactitud} favorece los items más parecidos a las preferencias del usuario, y la \textit{cobertura} se centra en brindar diversidad de items. Es por esto que, en general, la mejor decisión sea obtener un balance entre ambas métricas sin buscar maximizar alguna.
+    \textit{"Esta limitación de los sistemas de recomendación es consecuencia del hecho de que las matrices de calificación suelen ser escasas."} \parencite{Aggarwal2016}
 
-            
+    Para medir qué tan propenso es el sistema a caer en esta dificultad se usa el concepto de \textit{Cobertura}, que mide la proporción de items que el sistema puede recomendar a un usuario.
+    Sin embargo, generalmente durante la evaluación de sistemas de recomendación, es común que favorecer la \textit{exactitud} tenga como consecuencia reducir la \textit{cobertura} debido a que la \textit{exactitud} favorece los items más parecidos a las preferencias del usuario, y la \textit{cobertura} se centra en brindar diversidad de items. Es por esto que, en general, la mejor decisión sea obtener un balance entre ambas métricas sin buscar maximizar alguna de las dos.
+
+    \subsubsection{CONFIABILIDAD Y CERTEZA }
+
+    La estimación de calificaciones es un proceso inexacto que depende directamente de ciertos algoritmos que pueden proveer diferentes predicciones. Por lo tanto, es común que el usuario pierda confianza en el sistema al no saber qué tan acertadas serán las recomendaciones.
+
+    Para medir esta dificultad se usan métricas de confiabilidad que tratan de medir qué tan confiable es la recomendación que el sistema ha brindado.
+
+    \textit{"En general, los sistemas de recomendación que pueden recomendar de forma acertada elementos con un menor intervalo de confianza son más deseables debido a que refuerzan la confiabilidad del usuario por el sistema".} \parencite{Aggarwal2016}
+
+    Por ejemplo, si el sistema obtiene un intervalo de confiabilidad de 4.8 a 5.0 significa que tiene un rendimiento certero debido a que la distancia entre intervalos es pequeña. \textit{"El método más simple para obtener intervalos de confianza es asumir que la cantidad de interés es tiene una distribución gaussiana  caracterizada por su forma de campana.}." \parencite{10.5555/1941884}
+
+    \newpage
+    \thispagestyle{plain}
+    \vspace*{0.2cm}
+
+    \subsubsection{NOVEDAD}
+
+    La \textit{Novedad} en un sistema de recomendación se define como la probabilidad de que el sistema sugiera un item que el usuario no ha visto antes.
+    Generalmente, es más importante que un usuario brinde información al sistema sobre elementos totalmente nuevos, con el objetivo de brindar una nueva perspectiva de sus preferencias al sistema. Inclusive podría ser más importante la calificación del usuario respecto a items que no ha visto antes en comparación a calificar items faltantes que son fieles al gusto del usuario. 
+
+    En algunos enfoques de recomendación como el \textit{basado en contenido} es común que las sugerencias sean excesivamente apegadas al gusto del usuario, causando que éste pierda confianza en el sistema y lo considere repetitivo.
+
+    \textit{"La forma más natural de medir la novedad en un sistema es a través de experimentaciones Online en donde el usuario es cuestionado sobre su conocimiento previo de los items recomendados"} \parencite{Aggarwal2016}.
+
+    Sin embargo, como se mencionó anteriormente en el paradigma \textit{Online}, éste suele ser poco escalable en sistemas grandes. Por lo tanto, generalmente es mejor opción combinar un enfoque \textit{Online} y \textit{Offline} para realizar las mediciones de novedad en un sistema.
+    
+
+
+
+
 
 
 
