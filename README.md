@@ -37,5 +37,5 @@ Este repositorio contiene el desarrollo de mi tesis. Aquí se encuentran los cap
  ## 😿 ¿Por qué manejar de esta manera el desarrollo?
  Al iniciar el desarrollo de mi tesis, la idea inicial fue usar _Overleaf_ para trabajar de forma intuitiva y sencilla, además de poder recibir comentarios y anotaciones. Sin embargo, con el plan gratuito de _overleaf_ se alcanza un límite muy rápido usando el sistema de bibliografías y figuras, por lo tanto, rapidamente alcancé el límite y no pude continuar con el desarrollo 😿.
 
-Por esta razón propongo la idea de visualizar el proyecto de manera actualizada utilizanfo Github, ganando un control de versiones más organizado y modular.
+Por esta razón propongo la idea de visualizar el proyecto de manera actualizada utilizando Github, ganando un control de versiones más organizado y modular.
 
