@@ -132,6 +132,7 @@ Además de los paradigmas de evaluación que definen metodologías específicas 
                     R_j &= \{ i_{j1}, i_{j2}, i_{j3}, ..., i_{jn} \}\\
                     R_u &= \{ i_{u1}, i_{u2}, i_{u3}, ..., i_{un} \}
                 \end{split}
+                \addequation{Definición de Rankings de Usuario y de Sistema}
             \end{equation}  
 
             \begin{description}
@@ -147,16 +148,29 @@ Además de los paradigmas de evaluación que definen metodologías específicas 
             
             Un detalle importante a tener encuenta es que las \textit{calificaciones} suelen elegirse en una escala discreta, y podrían existir muchos empates en la verdad del mundo real (\textit{ground truth}) \parencite{Aggarwal2016}.
             Por lo tanto, tomando en cuenta que un usuario elige una calificación dentro de un conjunto discreto \footnote{\textbf{Conjuntos Discretos: } Un conjunto discreto es un conjunto formado por números en el cual entre cada número y el siguiente no hay ningún otro. \parencite{Perez_MAT_2021}}, por ejemplo, calificaciónes enteras del 1 al 5, o calificaciones basadas en estrellas, es probable que las valoraciones del usuario caigan en empates para diferentes items.
-            Esta característica complica el cálculo de correlación, obligando al sistema a tener cuidado con la naturaleza poco fina de las calificaciones del usuario. 
+            Esta característica complica el cálculo de correlación, obligando al sistema a tener cuidado con la naturaleza poco fina de las calificaciones del usuario.
+            
+            Para obtener el valor de similitud se usan las  métricas \textit{Spearman Rank Correlation}, \textit{Kendall Rank Correlation} para obtener una medición exacta de la similitud entre $R_u$ y $R_j$. 
+        \end{itemize}         
+    \end{itemize}
+
+
 
             \newpage
             \thispagestyle{plain}
             \vspace*{0.2cm}
+            
+        \subsubsection{COBERTURA}
+
+        Como se ha mencionado anteriormente, los sistemas de recomendación podrían tener dificultades en encontrar resultados relevantes cuando no se tiene la suficiente información de los \textit{items} y de los \textit{usuarios}, por ejemplo, cuando un usuario nuevo interactúa con la plataforma, aunque el sistema de recomendación tenga un excelente rendimiento en exactitud, es probable que no brinde resultados relevantes debido a la falta de información. 
+
+        \textit{"Esta limitación de los sistemas de recomendación es consecuencia del hecho de que las matrices de calificación suelen ser escasas."} \parencite{Aggarwal2016}
+        
+        Para medir qué tan propenso es el sistema a caer en esta dificultad se usa el concepto de \textit{Cobertura}, que mide la proporción de items que el sistema puede recomendar a un usuario.
+        Sin embargo, generalmente durante la evaluación de sistemas de recomendación, es común que favorecer la \textit{exactitud} tenga como consecuencia reducir la \textit{cobertura} debido a que la \textit{exactitud} favorece los items más parecidos a las preferencias del usuario, y la \textit{cobertura} se centra en brindar diversidad de items. Es por esto que, en general, la mejor decisión sea obtener un balance entre ambas métricas sin buscar maximizar alguna.
 
             
-            \end{itemize}
-                
-        \end{itemize}
+
 
 
 

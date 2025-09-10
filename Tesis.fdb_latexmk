@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Tesis"] 1757441085.19876 "Tesis.bcf" "Tesis.bbl" "Tesis" 1757441407.8429 0
-  "Tesis.bcf" 1757441406 135337 530a763b908e9432e28b03cb4e518d1d "pdflatex"
+["biber Tesis"] 1757522842.68179 "Tesis.bcf" "Tesis.bbl" "Tesis" 1757522947.31646 0
+  "Tesis.bcf" 1757522945 135405 765627652ced1d690a9b94cf660d0b56 "pdflatex"
   "referencias.bib" 1757441024 6059 f56500262493ff593f2c000cdc101379 ""
   (generated)
   "Tesis.bbl"
   "Tesis.blg"
   (rewritten before read)
-["pdflatex"] 1757441401.15783 "c:/Users/Usuario/Desktop/Angel/Tesis-Sistema-de-Recomendaci-n-Musical-basado-en-la-B-squeda-de-Vecinos-Aproximadamente-M-s-Cercanos/Tesis.tex" "Tesis.pdf" "Tesis" 1757441407.84473 0
+["pdflatex"] 1757522932.62896 "c:/Users/Usuario/Desktop/Angel/Tesis-Sistema-de-Recomendaci-n-Musical-basado-en-la-B-squeda-de-Vecinos-Aproximadamente-M-s-Cercanos/Tesis.tex" "Tesis.pdf" "Tesis" 1757522947.3189 0
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756971080 1577554 b8752643b273c1b4cd50c21aff9d3c97 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1756971095 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1756971066 13258310 7886f04668b135c45361bed284eab3fa ""
@@ -206,21 +206,21 @@
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/tocloft/tocloft.sty" 1578908763 37263 3e78d14f0f4b1a30560fea5e04de805d ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Capitulos/MarcoIntroductorio.aux" 1757441405 5294 a15593d57e4ae766c8b1cea3bac2e815 "pdflatex"
+  "Capitulos/MarcoIntroductorio.aux" 1757522942 5294 a15593d57e4ae766c8b1cea3bac2e815 "pdflatex"
   "Capitulos/MarcoIntroductorio.tex" 1757002580 10984 8932bcfcc2da4fefd94712d4c4a403ce ""
-  "Capitulos/MarcoTeorico.aux" 1757441406 6801 9ce3840570d055c304dca0f6ec0f0c98 "pdflatex"
+  "Capitulos/MarcoTeorico.aux" 1757522944 7039 bbbdeca0708473cc9f53f4c73784906d "pdflatex"
   "Capitulos/MarcoTeorico.tex" 1757005791 240 a6c9faabce637257551a72a59f2183e4 ""
-  "Capitulos/Subcapitulos/MarcoTeorico/ObjetivosGeneralesSistemasRecomendacion.tex" 1757441376 14573 bfb3db00c764ae7385bc81185fe90541 ""
+  "Capitulos/Subcapitulos/MarcoTeorico/ObjetivosGeneralesSistemasRecomendacion.tex" 1757522930 16255 7136dc20476fa06ff9c0e24df67348dd ""
   "Capitulos/Subcapitulos/MarcoTeorico/SistemasDeRecomendacion.tex" 1757438638 14450 96abefc4f343d3b561ed481033d7f00c ""
-  "Tesis.aux" 1757441406 4808 63848cead73e2f1205627f25d35b69aa "pdflatex"
-  "Tesis.bbl" 1757441091 39977 32e11221a7b9a904f03588a71201c2d8 "biber Tesis"
-  "Tesis.equ" 1757441407 350 62e98027be7f33feaa20ff9d92fee91a "pdflatex"
-  "Tesis.lof" 1757441406 214 3abc58703ea9743a35055d728512cc12 "pdflatex"
-  "Tesis.out" 1757441406 4162 fcf04b2f6ddb2bf31d7ddd4071cf31e9 "pdflatex"
-  "Tesis.run.xml" 1757441406 2435 e43785c364c9e0f4f0f7547a539a825a "pdflatex"
-  "Tesis.tex" 1757355001 12065 bcc8ccdbe5896f1f7fcb1195cb4e7c12 ""
-  "Tesis.toc" 1757441406 1833 d8590ba8121722613118b904bb2e7663 "pdflatex"
-  "c:/Users/Usuario/Desktop/Angel/Tesis-Sistema-de-Recomendaci-n-Musical-basado-en-la-B-squeda-de-Vecinos-Aproximadamente-M-s-Cercanos/Tesis.tex" 1757355001 12065 bcc8ccdbe5896f1f7fcb1195cb4e7c12 ""
+  "Tesis.aux" 1757522945 4954 11187d95b5abe63a1d15792a82328dc0 "pdflatex"
+  "Tesis.bbl" 1757522854 39977 32e11221a7b9a904f03588a71201c2d8 "biber Tesis"
+  "Tesis.equ" 1757522945 446 c5a99344d86da9716b638cb52cfb19e3 "pdflatex"
+  "Tesis.lof" 1757522945 214 3abc58703ea9743a35055d728512cc12 "pdflatex"
+  "Tesis.out" 1757522945 4270 09224901331752976478be8ec235407b "pdflatex"
+  "Tesis.run.xml" 1757522945 2435 e43785c364c9e0f4f0f7547a539a825a "pdflatex"
+  "Tesis.tex" 1757519578 12123 7562a6466cce190681272fd33f9b30ef ""
+  "Tesis.toc" 1757522945 1893 bca38d7457ade42835290c2d06737ed4 "pdflatex"
+  "c:/Users/Usuario/Desktop/Angel/Tesis-Sistema-de-Recomendaci-n-Musical-basado-en-la-B-squeda-de-Vecinos-Aproximadamente-M-s-Cercanos/Tesis.tex" 1757519578 12123 7562a6466cce190681272fd33f9b30ef ""
   "figures/FiltroBasadoenContenido.png" 1756971224 64015 deae6f82ba617e89dbe495e2e1ee64c4 ""
   "figures/uaeh.png" 1756971136 131270 e9650f343519c8a147fc611fb843c966 ""
   (generated)
