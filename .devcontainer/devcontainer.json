@@ -1,22 +1,21 @@
 {
-  "name": "Mi Codespace de Proyecto",
+  "name": "Proyecto con LaTeX",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:18",
   "features": {
-    "ghcr.io/devcontainers/features/tex:1": {},
-    "ghcr.io/prulloac/devcontainer-features/latex:1": {
-      "scheme": "full",
-      "mirror": "https://mirror.ctan.org/systems/texlive/tlnet/"
-    }
+    "texlive": "latest"
   },
   "customizations": {
     "vscode": {
       "extensions": [
+        "james-yu.latex-workshop",
         "esbenp.prettier-vscode",
-        "dbaeumer.vscode-eslint",
-        "james-yu.latex-workshop"
+        "dbaeumer.vscode-eslint"
       ],
       "settings": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "latex-workshop.latex.autoBuild.run": "onSave",
+        "latex-workshop.latex.clean.enabled": true,
+        "latex-workshop.latex.outDir": "%DIR%/out"
       }
     }
   },
