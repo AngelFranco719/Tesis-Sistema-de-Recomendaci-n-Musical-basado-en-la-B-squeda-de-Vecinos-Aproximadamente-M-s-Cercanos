@@ -11,9 +11,29 @@
       "settings": {
         "editor.formatOnSave": true,
         "latex-workshop.latex.autoBuild.run": "onSave",
-        "latex-workshop.latex.clean.enabled": true,
-        "latex-workshop.latex.outDir": "%DIR%/out"
+        "latex-workshop.latex.outDir": "%DIR%/out",
+        "latex-workshop.latex.recipes": [
+          {
+            "name": "latexmk 🔥",
+            "tools": ["latexmk"]
+          }
+        ],
+        "latex-workshop.latex.tools": [
+          {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+              "-synctex=1",
+              "-interaction=nonstopmode",
+              "-file-line-error",
+              "-pdf",
+              "%DOC%"
+            ]
+          }
+        ],
+        "latex-workshop.view.pdf.viewer": "tab"
       }
     }
-  }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y perl && npm install"
 }
