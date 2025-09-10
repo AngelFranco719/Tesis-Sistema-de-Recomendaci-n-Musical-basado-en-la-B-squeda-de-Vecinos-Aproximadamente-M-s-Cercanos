@@ -2,7 +2,11 @@
   "name": "Mi Codespace de Proyecto",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:18",
   "features": {
-    "ghcr.io/devcontainers/features/tex:1": {}
+    "ghcr.io/devcontainers/features/tex:1": {},
+    "ghcr.io/prulloac/devcontainer-features/latex:1": {
+      "scheme": "full",
+      "mirror": "https://mirror.ctan.org/systems/texlive/tlnet/"
+    }
   },
   "customizations": {
     "vscode": {
