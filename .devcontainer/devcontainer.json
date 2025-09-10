@@ -1,9 +1,6 @@
 {
   "name": "Proyecto con LaTeX",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:18",
-  "features": {
-    "texlive": "latest"
-  },
+  "image": "zydou/devcontainer-texlive:2023",
   "customizations": {
     "vscode": {
       "extensions": [
