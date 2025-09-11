@@ -1,3 +1,4 @@
+# Archivos temporales de LaTeX
 *.aux
 *.log
 *.out
@@ -7,6 +8,13 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+# Archivos generados por el compilador
+*.pdf
 *.dvi
+
+# Configuraciones locales (por ejemplo de VS Code)
 .vscode/
+
+# Otros archivos temporales
 *.tmp
