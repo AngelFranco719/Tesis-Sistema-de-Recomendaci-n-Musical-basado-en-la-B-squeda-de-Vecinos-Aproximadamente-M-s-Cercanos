@@ -6,12 +6,10 @@ Este repositorio contiene el desarrollo de mi tesis. Aquí se encuentran los cap
   <a href="https://drive.google.com/file/d/1lMv7Gr_Loj-tfnYkGbsFYNPpw9VXsQ-V/view?usp=sharing" target="_blank">
     <img src="https://img.shields.io/badge/📄%20VER%20PDF-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Ver PDF"/>
   </a>
-   <a href="https://github.com/AngelFranco719/Tesis-Sistema-de-Recomendaci-n-Musical-basado-en-la-B-squeda-de-Vecinos-Aproximadamente-M-s-Cercanos/raw/refs/heads/main/Tesis.pdf">
-    <img src="https://img.shields.io/badge/📥%20DESCARGAR%20PDF-1A2DA3?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Descargar PDF"/>
-  </a>
   <a href="https://github.com/AngelFranco719/Tesis-Sistema-de-Recomendaci-n-Musical-basado-en-la-B-squeda-de-Vecinos-Aproximadamente-M-s-Cercanos/issues/new?template=comentario.md">
     <img src="https://img.shields.io/badge/%20HACER%20COMENTARIO-FFEB3B?style=for-the-badge&logo=github&logoColor=black" alt="Hacer Sugerencia"/>
   </a>
+  <a href='https://codespaces.new/AngelFranco719/Tesis-Sistema-de-Recomendaci-n-Musical-basado-en-la-B-squeda-de-Vecinos-Aproximadamente-M-s-Cercanos?quickstart=1'><img src='https://github.com/codespaces/badge.svg' alt='Abrir el Entorno y Editar' style='max-width: 100%;'></a>
 </p>
 
 </p>
