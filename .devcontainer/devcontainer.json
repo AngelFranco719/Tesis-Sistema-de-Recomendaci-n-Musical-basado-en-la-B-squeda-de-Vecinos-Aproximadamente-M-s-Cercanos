@@ -13,7 +13,6 @@
       "settings": {
         "editor.formatOnSave": true,
         "latex-workshop.latex.autoBuild.run": "onSave",
-        "latex-workshop.latex.outDir": "%DIR%/out",
         "latex-workshop.latex.recipes": [
           {
             "name": "latexmk 🔥",
