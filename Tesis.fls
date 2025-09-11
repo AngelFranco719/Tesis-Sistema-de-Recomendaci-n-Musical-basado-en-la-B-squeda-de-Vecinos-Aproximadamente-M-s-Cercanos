@@ -269,6 +269,8 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.s
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\hyphenat\hyphenat.sty
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\hyphenat\hyphenat.sty
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
@@ -288,6 +290,8 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
@@ -473,9 +477,13 @@ INPUT .\figures\uaeh.png
 INPUT .\figures\uaeh.png
 INPUT .\figures\uaeh.png
 INPUT .\figures\uaeh.png
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
 INPUT .\figures\uaeh.png
 INPUT .\figures\uaeh.png
 INPUT .\figures\uaeh.png
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT .\Capitulos\MarcoTeorico.tex
 INPUT .\Capitulos\MarcoTeorico.tex
 OUTPUT Capitulos\MarcoTeorico.aux
@@ -487,8 +495,6 @@ INPUT .\Capitulos\Subcapitulos\MarcoTeorico\SistemasDeRecomendacion.tex
 INPUT .\Capitulos\Subcapitulos\MarcoTeorico\SistemasDeRecomendacion.tex
 INPUT .\Capitulos\Subcapitulos\MarcoTeorico\SistemasDeRecomendacion.tex
 INPUT Capitulos\Subcapitulos\MarcoTeorico\SistemasDeRecomendacion.tex
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
@@ -496,9 +502,12 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\ph
 INPUT .\figures\uaeh.png
 INPUT .\figures\uaeh.png
 INPUT .\figures\uaeh.png
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ot1qbk.fd
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ot1qbk.fd
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ot1qbk.fd
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\rm-qbkr.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-rm.enc
 INPUT .\figures\uaeh.png
 INPUT .\figures\uaeh.png
 INPUT .\figures\uaeh.png
@@ -657,6 +666,8 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qbkr.pfb
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qbkr.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvbo8a.pfb

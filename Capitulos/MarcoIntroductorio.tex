@@ -1,9 +1,5 @@
-\chapter{MARCO INTRODUCTORIO}
-
-Este capítulo tiene como propósito describir el contexto actual en el que se desarrolla el proyecto, la problemática identificada y la solución propuesta por el autor, además de los alcances esperados del sistema.
-
-
-\section{INTRODUCCIÓN}
+\chapter*{INTRODUCCIÓN}
+\addcontentsline{toc}{chapter}{INTRODUCCIÓN}
 
 \setlength{\parindent}{0pt}      
 \setlength{\parskip}{1em}
@@ -21,14 +17,14 @@ Durante años los desarrolladores de diferentes empresas han invertido tiempo y 
 
 Como resultado de estos esfuerzos, el equipo de desarrolladores de Spotify ha diseñado diversas herramientas que mejoran la recomendación de música basadas en algoritmos que emplean técnicas de minería de datos y machine learning, logrando minimizar los obstaculos computacionales inherentes al problema a resolver.
 
-\newpage
-\thispagestyle{plain}
-
-\vspace*{0.2cm}
-
 No obstante, a pesar de que Spotify ha desarrollado algoritmos eficientes de búsqueda de recomendaciones, persisten áreas de oportunidad a ser tomadas en cuenta. En este proyecto se identifica una de ellas aún no abordada por la plataforma principal ni por herramientas externas y se propone un sistema desarrollado en el entorno web que soluciona esta problemática a través de una propuesta innovadora y creativa, complementando las investigaciones actuales que Spotify ha logrado en los últimos años.
 
-\section{PROBLEMÁTICA A RESOLVER}
+\newpage
+\thispagestyle{plain}
+\vspace*{0.2cm}
+
+\section*{PLANTEAMIENTO DEL PROBLEMA}
+\addcontentsline{toc}{section}{PLANTEAMIENTO DEL PROBLEMA}
 
 En la actualidad, el uso de la plataforma de Spotify le permite al usuario establecer sesiones de escucha de las siguientes maneras:
 
@@ -45,11 +41,13 @@ Esta situación refleja un área de oportunidad en la que el usuario pueda mante
 \newpage
 \thispagestyle{plain}
 \vspace*{0.2cm}
-\section{PROPUESTA DE SOLUCIÓN}
 
-En el presente proyecto se propone una solución creativa e innovadora que le brinda al usuario una capa extra de personalización y control del algoritmo de recomendación a través del concepto de \textit{Viajes Musicales}.
+\section*{PROPUESTA DE SOLUCIÓN}
+\addcontentsline{toc}{section}{PROPUESTA DE SOLUCIÓN}
 
-Un \textit{Viaje Musical} se define como una sesión de escucha formada por un conjunto de canciones, de las cuales el usuario solo se preocupará por las que se denominan \textit{estaciones}. Las estaciones son aquellas canciones que el usuario elige y que representan la guía que tomarán los algoritmos de recomendación para forjar un camino coherente entre las diferentes estaciones, creando así un viaje musical guiado por el usuario pero enriquecido por el sistema.
+En el presente proyecto se plantea una solución creativa e innovadora que le brinda al usuario una capa extra de personalización y control del algoritmo de recomendación a través del concepto de \textit{Viajes Musicales}.
+
+En esta tesis se introducen un conjunto de conceptos que servirán como base para el desarrollo del sistema. En particular, se propone el concepto de \textit{Viaje Musical}, que es definido como una sesión de escucha formada por un conjunto de canciones, de las cuales el usuario solo se preocupará por las que se denominan \textit{estaciones}. El concepto de estaciones es definido como  aquellas canciones que el usuario elige y que representan la guía que tomarán los algoritmos de recomendación para forjar un camino coherente entre las diferentes estaciones, creando así un viaje musical guiado por el usuario pero enriquecido por el sistema.
 
 Con el objetivo de alcanzar dicho nivel de interacción se propone desarrollar un sistema web en donde el usuario pueda vincular su cuenta de Spotify, elegir su viaje musical y vincular la lista de canciones resultante a su cuenta de forma automática, simplificando al máximo la experiencia del usuario para lograr una herramienta cotidiana y fácil de usar.
 
@@ -60,7 +58,12 @@ En conclusión, la propuesta no solo busca mejorar las recomendaciones existente
 \newpage
 \thispagestyle{plain}
 \vspace*{0.2cm}
-\section{JUSTIFICACIÓN}
+
+\section*{JUSTIFICACIÓN}
+\addcontentsline{toc}{section}{JUSTIFICACIÓN}
+
+
+
 En la actualidad, los algoritmos de recomendación representan un elemento clave en la competitividad de los sistemas de entretenimiento digital, ya que permiten ofrecer experiencias personalizadas y mantener la fidelidad de los usuarios. Comprender a fondo las aportaciones previas en este ámbito es esencial para aprovecharlas de manera óptima y generar mejoras que impacten de forma directa en la satisfacción de los usuarios.
 
 Dentro de las técnicas más utilizadas, los algoritmos de Búsqueda de Vecinos Aproximadamente más Cercanos constituyen una herramienta con múltiples aplicaciones, incluyendo el ámbito musical. En particular, el algoritmo \textit{Voyager} fue desarrollado con el objetivo de simplificar la implementación de este tipo de metodologías. Sin embargo, su uso resulta limitado cuando no se entiende a profundidad su funcionamiento, lo cual puede derivar en discrepancias entre los filtros aplicados y los resultados obtenidos. Por esta razón, este proyecto se centra en explicar de manera detallada tanto los fundamentos de la Búsqueda de Vecinos Cercanos como la lógica interna de \textit{Voyager}, con el fin de optimizar su aprovechamiento en sistemas de recomendación.
@@ -76,17 +79,27 @@ Adicionalmente, la implementación de un sistema basado en esta metodología no 
 \thispagestyle{plain}
 \vspace*{0.1cm}
 
-\section{OBJETIVO GENERAL}
-Desarrollar un sistema web de recomendación musical  que le permita al usuario generar sesiones de escucha completas a partir de un conjunto representativo de canciones que servirá como base, las cuales permitirán que el sistema complete la lista mediante recomendaciones personalizadas.
+\section*{OBJETIVO GENERAL}
+\addcontentsline{toc}{section}{OBJETIVO GENERAL}
 
-\section{OBJETIVOS ESPECÍFICOS}
+
+Desarrollar un sistema web de recomendación musical  que le permita al usuario generar sesiones de escucha completas a partir de un conjunto representativo de canciones que servirá como base, las cuales permitirán que el sistema complete la lista mediante recomendaciones personalizadas, implementando algoritmos de búsqueda inteligentes.
+
+
+\subsection*{OBJETIVOS ESPECÍFICOS}
+\addcontentsline{toc}{subsection}{OBJETIVOS ESPECÍFICOS}
+
 \begin{enumerate}
-    \item Realizar una investigación detallada sobre la metodología de Búsqueda de Vecinos Cercanos, analizar por qué los métodos antiguos no funcionan y entender por qué los algoritmos actuales son funcionales y eficientes en entornos de sistemas de recomendación.
-    \item Explicar de forma detallada cómo funciona el algoritmo \textit{Voyager} enfocandose en su origen, cómo se relaciona con la búsqueda de vecinos cercanos y qué posibilidades brinda a los sistemas de recomendación.
-    \item Realizar una implementación eficiente de \textit{Voyager} adaptado al problema que se busca solucionar configurando sus propiedades de forma estratégica para obtener los resultados esperados.
-    \item Desarrollar un algoritmo de \textit{Generación de Muestra Significativa} que añada una capa de filtrado \textit{Cualitativo} respecto al conjunto de canciones que se analizará con \textit{Voyager}. 
+    \item Investigar la metodología de Búsqueda de Vecinos Aproximadamente más Cercanos para identificar las deficiencias de los métodos actuales en el entorno de sistemas de recomendación revisando literatura científica y técnica relevante.
+    
+     \item Implementar el algoritmo \textit{Voyager} con el fin de resolver de forma eficiente el problema de recomendación abordado, configurando sus propiedades de manera justificada y bien documentada.
+
+    \item Crear un algoritmo de \textit{Generación de Muestra Significativa} añadiendo una capa de filtrado \textit{Cualitativo} que ayude con el problema de recomendación musical. 
+    
     \item Desarrollar un sistema web dividido en capas que logre implementar los algoritmos de recomendación planteados y, además, obtenga información de la \textit{Spotify Web API} que será usada para las recomendaciones. 
+    
     \item Utilizar la \textit{Spotify Web API} para facilitar al usuario la posibilidad de vincular su cuenta de Spotify de forma segura y alineada a los estándares de la plataforma.
-    \item Desarrollar una interface de usuario llamativa que muestre el concepto de \textit{Viaje Musical} y permita obtener una sesión de escucha coherente basada en \textit{Estaciones}.
+    
+    \item Desarrollar una interface de usuario llamativa que muestre el concepto de \textit{Viaje Musical} y permita obtener una sesión de escucha coherente basada en \textit{Estaciones} haciendo uso de tecnología web.
 
 \end{enumerate}

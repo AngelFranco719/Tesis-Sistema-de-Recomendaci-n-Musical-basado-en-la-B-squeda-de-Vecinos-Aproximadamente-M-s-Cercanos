@@ -18,6 +18,8 @@
 \usepackage{enumitem}
 \usepackage[style=apa, backend=biber]{biblatex}
 \usepackage[font=small,labelfont=bf]{caption}
+\usepackage[none]{hyphenat}
+\sloppy
 \addbibresource{referencias.bib}
 
 
@@ -32,6 +34,17 @@
 
 \newfloat{Equation}{htbp}{loe}[chapter]
 \floatname{Equation}{}      
+
+\setlength{\cftchapindent}{0pt}    % Capítulos
+\setlength{\cftsecindent}{1.5em}   % Secciones
+\setlength{\cftsubsecindent}{3em}  % Subsecciones
+
+\setlength{\cftbeforechapskip}{6pt}   % espacio antes de cada capítulo
+\setlength{\cftbeforesecskip}{4pt}    % espacio antes de cada sección
+\setlength{\cftbeforesubsecskip}{2pt} % espacio antes de cada subsección
+
+
+
 
 \fancypagestyle{plain}{
   \fancyhf{}
@@ -235,8 +248,10 @@
 
  
 
-
+{\raggedright
 \tableofcontents
+}
+
 \newpage
 \phantomsection
 \addcontentsline{toc}{chapter}{ÍNDICE DE FIGURAS}
