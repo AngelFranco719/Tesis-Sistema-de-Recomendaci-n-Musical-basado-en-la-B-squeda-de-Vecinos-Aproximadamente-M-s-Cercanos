@@ -2,7 +2,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{tikz} 
-\usepackage{geometry}
 \usepackage{lmodern} 
 \usepackage{mathptmx}
 \usepackage{helvet}  
@@ -19,11 +18,10 @@
 \usepackage[style=apa, backend=biber]{biblatex}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage[none]{hyphenat}
+\usepackage{geometry}
+
 \sloppy
 \addbibresource{referencias.bib}
-
-
-\pagestyle{fancy}
 
 
 \graphicspath{{figures/}}
@@ -35,18 +33,18 @@
 \newfloat{Equation}{htbp}{loe}[chapter]
 \floatname{Equation}{}      
 
-\setlength{\cftchapindent}{0pt}    % Capítulos
-\setlength{\cftsecindent}{1.5em}   % Secciones
-\setlength{\cftsubsecindent}{3em}  % Subsecciones
+\setlength{\cftchapindent}{0pt}    
+\setlength{\cftsecindent}{1.5em}  
+\setlength{\cftsubsecindent}{3em}  
 
-\setlength{\cftbeforechapskip}{6pt}   % espacio antes de cada capítulo
-\setlength{\cftbeforesecskip}{4pt}    % espacio antes de cada sección
-\setlength{\cftbeforesubsecskip}{2pt} % espacio antes de cada subsección
-
-
+\setlength{\cftbeforechapskip}{6pt} 
+\setlength{\cftbeforesecskip}{4pt}  
+\setlength{\cftbeforesubsecskip}{2pt}
 
 
-\fancypagestyle{plain}{
+
+
+\fancypagestyle{general}{
   \fancyhf{}
   \fancyhead[L]{
     \includegraphics[height=2cm]{uaeh.png}
@@ -56,13 +54,18 @@
   \vspace{0.5cm}
   \hspace{1cm}
   \parbox[t]{12cm}{\centering\fontsize{9}{14}\selectfont DESARROLLO DE UN SISTEMA DE RECOMENDACIÓN MUSICAL BASADO EN MÉTODOS DE BÚSQUEDA APROXIMADA DE VECINOS CERCANOS.}}
-  \setlength{\headheight}{15pt} 
-    \setlength{\headsep}{1.5cm} 
+  \setlength{\headheight}{20pt} 
+  \setlength{\headsep}{2.5cm} 
 
 }
 
+\pagestyle{general}
 
-\geometry{top=2.5cm,bottom=2.5cm,left=3cm,right=3cm}
+\makeatletter
+\let\ps@plain\ps@general
+\makeatother
+
+\geometry{top=4cm,bottom=2.5cm,left=3cm,right=3cm}
 
 
 \title{Sistema de Recomendación Musical basado en la Búsqueda de Vecinos Aproximadamente Más Cercanos.}
@@ -72,10 +75,10 @@
 \titleformat{\chapter}[display]
   {\normalfont\huge\bfseries}
   {\chaptertitlename\ \thechapter}{20pt}{\Huge}
-\titlespacing*{\chapter}
+ \titlespacing*{\chapter}
   {0pt}
-  {2ex plus 1ex minus .2ex} 
-  {3ex plus .5ex} 
+  {0ex plus 1ex minus .2ex} 
+  {3ex plus .5ex}
 
 \renewcommand{\familydefault}{\sfdefault}
 \renewcommand{\figurename}{Figura}
@@ -94,7 +97,7 @@
 
 
 \begin{document}
-\thispagestyle{empty} 
+\thispagestyle{empty}
 \begin{titlepage}
       \begin{tikzpicture}[remember picture, overlay]
         \node[anchor = north west, xshift = 1cm, yshift = -1cm] 
@@ -116,7 +119,7 @@
     \hspace*{1.2cm}
     \parbox{15cm}{
         \centering
-        \vspace{-1cm}
+        \vspace{-2cm}
         \baselineskip=1.5\baselineskip
         {\Large \textsf{\textbf{UNIVERSIDAD AUTÓNOMA DEL ESTADO DE HIDALGO}}}\\[0cm]
         \rule{13.5cm}{2.5pt}\\[-10pt]
@@ -246,13 +249,12 @@
 \renewcommand{\cftsubsubsecpagefont}{\normalfont} 
 \setcounter{tocdepth}{3} 
 
- 
-
 {\raggedright
 \tableofcontents
 }
 
 \newpage
+\pagestyle{general}
 \phantomsection
 \addcontentsline{toc}{chapter}{ÍNDICE DE FIGURAS}
 \listoffigures  
