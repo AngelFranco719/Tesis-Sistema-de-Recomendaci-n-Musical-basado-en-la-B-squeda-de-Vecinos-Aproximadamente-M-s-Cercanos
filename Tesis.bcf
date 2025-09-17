@@ -2817,15 +2817,17 @@
     <bcf:citekey order="25">Aggarwal2016</bcf:citekey>
     <bcf:citekey order="26">Aggarwal2016</bcf:citekey>
     <bcf:citekey order="27">Kotkov2020Serendipity</bcf:citekey>
-    <bcf:citekey order="28">Kotkov2020Serendipity</bcf:citekey>
-    <bcf:citekey order="29">Aggarwal2016</bcf:citekey>
-    <bcf:citekey order="30">ISINKAYE2015261</bcf:citekey>
-    <bcf:citekey order="31">Greenberg09092005</bcf:citekey>
-    <bcf:citekey order="32">Burke2007</bcf:citekey>
-    <bcf:citekey order="33">chapman-2019</bcf:citekey>
-    <bcf:citekey order="34">gmd-15-5481-2022</bcf:citekey>
-    <bcf:citekey order="35">Perez_MAT_2021</bcf:citekey>
-    <bcf:citekey order="36">10.5555/1941884</bcf:citekey>
+    <bcf:citekey order="28">poole2007álgebra</bcf:citekey>
+    <bcf:citekey order="29">Kotkov2020Serendipity</bcf:citekey>
+    <bcf:citekey order="30">Aggarwal2016</bcf:citekey>
+    <bcf:citekey order="31">ISINKAYE2015261</bcf:citekey>
+    <bcf:citekey order="32">Greenberg09092005</bcf:citekey>
+    <bcf:citekey order="33">Burke2007</bcf:citekey>
+    <bcf:citekey order="34">chapman-2019</bcf:citekey>
+    <bcf:citekey order="35">gmd-15-5481-2022</bcf:citekey>
+    <bcf:citekey order="36">Perez_MAT_2021</bcf:citekey>
+    <bcf:citekey order="37">10.5555/1941884</bcf:citekey>
+    <bcf:citekey order="38">poole2007álgebra</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
