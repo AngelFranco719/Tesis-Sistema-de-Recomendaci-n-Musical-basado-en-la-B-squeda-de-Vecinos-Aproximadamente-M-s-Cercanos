@@ -163,6 +163,50 @@
 
     Para ilustrar la distancia del coseno mediante un ejemplo visual se definen los siguientes vectores:
 
+    \begin{equation}
+        \begin{split}
+            \vec{x} &= \begin{bmatrix}
+                3
+                \\
+                5
+            \end{bmatrix},  
+            \vec{y} = \begin{bmatrix}
+                6
+                \\
+                2
+            \end{bmatrix}
+            \\
+            \\
+            || \vec{x} || &= \sqrt{3^2 + 5^2} = \sqrt{34} \approx 5.83
+            \\
+            || \vec{y} || &= \sqrt{6^2 + 2^2} = \sqrt{40} \approx 6.32
+            \\
+            \\
+            ( \vec{x} \cdot \vec{y} )&=(3 \cdot  6)+(5 \cdot 2)=28
+            \\
+            \\
+            cos(\vec{x}, \vec{y}) & = \frac{28}{5.83 \cdot 6.32} \approx 0.759
+            \\
+            \\
+            d(\vec{x}, \vec{y}) &\approx 1 - 0.759 \approx  0.241
+        \end{split}
+        \addequation{Ejemplo de Distancia del Coseno}
+        \label{eq:EjemploCoseno}
+    \end{equation}
+
+    \newpage
+
+    Para entender las equivalencias entre la \Cref{fig: EjemploCoseno} y la \Cref{eq:EjemploCoseno} es importante mencionar que el calculo geométrico de la Similitud del Coseno se puede realizar mediante el calculo de $cos(\alpha)$ donde $\alpha$ representa el ángulo de separación entre $\vec{x}, \vec{y}$. Entendiendo esto, se puede visualizar que ambos resultados coinciden y representan la distancia del Coseno.
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.8\linewidth]{EjemploCoseno.png}
+        \caption{Representación gráfica de la Distancia de Coseno entre dos vectores.}
+        \label{fig: EjemploCoseno}
+    \end{figure}
+
+
+
     
 
     \newpage
