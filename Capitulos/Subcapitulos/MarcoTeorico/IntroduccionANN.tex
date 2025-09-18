@@ -88,7 +88,7 @@
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.8\linewidth]{EjemploEuclidiana.png}
+        \includegraphics[width=0.7\linewidth]{EjemploEuclidiana.png}
         \caption{Representación gráfica de la Distancia Euclidiana entre dos vectores.}
         \label{fig: EjemploEuclidiana}
     \end{figure}
@@ -132,7 +132,10 @@
             (u \cdot v) = u_1 v_1 + &u_2 v_2 + \hdots + u_n v_n
         \end{split}
         \addequation{Definición de Producto Punto}
+        \label{eq:DefProductoPunto}
     \end{equation}
+
+    \newpage
 
     Y la \textit{Norma o Magnitud} de un vector se define como el escalar no negativo $|| \ \vec{v} \ ||$ definido por: 
 
@@ -200,14 +203,49 @@
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.8\linewidth]{EjemploCoseno.png}
+        \includegraphics[width=0.7\linewidth]{EjemploCoseno.png}
         \caption{Representación gráfica de la Distancia de Coseno entre dos vectores.}
         \label{fig: EjemploCoseno}
     \end{figure}
 
+    \textbf{PRODUCTO INTERNO}
 
+    Según \parencite{libretexts-2024}, el \textit{Producto Interno} es un concepto extenso dentro del Álgebra Lineal, sin embargo, en el contexto de los Sistemas de Recomendación el concepto se puede reducir a una extensión del \textit{Producto Punto} de dos vectores \textbf{siempre y cuando} todos los vectores cumplan con la propiedad de pertenecer al espacio de $\mathbb{R}^n$ que, en los sistemas de recomendación, se cumple en la mayoría de casos. El \textit{Producto Interno} mide la similitud entre dos vectores y se puede calcular de la misma manera descrita en la \Cref{eq:DefProductoPunto}
 
-    
+    \newpage
+
+    Para enteder cómo funciona el \textit{Producto Punto} se usará nuevamente una representación geométrica mediante los siguientes vectores:
+
+    \begin{equation}
+        \begin{split}
+            \vec{x} = \begin{bmatrix}
+                2
+                \\
+                2
+            \end{bmatrix}, \
+            \vec{y} &= \begin{bmatrix}
+                -2
+                \\
+                -1
+            \end{bmatrix}, \
+            (\vec{x}, \vec{y}) \in \mathbb{R}^2
+            \\
+            \\
+            (\vec{x} \cdot \vec{y}) = (2 \cdot (-2)) &+ (2 \cdot (-1)) = -4 - 2 = -6
+        \end{split}
+        \addequation{Ejemplo de Producto Interno}
+        \label{eq:EjProductoInterno}
+    \end{equation}
+
+    En la \Cref{eq:EjProductoInterno} el resultado dado es negativo debido a que los vectores apuntan en sentidos contrarios como se puede ver en la \Cref{fig: EjemploInner}. Si el resultado obtenido fuera 0 significa que los vectores son perpendiculares y en el caso de ser positivos significa que los vectores apuntan en direcciones parecidas. Entre más alto el valor del \textit{Producto Interno} más alta la similitud de los vectores. Se debe tomar en cuenta que el valor obtenido de esta métrica no está normalizado y es afectado por la \textit{magnitud} de los vectores.
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.7\linewidth]{EjemploInnerProduct.png}
+        \caption{Representación gráfica del Producto Punto entre dos vectores.}
+        \label{fig: EjemploInner}
+    \end{figure}
+
 
     \newpage
 
