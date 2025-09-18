@@ -45,9 +45,51 @@
 
     \newpage
 
-    \textbf{MAGNITUD DE UN VECTOR}
+    \subsubsection{MEDICIÓN DE DISTANCIAS}
 
+    Uno de los cálculos más importantes para los sistemas de recomendación es la similitud entre items. Uno de los beneficios de trabajar con vectores es que brindan la posibilidad de usar calculos de medición de distancias que representan de forma numérica la diferencia entre un par de items. Sin embargo, existen diferentes tipos de medición de distancia entre vectores, principalmente la \textit{Distancia Euclidiana}, \textit{Distancia del Coseno} y \textit{Producto Interno}.
 
+    \textbf{DISTANCIA EUCLIDIANA}
+
+    Según \parencite{10.5555/1941884} una de las mediciones de distancia más comunes es la distancia euclideana, que se define mediante la siguiente fórmula:
+
+    \begin{equation}
+        d(\vec{x}, \vec{y}) = \sqrt{\sum^n_{k=1}(x_k - y_k)^2}
+        \addequation{Definición de Distancia Euclideana}
+    \end{equation}
+
+    Donde $\vec{x}, \vec{y} \in \mathbb{R}^n$ o, en otras palabras, el vector $x$ y el vector $y$ existen en el mismo campo dimensional $\mathbb{R}^n$. Para expresarlo de manera gráfica, se usará un ejemplo representativo definiendo los siguientes vectores:
+
+    \begin{equation}
+        \begin{split}
+            &\vec{x} = \begin{bmatrix}
+                3
+                \\
+                5
+            \end{bmatrix},  
+            \vec{y} = \begin{bmatrix}
+                6
+                \\
+                2
+            \end{bmatrix}
+            \\
+            \\
+            d(\vec{x}, \vec{y}) = &\sqrt{(3 - 6)^2 + (5 - 2)^2} = \sqrt{18} \approx 4.24
+        \end{split}
+        \addequation{Ejemplo de Distancia Euclidiana}
+        \label{EjemploDistanciaEuclidiana}
+    \end{equation}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.43\linewidth]{EjemploEuclidiana.png}
+        \caption{Representación gráfica de la Distancia Euclidiana entre dos vectores.}
+        \label{fig: EjemploEuclidiana}
+    \end{figure}
+
+    \newpage
+
+    Como se puede ver en la \Cref{fig: EjemploEuclidiana}, el resultado de la \Cref{EjemploDistanciaEuclidiana} fue aproximadamente igual, por lo tanto, la distancia euclidiana se puede ver graficamente mediante ejemplos representativos como la distancia entre los puntos destino entre dos vectores. Es importante recordar que en el contexto de los sistemas de recomendación el ejemplo dado es un caso excepcional debido a que un item suele estar descrito por más de dos dimensiones.
 
 
 
