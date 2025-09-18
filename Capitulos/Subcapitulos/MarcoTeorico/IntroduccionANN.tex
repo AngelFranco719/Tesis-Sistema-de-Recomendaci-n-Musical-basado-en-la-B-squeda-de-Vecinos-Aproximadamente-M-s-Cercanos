@@ -1,0 +1,56 @@
+\section{INTRODUCCIÓN A LOS MÉTODOS DE VECINOS CERCANOS}
+    
+    Los métodos de Vecinos Cercanos se apoyan en fundamentos matemáticos que deben ser abordados previamente para comprender su funcionamiento de manera profunda. Por esta razón, previo a la explicación de los Métodos de Vecinos Cercanos, se hará una breve introducción a las formas \textit{Representación de Datos} y los métodos de \textit{Medición de Distancias} generalmente usados para implementar ésta técnica.
+
+
+    \subsubsection{REPRESENTACIÓN DE LOS DATOS}
+
+    A lo largo de este documento se ha hecho uso del concepto de \textit{item} que representa un elemento de recomendación hecho por el sistema.
+    Estos items pertenecen a un conjunto de elementos con los que interactúa el usuario y a los que se les pueden describir mediante sus \textit{metadatos}.
+
+    Generalmente, cuando el usuario interactúa con un sistema de recomendación, los items se muestran de forma amigable mediante interfaces que facilitan su interacción. Sin embargo, de forma interna, los algoritmos de recomendación requieren de estructuras de datos que permiten hacer operaciones entre items sin perder sus características únicas. 
+    En el caso de los \textit{Métodos de Vecinos Cercanos}, la forma más eficiente de representar la información de cada item es a través de \textbf{vectores}.
+
+    \textbf{VECTORES}
+
+    Un \textit{\textbf{Vector}}, desde un punto de vista geométrico, es un segmento de recta dirigido que corresponde a un desplazamiento entre un punto $A$ y un punto $B$ \parencite{poole2007álgebra}.
+    
+    Sin embargo, desde el punto de vista algebraico, un vector es definido como un elemento dentro de un \textit{espacio vectorial}.
+    
+    Los vectores se pueden representar de las siguientes maneras: 
+
+    \begin{equation}
+        \addequation{Definición de un Vector (Tupla)}
+        \label{vectorTupla}
+        \vec{AB} \ = \ (x_1, x_2, \cdots, x_n)
+    \end{equation}
+    \begin{equation}
+        \vec{AB} = 
+        \begin{bmatrix}
+            x_1
+            \\
+            x_2
+            \\
+            \vdots
+            \\
+            x_n
+        \end{bmatrix}
+        \addequation{Definición de un Vector (Matriz)}
+        \label{vectorMatriz}
+    \end{equation}
+
+    Donde la \Cref{vectorTupla} define la representación de un vector mediante tuplas y la \Cref{vectorMatriz} define su representación mediante matrices. Además, es importante puntualizar que cada $x_i$ dentro de un vector es un número real, es decir,  $x_i \in \mathbb{R}$. Por lo tanto, el vector $\vec{AB}$ pertenece al espacio $\mathbb{R}^n$, donde $n$ representa las \textbf{dimensiones} del vector.
+
+    En el contexto de los sistemas de recomendación, los vectores se utilizan para representar de forma algebraica la información numérica de un item. Esto se hace con el propósito de realizar diferentes operaciones algebraicas entre los items para lograr calculos complejos. Además, cuando se habla de vectores que representan items con información extensa se pierde la posibilidad de visualizarlos mediante un plano debido a que las dimensiones suelen crecer en grandes cantidades.
+
+    \newpage
+
+    \textbf{MAGNITUD DE UN VECTOR}
+
+
+
+
+
+
+
+    

@@ -190,36 +190,6 @@ Además de los paradigmas de evaluación que definen metodologías específicas 
     Debido a esto la \textit{Diversidad} está estrechamente relacionada con la \textit{Serendipia} y la \textit{Novedad}, ya que un conjunto ampliamente diverso incrementa el porcentaje de items nuevos e inesperados para el usuario.
     
     Este aspecto se suele medir usando una representación vectorial del conjunto de recomendaciones (este concepto se explicará más adelante), definiendo así a la \textit{Diversidad} como el \textbf{promedio} de la similitud entre cada par de items (en su representación vectorial). Si el valor del promedio es pequeño se considera una mayor diversidad.
-    
-    \section{INTRODUCCIÓN A LOS MÉTODOS DE VECINOS CERCANOS}
-    
-    Los métodos de Vecinos Cercanos se apoyan en fundamentos matemáticos que deben ser abordados previamente para comprender su funcionamiento de manera profunda. Por esta razón, previo a la explicación de los Métodos de Vecinos Cercanos, se hará una breve introducción a las formas \textit{Representación de Datos} y los métodos de \textit{Medición de Distancias} generalmente usados para implementar ésta técnica.
-
-
-    \subsubsection{REPRESENTACIÓN DE LOS DATOS}
-
-    A lo largo de este documento se ha hecho uso del concepto de \textit{item} que representa un elemento de recomendación hecho por el sistema.
-    Estos items pertenecen a un conjunto de elementos con los que interactúa el usuario y a los que se les pueden describir mediante sus \textit{metadatos}.
-
-    Generalmente, cuando el usuario interactúa con un sistema de recomendación, los items se muestran de forma amigable mediante interfaces que facilitan su interacción. Sin embargo, de forma interna, los algoritmos de recomendación requieren de estructuras de datos que permiten hacer operaciones entre items sin perder sus características únicas. 
-    En el caso de los \textit{Métodos de Vecinos Cercanos}, la forma más eficiente de representar la información de cada item es a través de \textbf{vectores}.
-
-    \textbf{VECTORES}
-
-    Un \textit{\textbf{Vector}} es un segmento de recta dirigido que corresponde a un desplazamiento entre un punto $A$ y un punto $B$ \parencite{poole2007álgebra}.
-    La notación del vector entre $A$ y $B$ es definido como:
-
-    \begin{equation}
-        \vec{AB} \ = \ [X_a, X_b]
-        \addequation{Definición de un Vector}
-    \end{equation}
-
-    \begin{description}
-        \item[Donde:]
-        \item[$\vec{AB}$] se lee como ""El Vector entre el punto $A$ y el punto $B$"".
-        \item[$X_a$] representa el valor del punto $A$ en el plano cartesiano.
-        \item[$X_b$] representa el valor del punto $B$ en el plano cartesiano.  
-    \end{description}
 
 
 
