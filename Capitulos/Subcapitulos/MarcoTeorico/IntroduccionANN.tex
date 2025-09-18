@@ -58,7 +58,8 @@
         \addequation{Definición de Distancia Euclideana}
     \end{equation}
 
-    Donde $\vec{x}, \vec{y} \in \mathbb{R}^n$ o, en otras palabras, el vector $x$ y el vector $y$ existen en el mismo campo dimensional $\mathbb{R}^n$. Para expresarlo de manera gráfica, se usará un ejemplo representativo definiendo los siguientes vectores:
+    Donde $\vec{x}, \vec{y} \in \mathbb{R}^n$ o, en otras palabras, el vector $x$ y el vector $y$ pertenecen al mismo campo dimensional $\mathbb{R}^n$. Para expresarlo de manera gráfica, se usará un ejemplo representativo definiendo los siguientes vectores:
+
 
     \begin{equation}
         \begin{split}
@@ -66,12 +67,13 @@
                 3
                 \\
                 5
-            \end{bmatrix},  
+            \end{bmatrix}, \ 
             \vec{y} = \begin{bmatrix}
                 6
                 \\
                 2
-            \end{bmatrix}
+            \end{bmatrix}, \
+            (\vec{x}, \vec{y}) \in \mathbb{R}^2
             \\
             \\
             d(\vec{x}, \vec{y}) = &\sqrt{(3 - 6)^2 + (5 - 2)^2} = \sqrt{18} \approx 4.24
@@ -80,16 +82,92 @@
         \label{EjemploDistanciaEuclidiana}
     \end{equation}
 
+    Como se puede ver en la \Cref{fig: EjemploEuclidiana}, el resultado de la \Cref{EjemploDistanciaEuclidiana} fue aproximadamente igual, por lo tanto, la distancia euclidiana se puede ver graficamente mediante ejemplos representativos como la distancia entre los puntos destino entre dos vectores. Es importante recordar que en el contexto de los sistemas de recomendación el ejemplo dado es un caso excepcional debido a que un item suele estar descrito por más de dos dimensiones.
+
+    \newpage
+
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.43\linewidth]{EjemploEuclidiana.png}
+        \includegraphics[width=0.8\linewidth]{EjemploEuclidiana.png}
         \caption{Representación gráfica de la Distancia Euclidiana entre dos vectores.}
         \label{fig: EjemploEuclidiana}
     \end{figure}
 
+    \textbf{DISTANCIA DE COSENO}
+
+    Siguiendo a \parencite{10.5555/1941884}, la Distancia del Coseno es otra de las medidas de distancia más comunes cuando un item es considerado un vector. Esta distancia se centra en calcular el coseno del ángulo a través de la \textbf{Similaridad} definida como: 
+    
+    \begin{equation}
+        cos(x, y) = \frac{(\vec{x} \cdot \vec{y})}{|| \ \vec{x} \ || \ || \ \vec{y} \ || }
+        \addequation{Definición de la Similaridad de Coseno}
+        \label{SimilaridadCoseno}
+    \end{equation}
+
+    La fórmula de la Similaridad del Coseno utiliza dos cálculos algebráicos comunes en los vectores, el \textbf{\textit{Producto Punto}} y el calculo de \textbf{\textit{Norma o Magnitud}}.
+
+    Citando a \parencite{poole2007álgebra}, el \textit{Producto Punto} se define como:
+
+    \begin{equation}
+        \begin{split}
+            \vec{u} = \begin{bmatrix}
+                u_1
+                \\
+                u_2
+                \\
+                \vdots
+                \\
+                u_n
+            \end{bmatrix} &,  \ \
+            \vec{v} = \begin{bmatrix}
+                v_1
+                \\
+                v_2
+                \\
+                \vdots
+                \\
+                v_n
+            \end{bmatrix}
+            \\
+            \\
+            (u \cdot v) = u_1 v_1 + &u_2 v_2 + \hdots + u_n v_n
+        \end{split}
+        \addequation{Definición de Producto Punto}
+    \end{equation}
+
+    Y la \textit{Norma o Magnitud} de un vector se define como el escalar no negativo $|| \ \vec{v} \ ||$ definido por: 
+
+    \begin{equation}
+        \begin{split}
+            \vec{V} = &\begin{bmatrix}
+                v_1
+                \\
+                v_2
+                \\
+                \vdots
+                \\
+                v_n
+            \end{bmatrix}
+            \\
+            \\
+            || \ \vec{V}  \ || = \sqrt{\vec{V} \cdot \vec{V}} &= \sqrt{v_1^2 + v_2^2 + \hdots + v_n^2}
+        \end{split}
+        \addequation{Definición de Norma o Magnitud}
+    \end{equation}    
+
+    Una vez entendiendo cómo calcular la similaridad, se calcula la distancia del coseno:
+    
+    \begin{equation}
+        d(\vec{x}, \vec{y}) = 1 - cos(\vec{x}, \vec{y})
+        \addequation{Definición de Distancia del Coseno}
+    \end{equation}
+
+    Para ilustrar la distancia del coseno mediante un ejemplo visual se definen los siguientes vectores:
+
+    
+
     \newpage
 
-    Como se puede ver en la \Cref{fig: EjemploEuclidiana}, el resultado de la \Cref{EjemploDistanciaEuclidiana} fue aproximadamente igual, por lo tanto, la distancia euclidiana se puede ver graficamente mediante ejemplos representativos como la distancia entre los puntos destino entre dos vectores. Es importante recordar que en el contexto de los sistemas de recomendación el ejemplo dado es un caso excepcional debido a que un item suele estar descrito por más de dos dimensiones.
+    
 
 
 
