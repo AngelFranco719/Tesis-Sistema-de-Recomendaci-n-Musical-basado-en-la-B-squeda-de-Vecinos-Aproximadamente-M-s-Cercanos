@@ -22,7 +22,7 @@
 \usepackage[spanish]{babel}
 \usepackage{cleveref}
 \usepackage{amssymb}
-
+\usepackage{amsthm}
 
 
 \sloppy
@@ -38,6 +38,9 @@
 \newfloat{Equation}{htbp}{loe}[chapter]
 \floatname{Equation}{}      
 
+\theoremstyle{definition}
+\newtheorem{definition}{Definición}[section]
+
 \setlength{\cftchapindent}{0pt}    
 \setlength{\cftsecindent}{1.5em}  
 \setlength{\cftsubsecindent}{3em}  
@@ -47,9 +50,9 @@
 \setlength{\cftbeforesubsecskip}{2pt}
 
 \crefname{figure}{Figura}{Figuras}
-\Crefname{figure}{Figura}{Figuras}
-\crefformat{equation}{Ecuación~#2#1#3}
-\Crefformat{equation}{Ecuación~#2#1#3}
+\Crefname{figure}{\textbf{Figura}}{Figuras}
+\crefformat{equation}{\textbf{Ecuación~#2#1#3}}
+\Crefformat{equation}{\textbf{Ecuación~#2#1#3}}
 
 \fancypagestyle{general}{
   \fancyhf{}

@@ -1,0 +1,14 @@
+\section{BÚSQUEDA DE VECINOS CERCANOS}
+
+Uno de los métodos de búsqueda de recomendaciones más populares es el método de búsqueda de vecinos más cercanos más comunmente denominado como \text{K-Nearest Neighbors (k-NN)}. Este término es usado debido a que esta búsqueda se centra en encontrar los $k$ puntos más cercanos (o también denominados como \textit{Vecinos}) a partir de un registro de entrenamiento\parencite{10.5555/1941884}.
+
+Se puede definir a la \textit{Búsqueda de Vecinos más cercanos} de la siguiente manera: 
+
+
+\begin{definition}
+    Dado un punto petición $q$ al que se le quiere conocer su clase $l$, y un conjunto de entrenamiento $X = \{ \{x_1, l_1\}\hdots\{x_n\} \}$, donde $x_j$ es el j-ésimo elemento y $l_j$ representa la etiqueta de la clase, los métodos \textit{k-NN} encuentran el subconjunto $Y = \{\{y_1, l_1\} \hdots \{y_k\} \}$ tal que $Y \in X$ y, además, $\sum^k_1d(q, y_k)$ \footnote{Representa la sumatoria de distancias entre $q$ y cada elemento $y_k \in Y$, pudiendo calcularse ya sea con distancia euclidiana, distancia de coseno o producto interno.}  se minimiza. El subconjunto $Y$ contiene los $k$ puntos en $X$ que son los más cercanos al punto petición $q$ \parencite{10.5555/1941884}.  
+\end{definition}
+
+Antes de implementar un método de \textit{Vecinos más Cercanos} es importante definir una \textit{funcion de similaridad}, según \parencite{Aggarwal2016} la más común es la \textit{Distancia de Coseno}.  Esta función de similaridad, independientemente de la elegida, cumple la función de predecir la preferencia del usuario respecto a un item que no ha evaluado. 
+
+Una vez elegida la función de similaridad, el siguiente paso es definir el valor de $k$ que, en el punto de vista de \parencite{10.5555/1941884} es el reto más importante al usar los métodos de vecinos cercanos, debido a que un valor pequeño de $k$ incrementa la cantidad de \textit{ruido}\footnote{\textbf{Ruido}: Es definido como un error aleatorio o una varianza en una variable medida \parencite{alasadi2017review}. } en los resultados, sin embargo, si $k$ es muy grande, el vecindario podría incluir muchos puntos de diversas clases.
