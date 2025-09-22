@@ -1,0 +1,39 @@
+\section{INFORMACIÓN CONTEXTUAL EN LOS SISTEMAS DE RECOMENDACIÓN}
+
+La forma en que se ha abordado el problema principal de los sistemas de recomendación ha evolucionado a lo largo del tiempo, sin embargo, la mayoría de investigaciones se enfocan en la interacción \textit{item - usuario} o \textit{usuario - item} y no se suele tomar en cuenta ningún tipo de contexto adicional que podría alterar la calidad de las recomendaciones.
+
+Sin embargo, con la evolución de los Sistemas de Recomendación, ha surgido la necesidad de categorizar a los sistemas que son \textbf{sensibles al contexto} para encontrar métodos y enfoques que logren brindar al sistema la información necesaria para entender las necesidades y preferencias del usuario. Estos sistemas de recomendación sensibles al contexto se definen formalmente como \textit{Context-Aware recommender systems (CARS)}. 
+
+\begin{definition}
+
+En los sistemas de recomendación, el \textbf{Contexto} se puede definir como cualquier información que puede ser usada para caracterizar la situación de una entidad, donde una entidad puede representar a una persona, un lugar o un objeto computacional. Esta información adicional puede ayudar al sistema a ser más preciso. \mbox{\parencite{mateos2024systematic}}.
+
+\end{definition}
+
+Los \textit{CARS} son aquellos sistemas que buscan entender las preferencias del usuario incorporando información contextual en el proceso de recomendación. Esto implica que una calificación dada por el usuario ahora es afectada también por el contexto en el que se realizó. Por lo tanto, según \parencite{10.5555/1941884}, una \textit{calificación} ahora se puede definir de la siguiente manera:
+
+\begin{equation}
+    Usuario \times Item \times Contexto \rightarrow Calificacion
+    \addequation{Cálculo de Calificación mediante un Contexto}
+\end{equation}
+
+Es importante mencionar que el Contexto puede definir diferentes aspectos del contexto del sistema ya sea tiempo, localización, compañía, propósito, y muchos más. 
+
+\newpage
+
+\subsection{PREFILTRADO CONTEXTUAL}
+
+En el \textit{Prefiltrado Contextual} el contexto específico determinará qué información es la más relevante respecto a las preferencias del usuario, obteniendo un subconjunto de elementos que servirá como base para obtener recomendaciones mediante los algoritmos de recomendación clásicos.
+El prefiltrado de items mediante contexto aumenta la diversidad de recomendaciones gracias a la división de datos en diferentes escenarios contextuales, sin embargo, tratar de recrear un contexto específico puede llevar a un problema de \textbf{escasez de datos}, obteniendo una recomendación altamente limitada \parencite{mateos2024systematic}.
+
+En general, cuando se busca desarrollar un sistema de recomendación, usar un prefiltrado contextual puede resultar en desventajas importantes que afectan al desempeño del sistema, principalmente si se busca un enfoque generalizable a distintos dominios. A pesar de sus limitaciones en escenarios generales, el prefiltrado sigue siendo útil cuando se diseña en campos específicos.
+
+\subsection{HEURÍSTICAS DE PREFILTRADO}
+
+Para obtener un subconjunto relevante de items se suelen usar diversas técnicas de prefiltrado, una de ellas es el uso de \textbf{Heurísticas}.
+
+\begin{definition}
+    Las \textbf{Heurísticas} son criterios, métodos o principios para decidir entre diversas ramas de acción a aquella que prometa ser la más efectiva para lograr cierto propósito. Una heurística podría ser un atajo usado para guiar cierta acción \parencite{Pearl1984}.
+\end{definition}
+
+El objetivo de una Heurística no es garantizar la mejor solución a un problema, sino proponer una solución \textbf{suficientemente buena} en un tiempo razonable. En el caso de los sistemas de recomendación sensibles al contexto, las heurísticas permiten seleccionar de manera rápida un subconjunto de ítems relevantes para un usuario bajo un contexto particular, obteniendo una muestra significativa sobre el cual podrían operar los algoritmos de recomendación tradicionales.
