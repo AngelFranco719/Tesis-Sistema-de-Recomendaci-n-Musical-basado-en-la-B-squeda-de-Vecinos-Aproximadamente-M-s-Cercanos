@@ -84,9 +84,29 @@ Este criterio \textit{voráz} es la razón por la que este algoritmo no genera l
 
 En la \Cref{fig:EjemploGBFS} se define el estado inical el nodo $A$ y el nodo objetivo $Z$. Cada nivel horizontal indica el cálculo $h$ de la distancia mediante la \textit{función heurística}. Además, se puede ver que existen diferentes caminos para llegar al nodo $Z$ y \textit{GBFS} podría retornar un camino menos óptimo como el más prometedor.
 
-\textbf{ALGORITMO DIJKSTRA}
+\textbf{ALGORITMO DE BÚSQUEDA A*}
 
-El \textit{Algorítmo Dijkstra} resuelve el problema de encontrar el camino más corto desde un punto inicial en un grafo a un punto destino. Sin embargo, en el poceso se puede encontrar el camino más corto del punto inicial a todos los puntos del grafo al mismo tiempo \parencite{javaid2013understanding}. Este algorítmo suele ser el más eficiente cuando se tiene un \textbf{grafo completo} sin pesos negativos. 
+El algoritmo \textit{A*} es un algoritmo que aprovecha una \textit{función heurística} para guiar su búsqueda hacia el nodo objetivo. Este algoritmo combina los mejores aspectos del \textit{Algoritmo Dijkstra}\footnote{\textbf{Algoritmo Dijkstra:} Algoritmo que encuentra el camino más corto a todos los nodos desde un único nodo orígen \parencite{javaid2013understanding}.} y \textit{GBFS} \parencite{KumarRAStar}. Esta combinación de algorítmos se puede definir de manera formal mediante la combinación de funciones $g(n)$ que representa el costo o distancia para alcanzar el nodo $n$ desde el nodo inicial, y $h(n)$ el costo de llegar desde un nodo $n$ hasta el nodo destino:
+
+\begin{equation}
+    f(n) = g(n) + h(n)
+    \addequation{Definición de la función de A*}
+\end{equation}
+
+Así, $f(n)$ representa el costo estimado de la solución más barata que pase por el nodo $n$. Por lo tanto, si se busca encontrar la solución más barata, la estrategia es priorizar el nodo con el valor mínimo de $g(n) + h(n)$. Esta combinación es razonable y, junto a una buena \textit{función de heurística}, la \textit{búsqueda A*} garantiza soluciones óptimas \parencite{RusselArtificialIntelligence}. 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{EjemploASearch.png}
+    \caption{Ejemplo del Algoritmo A* \parencite{RusselArtificialIntelligence}.}
+    \label{fig:EjemploAStar}
+\end{figure}
+
+\newpage
+
+En la \Cref{fig:EjemploAStar} se representa un problema clásico de inteligencia artíficial usado para explicar el algoritmo \textit{A*} llamado \textit{El Mapa de Rumanía}. Cada nodo representa una ciudad de Rumanía y las conexiones entre nodos representan las carreteras entre ciudades. El problema pide encontrar la ruta más corta desde \textit{Arad} hasta \textit{Bucarest}. En los contornos se muestran los valores $f(x)$ de los nodos que representan el camino más corto desde el inicio.
+
+\subsubsection{HEURÍSTICAS TABÚ}
 
 
 
