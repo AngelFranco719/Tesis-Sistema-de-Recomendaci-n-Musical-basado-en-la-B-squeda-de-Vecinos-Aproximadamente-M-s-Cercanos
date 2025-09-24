@@ -23,7 +23,7 @@ Es importante mencionar que el Contexto puede definir diferentes aspectos del co
 
 \subsection{PREFILTRADO CONTEXTUAL}
 
-En el \textit{Prefiltrado Contextual} el contexto específico determinará qué información es la más relevante respecto a las preferencias del usuario, obteniendo un subconjunto de elementos que servirá como base para obtener recomendaciones mediante los algoritmos de recomendación clásicos.
+En el \textit{Prefiltrado Contextual} el contexto específico determinará qué información es la más relevante respecto a las preferencias del usuario, obteniendo un subconjunto de elementos que servirá como base para obtener recomendaciones mediante los algorítmos de recomendación clásicos.
 El prefiltrado de items mediante contexto aumenta la diversidad de recomendaciones gracias a la división de datos en diferentes escenarios contextuales, sin embargo, tratar de recrear un contexto específico puede llevar a un problema de \textbf{escasez de datos}, obteniendo una recomendación altamente limitada \parencite{mateos2024systematic}.
 
 En general, cuando se busca desarrollar un sistema de recomendación, usar un prefiltrado contextual puede resultar en desventajas importantes que afectan al desempeño del sistema, principalmente si se busca un enfoque generalizable a distintos dominios. A pesar de sus limitaciones en escenarios generales, el prefiltrado sigue siendo útil cuando se diseña en campos específicos.
@@ -36,4 +36,42 @@ Para obtener un subconjunto relevante de items se suelen usar diversas técnicas
     Las \textbf{Heurísticas} son criterios, métodos o principios para decidir entre diversas ramas de acción a aquella que prometa ser la más efectiva para lograr cierto propósito. Una heurística podría ser un atajo usado para guiar cierta acción \parencite{Pearl1984}.
 \end{definition}
 
-El objetivo de una Heurística no es garantizar la mejor solución a un problema, sino proponer una solución \textbf{suficientemente buena} en un tiempo razonable. En el caso de los sistemas de recomendación sensibles al contexto, las heurísticas permiten seleccionar de manera rápida un subconjunto de ítems relevantes para un usuario bajo un contexto particular, obteniendo una muestra significativa sobre el cual podrían operar los algoritmos de recomendación tradicionales.
+El objetivo de una Heurística no es garantizar la mejor solución a un problema, sino proponer una solución \textbf{suficientemente buena} en un tiempo razonable. En el caso de los sistemas de recomendación sensibles al contexto, las heurísticas permiten seleccionar de manera rápida un subconjunto de ítems relevantes para un usuario bajo un contexto particular, obteniendo una muestra significativa sobre el cual podrían operar los algorítmos de recomendación tradicionales.
+
+\begin{definition}
+    Los \textbf{Algorítmos Heurísticos} son una clase de algorítmos matemáticos que utilizan diversas técnicas heurísticas para la resolución de problemas complejos \parencite{proy2024algoritmos}.
+\end{definition}
+
+Las técnicas heurísticas más importantes para los algorítmos propuestos en el presente proyecto son las \textit{heurísticas voraces} y las \textit{heurísticas tabú}.
+
+Antes de explicar de manera detallada estas heurísticas, es importante comprender el concepto de \textbf{espacio de estados} y \textbf{Funciones Heurísticas}. 
+
+\begin{definition}
+    El \textbf{espacio de estados} es el conjunto de todas las posibles configuraciones o situaciones que un sistema o problema puede alcanzar. Cada \textbf{estado} representa una situación particular del sistema, y una \textbf{transición} representa una acción o movimiento permitido con un costo asociado \parencite{heusner2017understanding}.
+\end{definition}
+
+En ciertos algorítmos el \textit{espacio de estados} es un conjunto predefinido que representa el espacio total con el que se trabajará, sin embargo, igualmente existen \textbf{modelos generativos de espacio de estados} que generan estados bajo demanda en lugar de tenerlos definidos desde el inicio. Los \textbf{modelos generativos} brindan la posibilidad de explorar \textbf{espacios grandes} sin necesidad de procesar toda la información. Estos algoritmos se apoyan en la estimación de costos o distancias entre estados para decidir cuál estado expandir en cada paso.
+
+\begin{definition}
+    Las \textbf{Funciones Heurísticas} son funciones que estiman el \textbf{costo} o \textbf{distancia} desde el estado inicial hasta el estado final \parencite{heusner2017understanding}.
+\end{definition}
+
+Las funciones heurísticas nos permiten estimar el costo o distancia entre estados mediante cálculos o procedimientos algorítmicos, sin embargo, en muchas ocasiones son llamadas \textit{cajas negras} ya que, en ciertas situaciones, no importa cómo calcula la heurística, solo importa la información que retorna.
+
+\subsubsection{HEURÍSTICAS VORACES (GREEDY)}
+Los \textit{Algorítmos Voraces} representan una estrategia para generar soluciones \textit{suboptimas} mediante ramas de decisiones irrevocables. Cada una de estas decisiones representa la mejor opción en el momento en que se toman \parencite{khuller2018greedy}.
+
+En el ámbito de la algorítmia, los algorítmos voraces son usados para encontrar respuestas \textbf{máximas} o \textbf{mínimas} a un problema. Sin embargo, en sistemas complejos, también suelen ser usados para obtener soluciones \textbf{aproximadas} encontrando respuestas que podrían ser \textit{subóptimas} pero cumpliendo con un mínimo de rendimiento. 
+
+A continuación se describen algunos algorítmos clásicos que utilizan heurísticas voraces para la exploración del espacio de estados.
+
+\newpage
+
+\textbf{ALGORÍTMO VORÁZ DE BÚSQUEDA A PROFUNDIDAD}
+
+
+\textbf{ALGORÍTMO DIJKSTRA}
+
+El \textit{Algorítmo Dijkstra} resuelve el problema de encontrar el camino más corto desde un punto inicial en un grafo a un punto destino. Sin embargo, en el poceso se puede encontrar el camino más corto del punto inicial a todos los puntos del grafo al mismo tiempo \parencite{javaid2013understanding}. Este algorítmo suele ser el más eficiente cuando se tiene un \textbf{grafo completo} sin pesos negativos.
+
+
