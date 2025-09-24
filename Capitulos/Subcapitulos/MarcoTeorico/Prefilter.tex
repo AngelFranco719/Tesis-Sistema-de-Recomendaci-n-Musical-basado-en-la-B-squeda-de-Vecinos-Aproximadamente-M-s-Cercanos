@@ -67,11 +67,27 @@ A continuación se describen algunos algorítmos clásicos que utilizan heuríst
 
 \newpage
 
-\textbf{ALGORÍTMO VORÁZ DE BÚSQUEDA A PROFUNDIDAD}
+\textbf{ALGORÍTMO VORÁZ DE BÚSQUEDA POR NIVELES}
+
+El \textit{Algorítmo Voráz de Búsqueda a Profundiad} o \textit{(GBFS)} es un algorítmo de búsqueda informada y voráz que intenta alcanzar la meta priorizando los estados que parecen más cercanos según la heurística, aunque no garantiza el costo mínimo total. Recibe como entrada un \textit{espacio de estados} estático o generativo y devuelve un plan que alcanza la meta sin embargo, existen casos \textit{insolubles} que indican que no se puede llegar a la meta.
+
+Según \parencite{heusner2017understanding} la \textit{GBFS} se basa en la suposición de que los estados con menor \textbf{valor heurístico} (costo) forman parte del camino más barato hacia la meta, por esta razón se considera un \textit{algoritmo voráz}. Este algoritmo no necesita conocer todo el espacio de estados para funcionar debido a que únicamente opera en los estados que ya han sido generados. En cada paso el estado actual se expande al que tiene el \textit{menor valor heurístico} entre todos los estados que han sido generados que no han sido visitados previamente, esto se repite hasta generar el estado destino. 
+
+Este criterio \textit{voráz} es la razón por la que este algoritmo no genera las soluciones más cortas debido a que en la mayoría de casos una decisión local no es suficiente para predecir el mejor resultado global, inclusive, no hay garantías de que el resultado tenga un mínimo de calidad. Debido a la inexactitud de la heurística, \textit{GBFS} puede quedarse atrapado en mesetas donde muchos estados tienen el mismo valor heurístico, o en mínimos locales donde la heurística guía hacia caminos no óptimos, lo que puede aumentar el tiempo de búsqueda o producir soluciones subóptimas.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\linewidth]{EjemploDeGBFS.png}
+    \caption{Ejemplo de GBFS \parencite{heusner2017understanding}.}
+    \label{fig:EjemploGBFS}
+\end{figure}
+
+En la \Cref{fig:EjemploGBFS} se define el estado inical el nodo $A$ y el nodo objetivo $Z$. Cada nivel horizontal indica el cálculo $h$ de la distancia mediante la \textit{función heurística}. Además, se puede ver que existen diferentes caminos para llegar al nodo $Z$ y \textit{GBFS} podría retornar un camino menos óptimo como el más prometedor.
+
+\textbf{ALGORITMO DIJKSTRA}
+
+El \textit{Algorítmo Dijkstra} resuelve el problema de encontrar el camino más corto desde un punto inicial en un grafo a un punto destino. Sin embargo, en el poceso se puede encontrar el camino más corto del punto inicial a todos los puntos del grafo al mismo tiempo \parencite{javaid2013understanding}. Este algorítmo suele ser el más eficiente cuando se tiene un \textbf{grafo completo} sin pesos negativos. 
 
 
-\textbf{ALGORÍTMO DIJKSTRA}
-
-El \textit{Algorítmo Dijkstra} resuelve el problema de encontrar el camino más corto desde un punto inicial en un grafo a un punto destino. Sin embargo, en el poceso se puede encontrar el camino más corto del punto inicial a todos los puntos del grafo al mismo tiempo \parencite{javaid2013understanding}. Este algorítmo suele ser el más eficiente cuando se tiene un \textbf{grafo completo} sin pesos negativos.
 
 
