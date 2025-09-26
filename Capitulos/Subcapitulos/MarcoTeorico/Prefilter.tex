@@ -106,8 +106,26 @@ Así, $f(n)$ representa el costo estimado de la solución más barata que pase p
 
 En la \Cref{fig:EjemploAStar} se representa un problema clásico de inteligencia artíficial usado para explicar el algoritmo \textit{A*} llamado \textit{El Mapa de Rumanía}. Cada nodo representa una ciudad de Rumanía y las conexiones entre nodos representan las carreteras entre ciudades. El problema pide encontrar la ruta más corta desde \textit{Arad} hasta \textit{Bucarest}. En los contornos se muestran los valores $f(x)$ de los nodos que representan el camino más corto desde el inicio.
 
-\subsubsection{HEURÍSTICAS TABÚ}
+\subsubsection{HEURÍSTICAS DE BÚSQUEDA TABÚ}
 
+En base a \parencite{Gendreau2003}, la \textit{Búsqueda Tabú} es un método de optimización matemática que mejora el rendimiento de una búsqueda local mediante el uso de estructuras de memoria que describen las soluciones procesadas anteriormente. Además, se considera un \textit{algoritmo metaheurístico} \footnote{\textbf{Algoritmo Metaheurístico: }Se definen como algoritmos de optimización usados para enfrentar problemas complejos que no se pueden resolver con métodos tradicionales. En general, están inspirados en fenómenos naturales \parencite{almufti2023overview}.} usado para resolver problemas de \textit{optimización combinatoria}.
 
+El término \textit{tabú} proviene de la idea focal de este algoritmo que busca censurar una solución potencial que ya ha sido procesada con el objetivo de no regresar al mismo estado de manera repetida. La \textit{Búsqueda Tabú} utiliza un enfoque de búsqueda local de vecindarios para moverse de una solución $x$ a una solución $x'$ dentro del vecindario de $x$ hasta que un criterio de parada se cumpla \parencite{Cvijović2002}. 
 
+Cuando se utiliza un algoritmo de búsqueda \textit{ingenuo} es común que los estados se estanquen en óptimos locales que no representan la mejor solución posible, sin embargo, en la \textit{búsqueda tabú} se modifica la estructura del vecindario para prohibir revisitar estados y fomentar la diversidad de soluciones procesadas. Para lograr una modificación correcta de vecindarios se utilizan estructuras de memoria que permitan la prohibición de estados ya visitados, una de las estructuras más importantes es la \textbf{Lista Tabú}.
 
+\begin{definition}
+    La \textbf{Lista Tabú} es una estructura de memoria a corto plazo  que contiene soluciones que han sido visitadas en un pasado reciente (con un lapso de $n$ iteraciones) \parencite{Gendreau2003}.
+\end{definition}
+
+Sin embargo, existen también variaciones de la \textit{Lista Tabú} que prohiben soluciones con ciertos atributos no deseados o que previenen movimientos futuros. Esta variación puede ser más efectiva en ciertos dominios pero conlleva el riesgo de censurar más de un estado óptimo que no ha sido procesado anteriormente.
+
+\begin{example}
+    Basándose en \parencite{Gendreau2003}, el problema clásico de optimización \textbf{Traveling Salesman Problem (TSP)} es un ejemplo claro del uso eficiente de \textit{búsquedas tabú}.
+    El problema plantea un conjunto de ciudades que un vendedor debe visitar en su totalidad, el objetivo es encontrar el orden de visita que minimice la distancia total recorrida. Actualmente no existe un algoritmo eficiente que encuentre soluciones óptimas en todos los casos posibles, por lo tanto, la \textit{búsqueda tabú} es un método heurístico que busca aproximarse a la solución óptima tanto como sea posible.
+    La \textit{búsqueda tabú} representa cada estado como una ruta completa de ciudades (independientemente de la distancia recorrida entre ellas), el \textbf{vecindario} representa a las variantes más cercanas de cada ruta.
+
+    En la \textbf{lista tabú} se almacenan soluciones procesadas anteriormente dentro de un rango de iteraciones $n$ para evitar ciclos en soluciones subóptimas, posteriormente el algoritmo se mueve en el campo del \textbf{vecindario} hasta cumplir una condición de parada. El resultado final es el mejor estado encontrado durante la ejecución del algoritmo.
+\end{example}
+
+A pesar de que la \textit{búsqueda tabú} optimiza problemas combinatorios con altos costos computacionales, es importante enfatizar que al ser una \textit{heurística} únicamente brinda soluciones aproximadas.
