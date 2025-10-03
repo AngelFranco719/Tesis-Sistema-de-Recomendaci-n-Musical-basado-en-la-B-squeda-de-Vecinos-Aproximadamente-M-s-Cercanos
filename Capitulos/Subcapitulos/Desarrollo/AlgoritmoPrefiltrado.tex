@@ -61,6 +61,8 @@ popularity & \textit{int} [0-100] & 90 \\
 
 En la \Cref{tab:canciones_api} se muestra la estructura curada de una canción obtenida de la \textit{Spotify Web API}. Esta estructura busca minimizar la cantidad de información que se transportará entre capas para reducir tiempos de respuesta y simplificar el manejo de los datos. Esto se puede visualizar en el atributo \textit{album}, que en la \textit{Spotify Web API} es un objeto complejo que contiene mucha información que no es relevante para el algoritmo de prefiltrado. Esto se justificará en las etapas posteriores.
 
+\newpage
+
 Sin embargo, una estructura que es necesario mantener es el atributo \textit{artist} debido a características que serán mencionadas más adelante. La definición curada de un artista se puede observar en la \Cref{tab:artista_api}.
 
 \begin{table}[h!]
@@ -80,3 +82,81 @@ related-artists & \textit{Artist[0-2]} & [The Rolling Stones, ...] \\
 \caption{Estructura curada de un artista obtenida de la \textit{Spotify Web API}.}
 \label{tab:artista_api}
 \end{table}
+
+\textbf{VARIABLES Y ESTRUCTURAS AUXILIARES}
+
+Para lograr que el algoritmo funcione correctamente es necesario utilizar variables y estructuras de datos que controlen el flujo y expansión de la muestra significativa. En la \Cref{tab:variables_prefiltrado} se mencionan las variables más importantes, su función y la importancia que tienen en el flujo del algoritmo.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{l l p{8cm}}
+\toprule
+\textbf{Variable} & \textbf{Tipo} & \textbf{Descripción} \\
+\midrule
+sample & Track[] & Arreglo dinámico que contendrá la \textit{Muestra Significativa} de canciones. \\
+size & int & Tamaño ideal de la muestra, calculado dinámicamente a partir de la duración de escucha deseada. \\
+queue\_API & queue & Cola de peticiones a la \textit{Spotify Web API} para expandir el grafo de búsqueda. \\
+tabu & RuleSet & Conjunto de restricciones que controlan la diversidad de la muestra (por artista, género, etc.). \\
+score & float & Valor heurístico asignado a cada canción para medir su relevancia. \\
+\bottomrule
+\end{tabular}
+\caption{Variables y estructuras auxiliares del algoritmo de prefiltrado.}
+\label{tab:variables_prefiltrado}
+\end{table}
+
+\textbf{MUESTRA}
+
+La variable \textit{sample} representa un conjunto de tracks con el mismo formato mostrado en la \Cref{tab:canciones_api}. Esta estructura de datos representa la \textit{muestra significativa} final que será procesada posteriormente mediante el algoritmo de recomendación elegido, por lo tanto, es importante analizar su construcción de manera detallada.
+
+\newpage
+
+El tamaño de este arreglo será determinado mediante un valor máximo denominado como \textit{size}. Esta variable debe ser determinada mediante un cálculo arbitrario que determine el tamaño ideal de la muestra, para lograr esto se necesitan saber dos datos importantes: La duración que el usuario ha elegido para el bloque de escucha actual y el promedio de duración estimado de una canción.
+
+Con esta información podremos obtener un estimado de cuántas canciones debe tener ésta fracción de la lista de reproducción mediante la siguiente fórmula:
+
+\begin{equation}
+    total = \lceil \frac{duracion}{promedio} \rceil \footnote{La necesidad de redondear el valor total se debe a que los algoritmos planteados trabajan mediante un número de canciones exactas.}
+    \label{eq:CalculoDuracion}
+    \addequation{Cálculo de Duración de una Lista de Reproducción}
+\end{equation}
+
+Este \textit{total} representa la duración ideal de cada bloque de reproducción resultante de las recomendaciones (aunque la duración final podría variar por unos pocos minutos). Sin embargo, una muestra de este tamaño no es suficiente, por esta razón se ha decidido agregar una variable $\lambda$ que sirve como múltiplo que aumenta el tamaño de la muestra a través de una proporción arbitraria. Por lo tanto, la fórmula de \textit{size} se denomina de la siguiente manera:
+
+\begin{equation}
+    size = total \cdot \lambda
+\end{equation}
+
+\newpage
+
+El valor de $\lambda$ será elegido arbitrariamente al inicio de la experimentación y se ajustará según los resultados obtenidos. Si bien no existe una proporción ideal, se puede ajustar para que los resultados presentados al usuario sean aceptables en la mayoría de casos. 
+
+\textbf{COLA DE PETICIONES}
+
+Una de las principales dificultades que se presentan en el desarrollo de este algoritmo es la cantidad de peticiones que se van a hacer a la \textit{Spotify Web API}, lo que podría ocacionar errores de sobrecarga o latencia. Para solventar estos obstáculos es necesario explicar la filosofía que el algoritmo usará para obtener la información.
+
+La filosofía de obtención de datos se basa en una idea ``greedy'' o voráz de obtener la máxima cantidad de información en la menor cantidad de peticiones posible. Para lograr esto, la capa central del sistema debe tener un control robusto de las peticiones que realizará a la API de Spotify. 
+Con el objetivo de lograr este control se plantea el uso de una \textit{Cola de Peticiones} que será formada por el algoritmo de prefiltrado. Esta estructura guardará dinámicamente peticiones en una cola que almacenará instancias de la clase \textit{Request} definida en la \Cref{tab:request_class}.
+\begin{table}[h!]
+\centering
+\begin{tabular}{l l l l l}
+\toprule
+Atributo & Tipo de Dato & Ejemplo \\
+\midrule
+ID-Request & \textit{string} & 2up3OPMp9Tb4dAKM2erWXQ \\
+type & \textit{Enum[Artist,Album,Playlist...]} & Artist \\
+id-object & \textit{string} & 3an1OJMwx7Ua9asmk91QIP \\
+params & \textit{string[]} & \{maxsize: 20\} \\
+
+
+\bottomrule
+\end{tabular}
+\caption{Estructura de una Petición en el algoritmo de Prefiltrado.}
+\label{tab:request_class}
+\end{table}
+
+La forma en que la \textit{Cola de Peticiones} se llenará es a través de las canciones procesadas en tiempo real. Por ejemplo, en la primera iteración del algoritmo la única canción en la cola de peticiones será la canción raíz. Esas peticiones realizadas retornarán un conjunto de canciones  nuevas que serán procesadas individualmente almacenando nuevas peticiones en la cola. De esta manera se logra que la central haga peticiones agrupadas aprovechando los \textit{endpoints} brindados por la \textit{Spotify Web API} y obteniendo grandes cantidades de información rapidamente.
+
+\newpage
+
+\textbf{ESTRUCTURA TABÚ}
+
