@@ -1,0 +1,82 @@
+\section{ALGORITMO DE PREFILTRADO}
+
+El Sistema de Recomendación Musical tiene la característica particular de ser un sistema sensible al contexto. Aplicar un algoritmo de recomendación basado en las características cuantitativas de las canciones podría no ser suficiente para generar recomendaciones acertadas. Además, el uso de \textit{datasets} masivos podría resultar en una desventaja más que en una ventaja, ya que en este problema en particular, una cantidad masiva de canciones podría resultar en un conjunto altamente ruidoso y poco relevante para el usuario final. Un ejemplo claro de este problema se puede ilustrar con el siguiente escenario:
+
+\begin{example}
+    El usuario selecciona la canción \textit{Let It Be - The Beatles} e indica al sistema que quiere escuchar canciones similares durante 20 minutos. 
+    El sistema, utilizando un \textit{Dataset} masivo de canciones, aplica el algoritmo \textit{ANN} y obtiene una playlist de canciones muy parecidas a la canción seleccionada por el usuario.
+    Sin embargo, debido a la limitación de \textit{ANN} de considerar únicamente las características cuantitativas, el sistema genera una playlist que incluye canciones muy similares en términos de características técnicas, pero muchas de ellas están en chino, japonés, o son de géneros musicales que el usuario no disfruta.
+\end{example}
+
+Este ejemplo ilustra cómo un enfoque basado únicamente en características cuantitativas puede resultar en recomendaciones que para el usuario podrían ser \textit{carentes de sentido}. Para mitigar este problema, se propone la creación de un algoritmo de prefiltrado que tome en cuenta las características cualitativas de las canciones, además de su contexto inherente de tiempo, cultura y género musical.
+
+Para lograr este objetivo, se propone agregar al sistema un servicio de recomendación que divide sus funciones en dos capas: una capa de prefiltrado y una capa de recomendación basada en \textit{ANN}. La capa de prefiltrado se encarga de aprovechar la información disponible en la \textit{Spotify Web API} para generar un conjunto de canciones al que se le denominará como \textit{Muestra Significativa}.
+
+La \textit{Muestra Significativa} debe cumplir con ciertos criterios para que los resultados finales obtenidos justifiquen su uso. Estos criterios están basados en las características deseables de los sistemas de recomendación que favorecen la satisfacción del usuario final. Los criterios son los siguientes:
+
+\begin{itemize}
+    \item \textbf{Tamaño Controlado: } Una muestra significativa debe tener un tamaño controlado para evitar tener un conjunto de canciones excesivamente pequeño que impida al algoritmo \textit{ANN} encontrar canciones similares, o un conjunto excesivamente grande que reintroduzca el problema del ruido y la irrelevancia.
+    \item \textbf{Relevancia Contextual: } La muestra debe estar alineada con el contexto de la canción original seleccionada por el usuario. 
+    \item \textbf{Diversidad: } No basta con que las canciones sean similares a la original, además la muestra debe incluir diversidad de géneros y artistas para enriquecer la experiencia del usuario.
+    \item \textbf{Serendipia: } La diversidad en sí misma favorece la serendipia en las recomendaciones, sin embargo, una característica adicional que la muestra debe tomar en cuenta es la popularidad de las canciones. Así como es importante recomendar canciones populares, también es importante incluir canciones menos conocidas que podrían sorprender gratamente al usuario.
+\end{itemize}
+
+Para asegurar que la muestra significativa cumple con estos criterios, el algoritmo de prefiltrado necesita de heurísticas bien definidas que guíen la búsqueda y selección de canciones a favor de la calidad sobre la cantidad. 
+
+En la actualidad existen algoritmos que se podrían utilizar como base para el desarrollo de este prefiltrado, como el algoritmo \textit{GBFS} que introduce la idea de generación dinámica de un arbol de búsqueda basado en la similitud de características. Esto es importante debido a las limitaciones de la \textit{Spotify Web API} que no facilita a los desarrolladores un \textit{Dataset} completo de canciones. Además, otro de los algoritmos altamente relacionados al concepto de búsqueda de elementos similares es el algoritmo \textit{A*}, que introduce la idea de una función heurística que guía la búsqueda hacia los nodos más prometedores. 
+
+Ambos algoritmos pueden servir como base teórica para fundamentar la creación de un algoritmo dinámico de generación de \textit{Muestra Significativa} que genere un conjunto de canciones partiendo de una canción raíz que se expande a mediante un conjunto de heurísticas que aseguren la calidad de las canciones seleccionadas.
+
+Sin embargo, si no se tiene control de la dirección en la que se expande el árbol de búsqueda, es posible que se generen conjuntos de canciones que no cumplan con los criterios establecidos. Por esta razón, se propone además usar conceptos de las \textit{Búsquedas Tabú} para generar diversas ramas de expansión que fomenten la diversidad y la serendipia en la muestra significativa.
+
+Además de todas las características mencionadas, una propiedad importante en el Sistema de Recomendación Musical debe ser la capacidad de brindar diferentes respuestas ante un mismo estímulo. Esto se traduce en que el usuario pueda obtener diferentes listas de reproducción al seleccionar la misma canción en diferentes ocasiones. Esta propiedad es importante para mantener el interés del usuario y evitar la monotonía en las recomendaciones. Para lograr esto, el algoritmo de prefiltrado debe agregar una capa controlada de aleatoriedad que favorezca la generación de diferentes muestras en cada ejecución.
+
+El algoritmo propuesto añade valor en el dominio musical que los algoritmos \textit{GBFS}, \textit{A*} y \textit{Búsqueda Tabú} no consideran de manera explícita. La combinación de estos enfoques heurísticos permite crear un algoritmo de prefiltrado robusto, novedoso y adaptado a las necesidades específicas del Sistema de Recomendación Musical.
+
+\textbf{DESCRIPCIÓN DEL ALGORITMO DE PREFILTRADO}
+
+En esta sección se describirá de manera específica el funcionamiento del algoritmo de prefiltrado propuesto. El algoritmo se puede describir a través de las siguientes características:
+
+\textbf{ENTRADAS}
+
+El algoritmo debe recibir una \textit{canción raíz} que servirá como punto de partida para la generación de la \textit{Muestra Significativa}. Esta canción es seleccionada por el usuario en la aplicación web y es recibida por la capa central del sistema. Esta capa debe realizar una petición a la \textit{Spotify Web API} para obtener los metadatos de la canción, que incluyen características tanto cuantitativas, cualitativas y técnicas. Sin embargo, para simplificar el desarrollo del algoritmo, la capa central del sistema se encargará de limpiar los datos para obtener la siguiente estructura:
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{l l l l l}
+\toprule
+Atributo & Tipo de Dato & Ejemplo \\
+\midrule
+ID-Track & \textit{string} & 2up3OPMp9Tb4dAKM2erWXQ \\
+name & \textit{string} & Let It Be \\
+artist & \textit{Artist} & \{The Beatles, ...\} \\
+album & \textit{string} & Let It Be - Remastered \\
+popularity & \textit{int} [0-100] & 90 \\
+
+\bottomrule
+\end{tabular}
+\caption{Estructura curada de una canción obtenida de la \textit{Spotify Web API}.}
+\label{tab:canciones_api}
+\end{table}
+
+En la \Cref{tab:canciones_api} se muestra la estructura curada de una canción obtenida de la \textit{Spotify Web API}. Esta estructura busca minimizar la cantidad de información que se transportará entre capas para reducir tiempos de respuesta y simplificar el manejo de los datos. Esto se puede visualizar en el atributo \textit{album}, que en la \textit{Spotify Web API} es un objeto complejo que contiene mucha información que no es relevante para el algoritmo de prefiltrado. Esto se justificará en las etapas posteriores.
+
+Sin embargo, una estructura que es necesario mantener es el atributo \textit{artist} debido a características que serán mencionadas más adelante. La definición curada de un artista se puede observar en la \Cref{tab:artista_api}.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{l l l l l}
+\toprule
+Atributo & Tipo de Dato & Ejemplo \\
+\midrule
+ID-Artist & \textit{string} & 2up3OPMp9Tb4dAKM2erWXQ \\
+name & \textit{string} & The Beatles \\
+genres & \textit{string[]} & [Rock, Brit Pop, ...] \\
+popularity & \textit{int} [0-100] & 90 \\
+related-artists & \textit{Artist[0-2]} & [The Rolling Stones, ...] \\
+
+\bottomrule
+\end{tabular}
+\caption{Estructura curada de un artista obtenida de la \textit{Spotify Web API}.}
+\label{tab:artista_api}
+\end{table}
